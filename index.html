@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SwimNotes - Report Card Generator</title>
+<meta name="description" content="Write swim lesson report card comments: choose a class level, pick two strengths and one area for growth, and get a finished comment for each swimmer.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#0a4f7a" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0c3047" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%20256%20256%27%3E%3Crect%20width=%27256%27%20height=%27256%27%20rx=%2756%27%20fill=%27%230a4f7a%27/%3E%3Cg%20transform=%27translate(48%2048)%20scale(0.625)%27%20fill=%27%23ffffff%27%3E%3Cpath%20d=%22M222.16,177.25a8,8,0,0,1-1,11.25c-17.36,14.39-32.86,19.5-47,19.5-18.58,0-34.82-8.82-49.93-17-25.35-13.76-47.24-25.64-79.07.74a8,8,0,1,1-10.22-12.31c40.17-33.28,70.32-16.92,96.93-2.48,25.35,13.75,47.24,25.63,79.07-.74A8,8,0,0,1,222.16,177.25Zm-11.27-57c-31.83,26.38-53.72,14.5-79.07.74-26.61-14.43-56.76-30.79-96.93,2.49a8,8,0,0,0,10.22,12.31c31.83-26.38,53.72-14.5,79.07-.74,15.11,8.19,31.35,17,49.93,17,14.14,0,29.64-5.11,47-19.5a8,8,0,1,0-10.22-12.31ZM45.11,79.8c31.83-26.37,53.72-14.49,79.07-.74,15.11,8.2,31.35,17,49.93,17,14.14,0,29.64-5.12,47-19.5a8,8,0,1,0-10.22-12.31c-31.83,26.38-53.72,14.5-79.07.74C105.21,50.58,75.06,34.22,34.89,67.5A8,8,0,1,0,45.11,79.8Z%22/%3E%3C/g%3E%3C/svg%3E">
+<link rel="preload" href="fonts/dm-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/dm-serif-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" class="icon-sprite" aria-hidden="true" focusable="false">
+  <symbol id="ph-arrow-counter-clockwise" viewBox="0 0 256 256"><path d="M224,128a96,96,0,0,1-94.71,96H128A95.38,95.38,0,0,1,62.1,197.8a8,8,0,0,1,11-11.63A80,80,0,1,0,71.43,71.39a3.07,3.07,0,0,1-.26.25L44.59,96H72a8,8,0,0,1,0,16H24a8,8,0,0,1-8-8V56a8,8,0,0,1,16,0V85.8L60.25,60A96,96,0,0,1,224,128Z"/></symbol>
+  <symbol id="ph-caret-down" viewBox="0 0 256 256"><path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"/></symbol>
+  <symbol id="ph-check" viewBox="0 0 256 256"><path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"/></symbol>
+  <symbol id="ph-copy" viewBox="0 0 256 256"><path d="M216,32H88a8,8,0,0,0-8,8V80H40a8,8,0,0,0-8,8V216a8,8,0,0,0,8,8H168a8,8,0,0,0,8-8V176h40a8,8,0,0,0,8-8V40A8,8,0,0,0,216,32ZM160,208H48V96H160Zm48-48H176V88a8,8,0,0,0-8-8H96V48H208Z"/></symbol>
+  <symbol id="ph-download-simple" viewBox="0 0 256 256"><path d="M224,144v64a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V144a8,8,0,0,1,16,0v56H208V144a8,8,0,0,1,16,0Zm-101.66,5.66a8,8,0,0,0,11.32,0l40-40a8,8,0,0,0-11.32-11.32L136,124.69V32a8,8,0,0,0-16,0v92.69L93.66,98.34a8,8,0,0,0-11.32,11.32Z"/></symbol>
+  <symbol id="ph-plus" viewBox="0 0 256 256"><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"/></symbol>
+  <symbol id="ph-sparkle" viewBox="0 0 256 256"><path d="M197.58,129.06,146,110l-19-51.62a15.92,15.92,0,0,0-29.88,0L78,110l-51.62,19a15.92,15.92,0,0,0,0,29.88L78,178l19,51.62a15.92,15.92,0,0,0,29.88,0L146,178l51.62-19a15.92,15.92,0,0,0,0-29.88ZM137,164.22a8,8,0,0,0-4.74,4.74L112,223.85,91.78,169A8,8,0,0,0,87,164.22L32.15,144,87,123.78A8,8,0,0,0,91.78,119L112,64.15,132.22,119a8,8,0,0,0,4.74,4.74L191.85,144ZM144,40a8,8,0,0,1,8-8h16V16a8,8,0,0,1,16,0V32h16a8,8,0,0,1,0,16H184V64a8,8,0,0,1-16,0V48H152A8,8,0,0,1,144,40ZM248,88a8,8,0,0,1-8,8h-8v8a8,8,0,0,1-16,0V96h-8a8,8,0,0,1,0-16h8V72a8,8,0,0,1,16,0v8h8A8,8,0,0,1,248,88Z"/></symbol>
+  <symbol id="ph-warning" viewBox="0 0 256 256"><path d="M236.8,188.09,149.35,36.22h0a24.76,24.76,0,0,0-42.7,0L19.2,188.09a23.51,23.51,0,0,0,0,23.72A24.35,24.35,0,0,0,40.55,224h174.9a24.35,24.35,0,0,0,21.33-12.19A23.51,23.51,0,0,0,236.8,188.09ZM222.93,203.8a8.5,8.5,0,0,1-7.48,4.2H40.55a8.5,8.5,0,0,1-7.48-4.2,7.59,7.59,0,0,1,0-7.72L120.52,44.21a8.75,8.75,0,0,1,15,0l87.45,151.87A7.59,7.59,0,0,1,222.93,203.8ZM120,144V104a8,8,0,0,1,16,0v40a8,8,0,0,1-16,0Zm20,36a12,12,0,1,1-12-12A12,12,0,0,1,140,180Z"/></symbol>
+  <symbol id="ph-waves" viewBox="0 0 256 256"><path d="M222.16,177.25a8,8,0,0,1-1,11.25c-17.36,14.39-32.86,19.5-47,19.5-18.58,0-34.82-8.82-49.93-17-25.35-13.76-47.24-25.64-79.07.74a8,8,0,1,1-10.22-12.31c40.17-33.28,70.32-16.92,96.93-2.48,25.35,13.75,47.24,25.63,79.07-.74A8,8,0,0,1,222.16,177.25Zm-11.27-57c-31.83,26.38-53.72,14.5-79.07.74-26.61-14.43-56.76-30.79-96.93,2.49a8,8,0,0,0,10.22,12.31c31.83-26.38,53.72-14.5,79.07-.74,15.11,8.19,31.35,17,49.93,17,14.14,0,29.64-5.11,47-19.5a8,8,0,1,0-10.22-12.31ZM45.11,79.8c31.83-26.37,53.72-14.49,79.07-.74,15.11,8.2,31.35,17,49.93,17,14.14,0,29.64-5.12,47-19.5a8,8,0,1,0-10.22-12.31c-31.83,26.38-53.72,14.5-79.07.74C105.21,50.58,75.06,34.22,34.89,67.5A8,8,0,1,0,45.11,79.8Z"/></symbol>
+  <symbol id="ph-x" viewBox="0 0 256 256"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"/></symbol>
+</svg>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <a class="logo" href="./" aria-label="SwimNotes home">
+    <span class="logo-mark" aria-hidden="true"><svg class="icon" focusable="false"><use href="#ph-waves"/></svg></span>
+    <span class="logo-word" translate="no">SwimNotes</span>
+  </a>
+  <span class="header-tag">Report Card Generator</span>
+</header>
+
+<section class="hero" aria-labelledby="page-title">
+  <h1 id="page-title">Write better swim report cards in seconds</h1>
+  <p>Select a class level, enter your students' strengths and areas for growth, and generate polished, personalized comments instantly.</p>
+</section>
+
+<main id="main" class="app">
+  <div class="layout">
+
+    <aside class="panel level-panel" aria-labelledby="level-heading">
+      <h2 class="panel-title" id="level-heading">Choose a class level</h2>
+      <div class="level-groups">
+        <div class="level-group" role="group" aria-labelledby="lg-parenttot">
+          <h3 class="level-group-label" id="lg-parenttot">Parent &amp; Tot</h3>
+          <div class="level-pills" id="pills-parenttot">
+            <button type="button" class="level-pill" data-level="Parent &amp; Tot 1" aria-pressed="false">Parent &amp; Tot 1</button>
+            <button type="button" class="level-pill" data-level="Parent &amp; Tot 2" aria-pressed="false">Parent &amp; Tot 2</button>
+            <button type="button" class="level-pill" data-level="Parent &amp; Tot 3" aria-pressed="false">Parent &amp; Tot 3</button>
+          </div>
+        </div>
+        <div class="level-group" role="group" aria-labelledby="lg-preschool">
+          <h3 class="level-group-label" id="lg-preschool">Preschool</h3>
+          <div class="level-pills" id="pills-preschool">
+            <button type="button" class="level-pill" data-level="Preschool A" aria-pressed="false">Preschool A</button>
+            <button type="button" class="level-pill" data-level="Preschool B" aria-pressed="false">Preschool B</button>
+            <button type="button" class="level-pill" data-level="Preschool C" aria-pressed="false">Preschool C</button>
+            <button type="button" class="level-pill" data-level="Preschool D" aria-pressed="false">Preschool D</button>
+            <button type="button" class="level-pill" data-level="Preschool E" aria-pressed="false">Preschool E</button>
+          </div>
+        </div>
+        <div class="level-group" role="group" aria-labelledby="lg-sfl">
+          <h3 class="level-group-label" id="lg-sfl">Swim For Life</h3>
+          <div class="level-pills" id="pills-sfl">
+            <button type="button" class="level-pill" data-level="Swim For Life 1" aria-pressed="false">SFL 1</button>
+            <button type="button" class="level-pill" data-level="Swim For Life 2" aria-pressed="false">SFL 2</button>
+            <button type="button" class="level-pill" data-level="Swim For Life 3" aria-pressed="false">SFL 3</button>
+            <button type="button" class="level-pill" data-level="Swim For Life 4" aria-pressed="false">SFL 4</button>
+            <button type="button" class="level-pill" data-level="Swim For Life 5" aria-pressed="false">SFL 5</button>
+            <button type="button" class="level-pill" data-level="Swim For Life 6" aria-pressed="false">SFL 6</button>
+            <button type="button" class="level-pill" data-level="Swim For Life 7" aria-pressed="false">SFL 7</button>
+            <button type="button" class="level-pill" data-level="Swim For Life 8" aria-pressed="false">SFL 8</button>
+            <button type="button" class="level-pill" data-level="Swim For Life 9" aria-pressed="false">SFL 9</button>
+            <button type="button" class="level-pill" data-level="Swim For Life 10" aria-pressed="false">SFL 10</button>
+            <button type="button" class="level-pill" data-level="Swim For Life 11" aria-pressed="false">SFL 11</button>
+          </div>
+        </div>
+        <div class="level-group" role="group" aria-labelledby="lg-youthadult">
+          <h3 class="level-group-label" id="lg-youthadult">Youth &amp; Adult</h3>
+          <div class="level-pills" id="pills-youthadult">
+            <button type="button" class="level-pill" data-level="Youth &amp; Adult 1" aria-pressed="false">Y&amp;A 1</button>
+            <button type="button" class="level-pill" data-level="Youth &amp; Adult 2" aria-pressed="false">Y&amp;A 2</button>
+            <button type="button" class="level-pill" data-level="Youth &amp; Adult 3" aria-pressed="false">Y&amp;A 3</button>
+            <button type="button" class="level-pill" data-level="Youth &amp; Adult 4" aria-pressed="false">Y&amp;A 4</button>
+            <button type="button" class="level-pill" data-level="Youth &amp; Adult 5" aria-pressed="false">Y&amp;A 5</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="level-info-bar" id="level-info-bar" aria-live="polite">
+        <h3 id="level-info-title"></h3>
+        <p id="level-info-desc"></p>
+      </div>
+    </aside>
+
+    <section class="workspace" aria-labelledby="students-heading">
+      <div class="no-level-msg" id="no-level-msg" role="alert">
+        <svg class="icon" aria-hidden="true" focusable="false"><use href="#ph-warning"/></svg>
+        <span>Please select a class level before adding students.</span>
+      </div>
+
+      <div class="workspace-head">
+        <h2 class="section-title" id="students-heading">Add students</h2>
+        <ul class="method-note" aria-label="How each comment is built">
+          <li><strong class="is-pos">Strength 1</strong> opens with praise</li>
+          <li><strong class="is-neg">Area for growth</strong> adds one constructive focus</li>
+          <li><strong class="is-pos">Strength 2</strong> ends on encouragement</li>
+        </ul>
+      </div>
+
+      <p class="empty-state" id="students-empty">Choose a class level to start adding students.</p>
+
+      <div id="students-container"></div>
+
+      <button type="button" class="add-student-btn" onclick="addStudent()">
+        <svg class="icon" aria-hidden="true" focusable="false"><use href="#ph-plus"/></svg>
+        <span>Add another student</span>
+      </button>
+
+      <div class="generate-all-wrap" id="generate-all-wrap">
+        <button type="button" class="generate-all-btn" id="generate-all-btn" onclick="generateAll()">
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="#ph-sparkle"/></svg>
+          <span>Generate all comments</span>
+        </button>
+        <p class="form-error" id="generate-all-error" role="alert" hidden></p>
+      </div>
+
+      <section class="all-comments-wrap" id="all-comments-wrap" aria-labelledby="comments-heading">
+        <div class="all-comments-header">
+          <h2 class="section-title" id="comments-heading">Generated comments</h2>
+          <div class="all-comments-actions">
+            <button type="button" class="copy-all-btn" id="download-pdf-btn" onclick="downloadAllCommentsPdf()">
+              <svg class="icon" aria-hidden="true" focusable="false"><use href="#ph-download-simple"/></svg><span>Download PDF</span>
+            </button>
+            <button type="button" class="copy-all-btn" id="copy-all-btn" onclick="copyAllComments()">
+              <svg class="icon" aria-hidden="true" focusable="false"><use href="#ph-copy"/></svg><span class="btn-label">Copy all</span>
+            </button>
+          </div>
+        </div>
+        <div class="all-comments-box" id="all-comments-box"></div>
+      </section>
+    </section>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <span translate="no">SwimNotes</span> · Powered by the Lifesaving Society Swim for Life® curriculum
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+<div class="sr-only" id="sr-status" role="status" aria-live="polite"></div>
+
+<script src="compose.js" defer></script>
+<script src="pdf.js" defer></script>
+<script src="data/phrases.js" defer></script>
+<script src="data/parent-tot.js" defer></script>
+<script src="data/preschool.js" defer></script>
+<script src="data/swim-for-life-1-4.js" defer></script>
+<script src="data/swim-for-life-5-8.js" defer></script>
+<script src="data/patrol.js" defer></script>
+<script src="data/youth-adult.js" defer></script>
+<script src="generate.js" defer></script>
+<script src="script.js" defer></script>
+</body>
+</html>
