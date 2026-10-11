@@ -47,6 +47,7 @@
 
     <aside class="panel level-panel" aria-labelledby="level-heading">
       <h2 class="panel-title" id="level-heading">Choose a class level</h2>
+      <p class="hint rail-hint" id="rail-hint" hidden>Your choice applies to the selected class.</p>
       <div class="level-groups">
         <div class="level-group" role="group" aria-labelledby="lg-parenttot">
           <h3 class="level-group-label" id="lg-parenttot">Parent &amp; Tot</h3>
@@ -107,12 +108,30 @@
       </div>
 
       <div class="workspace-head">
-        <h2 class="section-title" id="students-heading">Add students</h2>
+        <div class="workspace-head-row">
+          <h2 class="section-title" id="students-heading">Add students</h2>
+          <button type="button" class="copy-all-btn" id="add-class-btn" onclick="addClass()">
+            <svg class="icon" aria-hidden="true" focusable="false"><use href="#ph-plus"/></svg><span>Add another class</span>
+          </button>
+        </div>
         <ul class="method-note" aria-label="How each comment is built">
           <li><strong class="is-pos">Strength 1</strong> opens with praise</li>
           <li><strong class="is-neg">Area for growth</strong> adds one constructive focus</li>
           <li><strong class="is-pos">Strength 2</strong> ends on encouragement</li>
         </ul>
+      </div>
+
+      <div class="class-bar" id="class-bar" hidden>
+        <nav class="class-tabs" id="class-tabs" aria-label="Classes"></nav>
+        <div class="class-meta">
+          <div class="field-group">
+            <label class="field-label" for="class-name">Class name</label>
+            <input type="text" id="class-name" name="className" autocomplete="off" placeholder="e.g. Tuesday 5 pm (optional)" oninput="updateClassName(this.value)" />
+          </div>
+          <button type="button" class="copy-all-btn class-remove-btn" id="class-remove-btn" onclick="removeActiveClass()">
+            <svg class="icon" aria-hidden="true" focusable="false"><use href="#ph-x"/></svg><span>Remove class</span>
+          </button>
+        </div>
       </div>
 
       <p class="empty-state" id="students-empty">Choose a class level to start adding students.</p>
@@ -152,7 +171,8 @@
 </main>
 
 <footer class="site-footer">
-  <span translate="no">SwimNotes</span> · Powered by the Lifesaving Society Swim for Life® curriculum
+  <span><span translate="no">SwimNotes</span> · Powered by the Lifesaving Society Swim for Life® curriculum</span>
+  <span class="footer-credit">Created by Daniel Mendonca</span>
 </footer>
 
 <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>

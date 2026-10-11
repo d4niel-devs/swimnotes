@@ -66,24 +66,45 @@ function pdfEncodeString(text) {
   return out;
 }
 
-function pdfLayoutComments(comments) {
+// Each group is one class: it starts on a new page, and a labelled group leaves room for its name above the first slot.
+function pdfLayoutGroups(groups) {
   const pages = [];
   const bottomLimit = PDF_PAGE.height - PDF_PAGE.marginBottom;
-  let page = null;
-  let y = 0;
 
-  comments.forEach(comment => {
-    const lines = pdfWrapText(comment, PDF_TEXT.width);
-    const height = Math.max(PDF_TABLE.minRowHeight, lines.length * PDF_TEXT.lineHeight);
-    if (!page || y + height > bottomLimit) {
-      page = { rows: [] };
-      pages.push(page);
-      y = pages.length === 1 ? PDF_FIRST_PAGE_TOP : PDF_PAGE.marginTop;
-    }
-    page.rows.push({ top: y, height, lines });
-    y += height;
+  groups.forEach(group => {
+    let page = null;
+    let y = 0;
+    group.comments.forEach(comment => {
+      const lines = pdfWrapText(comment, PDF_TEXT.width);
+      const height = Math.max(PDF_TABLE.minRowHeight, lines.length * PDF_TEXT.lineHeight);
+      if (!page || y + height > bottomLimit) {
+        const startsGroup = !page;
+        page = { rows: [], label: startsGroup ? group.label : null };
+        pages.push(page);
+        y = pages.length === 1 || (startsGroup && group.label) ? PDF_FIRST_PAGE_TOP : PDF_PAGE.marginTop;
+      }
+      page.rows.push({ top: y, height, lines });
+      y += height;
+    });
   });
   return pages;
+}
+
+function pdfLayoutComments(comments) {
+  return pdfLayoutGroups([{ label: null, comments }]);
+}
+
+// Accepts a plain list of comments (one class, no label) or [{ label, comments }] (several classes).
+function pdfNormalizeGroups(input) {
+  if (!input.length) return [{ label: null, comments: [''] }];
+  return typeof input[0] === 'string' ? [{ label: null, comments: input }] : input;
+}
+
+function pdfFitLabel(label) {
+  const maxWidth = PDF_TABLE.width * 12 / 10;
+  let text = label;
+  while (text.length > 1 && pdfTextWidth(text) > maxWidth) text = text.slice(0, -1);
+  return text === label ? label : `${text.trimEnd()}...`;
 }
 
 function pdfPageContent(page) {
@@ -102,7 +123,16 @@ function pdfPageContent(page) {
     vertical(x1, row.top, row.top + row.height);
     horizontal(row.top + row.height);
   });
-  ops.push('Q', 'BT', `/F1 ${PDF_TEXT.size} Tf`);
+  ops.push('Q', 'BT');
+  if (page.label) {
+    ops.push(
+      '/F1 10 Tf',
+      '0.35 g',
+      `1 0 0 1 ${fmt(x0)} ${fmt(flip(54))} Tm (${pdfEncodeString(pdfFitLabel(page.label))}) Tj`,
+      '0 g'
+    );
+  }
+  ops.push(`/F1 ${PDF_TEXT.size} Tf`);
 
   const textX = x0 + PDF_TABLE.cellPadding + PDF_TABLE.textIndent;
   page.rows.forEach(row => {
@@ -115,8 +145,8 @@ function pdfPageContent(page) {
   return ops.join('\n');
 }
 
-function buildReportCardsPdf(comments) {
-  const pages = pdfLayoutComments(comments.length ? comments : ['']);
+function buildReportCardsPdf(input) {
+  const pages = pdfLayoutGroups(pdfNormalizeGroups(input));
   const objects = [];
   const pageObjectNumbers = pages.map((_, i) => 4 + i * 2);
 
@@ -149,8 +179,8 @@ function buildReportCardsPdf(comments) {
   return bytes;
 }
 
-function downloadReportCardsPdf(comments, filename) {
-  const blob = new Blob([buildReportCardsPdf(comments)], { type: 'application/pdf' });
+function downloadReportCardsPdf(input, filename) {
+  const blob = new Blob([buildReportCardsPdf(input)], { type: 'application/pdf' });
   const url = URL.createObjectURL(blob);
   const link = document.createElement('a');
   link.href = url;

@@ -4,15 +4,132 @@
 //   getLevelDescription(l)   short level summary
 //   formatName(raw)          tidy a typed name ("liam chen" -> "Liam Chen")
 //   produceComment(values)   resolves to { text, picks? } or rejects with { userMessage }
+//
+// A "class" is one level plus its students. Several classes can be open at once;
+// the level buttons always apply to the selected class, and "Generate all comments"
+// writes every student in every class.
 
-let selectedLevel = null;
+let classCount = 0;
 let studentCount = 0;
+let activeClassId = null;
+const classes = [];
 const lastPicks = {};
 
 const $ = id => document.getElementById(id);
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 const scrollBehavior = () => (reducedMotion.matches ? 'auto' : 'smooth');
 const icon = name => `<svg class="icon" aria-hidden="true" focusable="false"><use href="#ph-${name}"/></svg>`;
+
+/* ---------- classes ---------- */
+
+const classById = id => classes.find(cls => cls.id === id);
+const activeClass = () => classById(activeClassId);
+const cardId = card => parseInt(card.id.replace('student-', ''), 10);
+const allCards = () => [...document.querySelectorAll('.student-card')];
+const cardsOf = classId => allCards().filter(card => Number(card.dataset.classId) === classId);
+const classOfCard = id => classById(Number($(`student-${id}`).dataset.classId));
+
+function classLabel(cls) {
+  const baseOf = c => (c.name || '').trim() || c.level || 'New class';
+  const base = baseOf(cls);
+  const same = classes.filter(c => baseOf(c) === base);
+  return same.length > 1 ? `${base} (${same.indexOf(cls) + 1})` : base;
+}
+
+function addClass(activate = true) {
+  classCount++;
+  const cls = { id: classCount, level: null, name: '', studentNumber: 0 };
+  classes.push(cls);
+  if (activate) {
+    activateClass(cls.id);
+    if (classes.length > 1) {
+      announce('New class added. Choose its level.');
+      if (window.matchMedia('(max-width: 1023px)').matches) {
+        $('level-heading').scrollIntoView({ behavior: scrollBehavior(), block: 'start' });
+      }
+    }
+  }
+  return cls;
+}
+
+function activateClass(id) {
+  activeClassId = id;
+  allCards().forEach(card => { card.hidden = Number(card.dataset.classId) !== id; });
+  syncLevelUi();
+  checkGenerateAll();
+}
+
+function updateClassName(value) {
+  const cls = activeClass();
+  if (!cls) return;
+  cls.name = value;
+  renderClassBar();
+  refreshCombinedIfVisible();
+}
+
+function renderClassBar() {
+  const multi = classes.length > 1;
+  $('class-bar').hidden = !multi;
+  $('rail-hint').hidden = !multi;
+
+  const tabs = $('class-tabs');
+  tabs.replaceChildren();
+  if (multi) {
+    classes.forEach(cls => {
+      const tab = document.createElement('button');
+      tab.type = 'button';
+      tab.className = 'class-tab';
+      if (cls.id === activeClassId) tab.setAttribute('aria-current', 'true');
+
+      const label = document.createElement('span');
+      label.textContent = classLabel(cls);
+      const count = document.createElement('span');
+      count.className = 'class-tab-count';
+      const students = cardsOf(cls.id).length;
+      count.textContent = students;
+      count.setAttribute('aria-label', `${students} student${students === 1 ? '' : 's'}`);
+
+      tab.append(label, count);
+      tab.addEventListener('click', () => activateClass(cls.id));
+      tabs.appendChild(tab);
+    });
+  }
+
+  const nameInput = $('class-name');
+  const active = activeClass();
+  nameInput.placeholder = active && active.level ? `e.g. Tuesday 5 pm (default: ${active.level})` : 'e.g. Tuesday 5 pm (optional)';
+  if (document.activeElement !== nameInput) nameInput.value = active ? active.name : '';
+}
+
+function removeActiveClass() {
+  const cls = activeClass();
+  if (!cls || classes.length < 2) return;
+  const label = classLabel(cls);
+  const index = classes.indexOf(cls);
+  const cards = cardsOf(cls.id).map(card => ({ card, next: card.nextElementSibling }));
+  cards.forEach(({ card }) => card.remove());
+  classes.splice(index, 1);
+  activateClass((classes[index] || classes[index - 1]).id);
+  refreshCombinedIfVisible();
+
+  let restored = false;
+  showToast(`${label} removed.`, {
+    actionLabel: 'Undo',
+    duration: 8000,
+    onAction: () => {
+      restored = true;
+      classes.splice(index, 0, cls);
+      const container = $('students-container');
+      cards.forEach(({ card }) => container.appendChild(card));
+      activateClass(cls.id);
+      refreshCombinedIfVisible();
+      announce(`${label} restored.`);
+    },
+    onExpire: () => {
+      if (!restored) cards.forEach(({ card }) => delete lastPicks[cardId(card)]);
+    }
+  });
+}
 
 /* ---------- announcements, toast, clipboard ---------- */
 
@@ -97,6 +214,7 @@ async function copyWithFeedback(button, text, idleIcon, idleLabel) {
   button.classList.add('copied');
   announce('Copied to clipboard.');
   setTimeout(() => {
+    if (!button.isConnected) return;
     setButtonFace(button, idleIcon, idleLabel);
     button.classList.remove('copied');
   }, 2000);
@@ -106,50 +224,61 @@ async function copyWithFeedback(button, text, idleIcon, idleLabel) {
 
 document.querySelectorAll('.level-pill').forEach(pill => {
   pill.addEventListener('click', () => {
-    document.querySelectorAll('.level-pill').forEach(p => p.setAttribute('aria-pressed', 'false'));
-    pill.setAttribute('aria-pressed', 'true');
-    selectedLevel = pill.dataset.level;
-    updateLevelInfo();
+    const cls = activeClass();
+    cls.level = pill.dataset.level;
     $('no-level-msg').classList.remove('visible');
-    updateStudentSelects();
-    if (!document.querySelector('.student-card')) addStudent(false);
+    syncLevelUi();
+    updateStudentSelects(cls.id);
+    renderClassBar();
+    if (!cardsOf(cls.id).length) addStudent(false);
+    refreshCombinedIfVisible();
     if (window.matchMedia('(max-width: 1023px)').matches) {
       $('students-heading').scrollIntoView({ behavior: scrollBehavior(), block: 'start' });
     }
   });
 });
 
-function updateLevelInfo() {
+function syncLevelUi() {
+  const cls = activeClass();
+  const level = cls ? cls.level : null;
+  document.querySelectorAll('.level-pill').forEach(pill => {
+    pill.setAttribute('aria-pressed', String(pill.dataset.level === level));
+  });
   const bar = $('level-info-bar');
-  if (selectedLevel) {
+  if (level) {
     bar.classList.add('visible');
-    $('level-info-title').textContent = selectedLevel;
-    $('level-info-desc').textContent = getLevelDescription(selectedLevel);
+    $('level-info-title').textContent = level;
+    $('level-info-desc').textContent = getLevelDescription(level);
   } else {
     bar.classList.remove('visible');
   }
+  renderClassBar();
 }
 
-function updateStudentSelects() {
-  const labels = selectedLevel ? getSkillLabels(selectedLevel) : [];
-  document.querySelectorAll('.skill-select').forEach(sel => {
-    const current = sel.value;
-    const placeholder = sel.querySelector('option[disabled]').textContent;
-    sel.replaceChildren();
-    const empty = document.createElement('option');
-    empty.value = '';
-    empty.textContent = placeholder;
-    empty.disabled = true;
-    empty.selected = true;
-    sel.appendChild(empty);
-    labels.forEach(skill => {
-      const opt = document.createElement('option');
-      opt.value = skill;
-      opt.textContent = skill;
-      if (skill === current) opt.selected = true;
-      sel.appendChild(opt);
+function updateStudentSelects(classId) {
+  const cards = classId === undefined ? allCards() : cardsOf(classId);
+  cards.forEach(card => {
+    const level = classById(Number(card.dataset.classId)).level;
+    const labels = level ? getSkillLabels(level) : [];
+    card.querySelectorAll('.skill-select').forEach(sel => {
+      const current = sel.value;
+      const placeholder = sel.querySelector('option[disabled]').textContent;
+      sel.replaceChildren();
+      const empty = document.createElement('option');
+      empty.value = '';
+      empty.textContent = placeholder;
+      empty.disabled = true;
+      empty.selected = true;
+      sel.appendChild(empty);
+      labels.forEach(skill => {
+        const opt = document.createElement('option');
+        opt.value = skill;
+        opt.textContent = skill;
+        if (skill === current) opt.selected = true;
+        sel.appendChild(opt);
+      });
+      if (current) sel.value = current;
     });
-    if (current) sel.value = current;
   });
 }
 
@@ -178,25 +307,28 @@ function partNote(id, key, fieldName, labelText, placeholder) {
 }
 
 function addStudent(scrollToCard = true) {
-  if (!selectedLevel) {
+  const cls = activeClass();
+  if (!cls || !cls.level) {
     $('no-level-msg').classList.add('visible');
     window.scrollTo({ top: 0, behavior: scrollBehavior() });
     return;
   }
 
   studentCount++;
+  cls.studentNumber++;
   const id = studentCount;
   const card = document.createElement('div');
-  card.className = 'student-card';
+  card.className = 'student-card is-new';
   card.id = `student-${id}`;
+  card.dataset.classId = cls.id;
 
   card.innerHTML = `
     <div class="student-card-header">
       <div>
-        <p class="student-number">Student ${id}</p>
+        <p class="student-number">Student ${cls.studentNumber}</p>
         <p class="student-name-display empty" id="name-display-${id}">Enter name below</p>
       </div>
-      <button type="button" class="remove-btn" onclick="removeStudent(${id})" title="Remove student" aria-label="Remove student ${id}">${icon('x')}</button>
+      <button type="button" class="remove-btn" onclick="removeStudent(${id})" title="Remove student" aria-label="Remove student ${cls.studentNumber}">${icon('x')}</button>
     </div>
     <div class="student-card-body">
 
@@ -264,9 +396,10 @@ function addStudent(scrollToCard = true) {
 
   card.addEventListener('input', () => clearCardError(id));
   card.addEventListener('change', () => clearCardError(id));
+  card.addEventListener('animationend', () => card.classList.remove('is-new'), { once: true });
 
   $('students-container').appendChild(card);
-  updateStudentSelects();
+  updateStudentSelects(cls.id);
 
   if (scrollToCard) {
     card.scrollIntoView({ behavior: scrollBehavior(), block: 'center' });
@@ -320,9 +453,10 @@ function updateNameDisplay(id) {
 }
 
 function checkGenerateAll() {
-  const count = document.querySelectorAll('.student-card').length;
-  $('generate-all-wrap').classList.toggle('visible', count >= 2);
-  $('students-empty').hidden = count > 0;
+  $('generate-all-wrap').classList.toggle('visible', allCards().length >= 2);
+  const cls = activeClass();
+  $('students-empty').hidden = !!cls && cardsOf(cls.id).length > 0;
+  renderClassBar();
 }
 
 /* ---------- validation ---------- */
@@ -330,7 +464,7 @@ function checkGenerateAll() {
 function readCard(id) {
   const value = key => ($(`${key}-${id}`) ? $(`${key}-${id}`).value : '');
   return {
-    name: value('name').trim(),
+    name: formatName(value('name')),
     s1: value('s1'),
     s2: value('s2'),
     w1: value('w1'),
@@ -376,7 +510,11 @@ function showCardError(id, problem, focusField) {
   if (field) {
     field.setAttribute('aria-invalid', 'true');
     field.setAttribute('aria-describedby', `error-${id}`);
-    if (focusField) field.focus();
+    if (focusField) {
+      const owner = classOfCard(id);
+      if (owner && owner.id !== activeClassId) activateClass(owner.id);
+      field.focus();
+    }
   }
 }
 
@@ -406,7 +544,7 @@ async function generateComment(id, batchAvoid = new Set(), silent = false) {
 
   try {
     const avoid = new Set([...(lastPicks[id] || []), ...batchAvoid]);
-    const result = await produceComment({ level: selectedLevel, ...values, avoid });
+    const result = await produceComment({ level: classOfCard(id).level, ...values, avoid });
     lastPicks[id] = new Set(result.picks || []);
 
     $(`comment-text-${id}`).textContent = result.text;
@@ -442,8 +580,8 @@ async function generateAll() {
 
   const batchAvoid = new Set();
   const skipped = [];
-  for (const card of document.querySelectorAll('.student-card')) {
-    const id = parseInt(card.id.replace('student-', ''), 10);
+  for (const card of allCards()) {
+    const id = cardId(card);
     const outcome = await generateComment(id, batchAvoid, true);
     if (outcome.ok) outcome.picks.forEach(pick => batchAvoid.add(pick));
     else skipped.push({ id, problem: outcome.problem });
@@ -461,52 +599,93 @@ async function generateAll() {
       : `${count} comment${count > 1 ? 's' : ''} could not be written. Check your connection, then generate again.`;
     summary.hidden = false;
     const first = skipped.find(s => s.problem.fieldId);
-    if (first) $(first.problem.fieldId).focus();
+    if (first) {
+      const owner = classOfCard(first.id);
+      if (owner && owner.id !== activeClassId) activateClass(owner.id);
+      $(first.problem.fieldId).focus();
+    }
     return;
   }
 
   if ($('all-comments-wrap').classList.contains('visible')) {
-    announce(`${getAllCommentEntries().length} comments ready.`);
+    const total = getCommentGroups().reduce((sum, group) => sum + group.entries.length, 0);
+    announce(`${total} comment${total === 1 ? '' : 's'} ready.`);
     $('all-comments-wrap').scrollIntoView({ behavior: scrollBehavior(), block: 'start' });
   }
 }
 
-/* ---------- combined comments ---------- */
+/* ---------- combined comments (grouped by class) ---------- */
 
-function getAllCommentEntries() {
-  const entries = [];
-  document.querySelectorAll('.student-card').forEach(card => {
-    const id = parseInt(card.id.replace('student-', ''), 10);
-    const commentEl = $(`comment-text-${id}`);
-    const comment = commentEl ? commentEl.textContent.trim() : '';
-    if (!comment) return;
-    entries.push({ name: formatName($(`name-${id}`).value) || `Student ${id}`, comment });
-  });
-  return entries;
+function getCommentGroups() {
+  return classes.map(cls => ({
+    id: cls.id,
+    label: classLabel(cls),
+    entries: cardsOf(cls.id).map(card => {
+      const id = cardId(card);
+      const comment = $(`comment-text-${id}`).textContent.trim();
+      if (!comment) return null;
+      return { name: formatName($(`name-${id}`).value) || `Student ${id}`, comment };
+    }).filter(Boolean)
+  })).filter(group => group.entries.length);
+}
+
+const entriesAsText = entries => entries.map(({ name, comment }) => `${name}:\n${comment}`).join('\n\n');
+const safeFileName = text => (text || '').replace(/[^\w &().-]/g, '').trim() || 'Report Cards';
+
+function groupButton(iconName, label, onClick) {
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.className = 'copy-all-btn';
+  button.innerHTML = `${icon(iconName)}<span class="btn-label">${label}</span>`;
+  button.addEventListener('click', onClick);
+  return button;
 }
 
 function renderAllComments() {
-  const entries = getAllCommentEntries();
+  const groups = getCommentGroups();
+  const multi = groups.length > 1;
   const box = $('all-comments-box');
   box.replaceChildren();
 
-  entries.forEach(({ name, comment }) => {
-    const entry = document.createElement('article');
-    entry.className = 'all-comment-entry';
+  groups.forEach(group => {
+    const section = document.createElement('section');
+    section.className = 'comment-group';
 
-    const nameEl = document.createElement('h3');
-    nameEl.className = 'all-comment-name';
-    nameEl.textContent = `${name}:`;
+    if (multi) {
+      const head = document.createElement('div');
+      head.className = 'comment-group-head';
+      const title = document.createElement('h3');
+      title.className = 'comment-group-title';
+      title.textContent = group.label;
+      const actions = document.createElement('div');
+      actions.className = 'group-actions';
+      const copy = groupButton('copy', 'Copy', () => copyWithFeedback(copy, entriesAsText(group.entries), 'copy', 'Copy'));
+      actions.append(copy);
+      if (APP.pdf) actions.append(groupButton('download-simple', 'PDF', () => downloadGroupPdf(group.id)));
+      head.append(title, actions);
+      section.appendChild(head);
+    }
 
-    const textEl = document.createElement('p');
-    textEl.className = 'all-comment-text';
-    textEl.textContent = comment;
+    group.entries.forEach(({ name, comment }) => {
+      const entry = document.createElement('article');
+      entry.className = 'all-comment-entry';
 
-    entry.append(nameEl, textEl);
-    box.appendChild(entry);
+      const nameEl = document.createElement(multi ? 'h4' : 'h3');
+      nameEl.className = 'all-comment-name';
+      nameEl.textContent = `${name}:`;
+
+      const textEl = document.createElement('p');
+      textEl.className = 'all-comment-text';
+      textEl.textContent = comment;
+
+      entry.append(nameEl, textEl);
+      section.appendChild(entry);
+    });
+
+    box.appendChild(section);
   });
 
-  $('all-comments-wrap').classList.toggle('visible', entries.length > 0);
+  $('all-comments-wrap').classList.toggle('visible', groups.length > 0);
 }
 
 function refreshCombinedIfVisible() {
@@ -514,9 +693,11 @@ function refreshCombinedIfVisible() {
 }
 
 function copyAllComments() {
-  const entries = getAllCommentEntries();
-  if (!entries.length) return;
-  const text = entries.map(({ name, comment }) => `${name}:\n${comment}`).join('\n\n');
+  const groups = getCommentGroups();
+  if (!groups.length) return;
+  const text = groups.length > 1
+    ? groups.map(group => `${group.label}\n\n${entriesAsText(group.entries)}`).join('\n\n\n')
+    : entriesAsText(groups[0].entries);
   copyWithFeedback($('copy-all-btn'), text, 'copy', 'Copy all');
 }
 
@@ -527,19 +708,33 @@ function copyComment(id) {
 }
 
 function downloadAllCommentsPdf() {
-  const entries = getAllCommentEntries();
-  if (!entries.length) return;
-  const safeLevel = (selectedLevel || 'Swim').replace(/[^\w &-]/g, '').trim();
-  downloadReportCardsPdf(entries.map(entry => entry.comment), `${safeLevel} Report Cards.pdf`);
+  const groups = getCommentGroups();
+  if (!groups.length) return;
+  if (groups.length === 1) {
+    downloadReportCardsPdf(groups[0].entries.map(e => e.comment), `${safeFileName(groups[0].label)} Report Cards.pdf`);
+  } else {
+    downloadReportCardsPdf(
+      groups.map(group => ({ label: group.label, comments: group.entries.map(e => e.comment) })),
+      'All Classes Report Cards.pdf'
+    );
+  }
+  announce('PDF downloaded.');
+}
+
+function downloadGroupPdf(classId) {
+  const group = getCommentGroups().find(g => g.id === classId);
+  if (!group) return;
+  downloadReportCardsPdf(group.entries.map(e => e.comment), `${safeFileName(group.label)} Report Cards.pdf`);
   announce('PDF downloaded.');
 }
 
 /* ---------- guard against losing work ---------- */
 
 function hasUnsavedWork() {
-  return [...document.querySelectorAll('.student-card')].some(card =>
-    [...card.querySelectorAll('input, select, textarea')].some(field => field.value) ||
-    card.querySelector('.result-area.visible'));
+  return $('class-name').value ||
+    allCards().some(card =>
+      [...card.querySelectorAll('input, select, textarea')].some(field => field.value) ||
+      card.querySelector('.result-area.visible'));
 }
 
 window.addEventListener('beforeunload', event => {
@@ -549,4 +744,5 @@ window.addEventListener('beforeunload', event => {
   }
 });
 
+addClass();
 checkGenerateAll();

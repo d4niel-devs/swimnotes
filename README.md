@@ -22,6 +22,13 @@ skill. Everything runs in the browser: no accounts, no server, no API keys, and 
 **Download PDF** saves those comments on A4 pages as dashed-border slots (389 pt wide, at least 170 pt tall, Times 12 pt,
 1.5 line spacing, four per page), matching the Word report-card template. A comment longer than a slot makes that slot taller.
 
+## Multiple classes
+
+Use **Add another class** to work on several classes in one session. Each class has its own level and students (choose its level with the level buttons while its tab is selected) and an optional name, such as "Tuesday 5 pm". **Generate all comments** writes every student in every class, and the Generated comments section groups them by class.
+
+- **Copy all** includes each class name as a heading; each class also has its own **Copy** and **PDF** buttons.
+- **Download PDF** with several classes makes one file where each class starts on a new page, with the class name printed small in the top margin above the first slot. A class's own **PDF** button makes the exact single-class layout.
+
 ## File structure
 
 ```
