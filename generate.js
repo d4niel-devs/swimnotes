@@ -1,4 +1,5 @@
-// Repository version: comments are assembled from the phrase bank in data/*.js (see compose.js).
+// Connects the interface (script.js) to the comment engine: comments are assembled from the
+// phrase bank in data/*.js (see compose.js).
 const APP = { notes: 'parts', pdf: true };
 
 function getSkillLabels(level) {

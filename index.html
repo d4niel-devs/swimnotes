@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta name="referrer" content="no-referrer">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SwimNotes - Report Card Generator</title>
 <meta name="description" content="Write swim lesson report card comments: choose a class level, pick two strengths and one area for growth, and get a finished comment for each swimmer.">
@@ -110,7 +112,7 @@
       <div class="workspace-head">
         <div class="workspace-head-row">
           <h2 class="section-title" id="students-heading">Add students</h2>
-          <button type="button" class="copy-all-btn" id="add-class-btn" onclick="addClass()">
+          <button type="button" class="copy-all-btn" id="add-class-btn">
             <svg class="icon" aria-hidden="true" focusable="false"><use href="#ph-plus"/></svg><span>Add another class</span>
           </button>
         </div>
@@ -126,9 +128,9 @@
         <div class="class-meta">
           <div class="field-group">
             <label class="field-label" for="class-name">Class name</label>
-            <input type="text" id="class-name" name="className" autocomplete="off" placeholder="e.g. Tuesday 5 pm (optional)" oninput="updateClassName(this.value)" />
+            <input type="text" id="class-name" name="className" autocomplete="off" spellcheck="false" placeholder="e.g. Tuesday 5 pm (optional)" />
           </div>
-          <button type="button" class="copy-all-btn class-remove-btn" id="class-remove-btn" onclick="removeActiveClass()">
+          <button type="button" class="copy-all-btn class-remove-btn" id="class-remove-btn">
             <svg class="icon" aria-hidden="true" focusable="false"><use href="#ph-x"/></svg><span>Remove class</span>
           </button>
         </div>
@@ -138,13 +140,13 @@
 
       <div id="students-container"></div>
 
-      <button type="button" class="add-student-btn" onclick="addStudent()">
+      <button type="button" class="add-student-btn" id="add-student-btn">
         <svg class="icon" aria-hidden="true" focusable="false"><use href="#ph-plus"/></svg>
         <span>Add another student</span>
       </button>
 
       <div class="generate-all-wrap" id="generate-all-wrap">
-        <button type="button" class="generate-all-btn" id="generate-all-btn" onclick="generateAll()">
+        <button type="button" class="generate-all-btn" id="generate-all-btn">
           <svg class="icon" aria-hidden="true" focusable="false"><use href="#ph-sparkle"/></svg>
           <span>Generate all comments</span>
         </button>
@@ -155,10 +157,10 @@
         <div class="all-comments-header">
           <h2 class="section-title" id="comments-heading">Generated comments</h2>
           <div class="all-comments-actions">
-            <button type="button" class="copy-all-btn" id="download-pdf-btn" onclick="downloadAllCommentsPdf()">
+            <button type="button" class="copy-all-btn" id="download-pdf-btn">
               <svg class="icon" aria-hidden="true" focusable="false"><use href="#ph-download-simple"/></svg><span>Download PDF</span>
             </button>
-            <button type="button" class="copy-all-btn" id="copy-all-btn" onclick="copyAllComments()">
+            <button type="button" class="copy-all-btn" id="copy-all-btn">
               <svg class="icon" aria-hidden="true" focusable="false"><use href="#ph-copy"/></svg><span class="btn-label">Copy all</span>
             </button>
           </div>
@@ -171,7 +173,7 @@
 </main>
 
 <footer class="site-footer">
-  <span><span translate="no">SwimNotes</span> · Powered by the Lifesaving Society Swim for Life® curriculum</span>
+  <span translate="no">SwimNotes</span>
   <span class="footer-credit">Created by Daniel Mendonca</span>
 </footer>
 

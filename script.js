@@ -1,5 +1,9 @@
-// Shared UI for SwimNotes. Each version supplies generate.js with:
+// SwimNotes user interface: classes, student cards, generated comments, copy and PDF.
+// It talks to the comment engine only through the functions that generate.js provides:
 //   APP                      { notes: 'parts' | 'single', pdf: boolean }
+//                            notes: 'parts' = a short note under each skill,
+//                                   'single' = one free-text note per student;
+//                            pdf: show the PDF download buttons
 //   getSkillLabels(level)    skill names for the dropdowns
 //   getLevelDescription(l)   short level summary
 //   formatName(raw)          tidy a typed name ("liam chen" -> "Liam Chen")
@@ -292,7 +296,7 @@ function noteFields(id) {
           <label class="field-label" for="notes-${id}">Extra notes</label>
           <span class="field-badge badge-optional">Optional</span>
         </div>
-        <textarea id="notes-${id}" name="notes" autocomplete="off" placeholder="e.g. Struggles with water in face but very eager to try. Shy at first but opened up by end of session. Has been attending for 3 sessions…" rows="3"></textarea>
+        <textarea id="notes-${id}" name="notes" autocomplete="off" spellcheck="false" placeholder="e.g. Struggles with water in face but very eager to try. Shy at first but opened up by end of session. Has been attending for 3 sessions…" rows="3"></textarea>
         <p class="hint">These details will be woven into the generated comment.</p>
       </div>`;
   }
@@ -303,7 +307,7 @@ function partNote(id, key, fieldName, labelText, placeholder) {
   if (APP.notes !== 'parts') return '';
   return `
           <label class="sr-only" for="${key}-${id}">${labelText}</label>
-          <input type="text" class="part-note" id="${key}-${id}" name="${fieldName}" autocomplete="off" placeholder="${placeholder}" />`;
+          <input type="text" class="part-note" id="${key}-${id}" name="${fieldName}" autocomplete="off" spellcheck="false" placeholder="${placeholder}" />`;
 }
 
 function addStudent(scrollToCard = true) {
@@ -328,14 +332,14 @@ function addStudent(scrollToCard = true) {
         <p class="student-number">Student ${cls.studentNumber}</p>
         <p class="student-name-display empty" id="name-display-${id}">Enter name below</p>
       </div>
-      <button type="button" class="remove-btn" onclick="removeStudent(${id})" title="Remove student" aria-label="Remove student ${cls.studentNumber}">${icon('x')}</button>
+      <button type="button" class="remove-btn" data-action="remove-student" data-id="${id}" title="Remove student" aria-label="Remove student ${cls.studentNumber}">${icon('x')}</button>
     </div>
     <div class="student-card-body">
 
       <div class="field-row single">
         <div class="field-group">
           <div class="field-head"><label class="field-label" for="name-${id}">Student name</label></div>
-          <input type="text" id="name-${id}" name="studentName" placeholder="e.g. Daniel" autocomplete="off" spellcheck="false" oninput="updateNameDisplay(${id})" onblur="this.value = formatName(this.value)" />
+          <input type="text" id="name-${id}" name="studentName" placeholder="e.g. Daniel" autocomplete="off" spellcheck="false" />
         </div>
       </div>
 
@@ -376,7 +380,7 @@ function addStudent(scrollToCard = true) {
 
       <p class="form-error" id="error-${id}" role="alert" hidden></p>
 
-      <button type="button" class="generate-btn" id="gen-btn-${id}" onclick="generateComment(${id})">
+      <button type="button" class="generate-btn" id="gen-btn-${id}" data-action="generate" data-id="${id}">
         ${icon('sparkle').replace('<svg ', `<svg id="gen-icon-${id}" `)}
         <span id="gen-btn-text-${id}">Generate comment</span>
       </button>
@@ -385,7 +389,7 @@ function addStudent(scrollToCard = true) {
         <div class="result-box" id="result-box-${id}">
           <div class="result-head">
             <span class="result-label">Generated comment</span>
-            <button type="button" class="copy-btn" id="copy-btn-${id}" onclick="copyComment(${id})">${icon('copy')}<span class="btn-label">Copy</span></button>
+            <button type="button" class="copy-btn" id="copy-btn-${id}" data-action="copy" data-id="${id}">${icon('copy')}<span class="btn-label">Copy</span></button>
           </div>
           <p class="result-text" id="comment-text-${id}"></p>
         </div>
@@ -636,7 +640,11 @@ function groupButton(iconName, label, onClick) {
   const button = document.createElement('button');
   button.type = 'button';
   button.className = 'copy-all-btn';
-  button.innerHTML = `${icon(iconName)}<span class="btn-label">${label}</span>`;
+  button.innerHTML = icon(iconName);
+  const text = document.createElement('span');
+  text.className = 'btn-label';
+  text.textContent = label;
+  button.appendChild(text);
   button.addEventListener('click', onClick);
   return button;
 }
@@ -742,6 +750,41 @@ window.addEventListener('beforeunload', event => {
     event.preventDefault();
     event.returnValue = '';
   }
+});
+
+/* ---------- event wiring (no inline handlers, so the page runs under a strict Content-Security-Policy) ---------- */
+
+function on(selector, type, handler) {
+  const element = document.querySelector(selector);
+  if (element) element.addEventListener(type, handler);
+}
+
+on('#add-class-btn', 'click', () => addClass());
+on('#class-name', 'input', event => updateClassName(event.target.value));
+on('#class-remove-btn', 'click', () => removeActiveClass());
+on('#add-student-btn', 'click', () => addStudent());
+on('#generate-all-btn', 'click', () => generateAll());
+on('#download-pdf-btn', 'click', () => downloadAllCommentsPdf());
+on('#copy-all-btn', 'click', () => copyAllComments());
+
+const studentsContainer = $('students-container');
+
+studentsContainer.addEventListener('click', event => {
+  const control = event.target.closest('[data-action]');
+  if (!control) return;
+  const id = Number(control.dataset.id);
+  if (control.dataset.action === 'remove-student') removeStudent(id);
+  else if (control.dataset.action === 'generate') generateComment(id);
+  else if (control.dataset.action === 'copy') copyComment(id);
+});
+
+studentsContainer.addEventListener('input', event => {
+  const match = /^name-(\d+)$/.exec(event.target.id);
+  if (match) updateNameDisplay(Number(match[1]));
+});
+
+studentsContainer.addEventListener('focusout', event => {
+  if (/^name-\d+$/.test(event.target.id)) event.target.value = formatName(event.target.value);
 });
 
 addClass();

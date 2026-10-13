@@ -5,6 +5,8 @@ strengths and one area for growth (the "sandwich method"), and the app assembles
 comment by mixing and matching pre-written praise and critique sentences for each
 skill. Everything runs in the browser: no accounts, no server, no API keys, and no data leaves the device.
 
+Live site: https://daniel-mend0nca.github.io/swimnotes/
+
 ## How comments are built
 
 `intro, praise (Strength 1), critique (Area for growth), praise (Strength 2), closing`
@@ -69,6 +71,15 @@ The skill `label`s are the exact curriculum test-sheet wording (they still say "
 - Accessibility: labelled form controls, keyboard-operable level buttons, visible
   focus rings, inline error messages, live-region announcements, and undo when
   removing a student.
+
+## Security, privacy and licence
+
+- [SECURITY.md](SECURITY.md): how to report a problem, and what the application does and does not do.
+- [PRIVACY.md](PRIVACY.md): where student names and notes go (nowhere: they stay in the browser) and how to verify it.
+- [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md): the fonts and icons included, and their licences.
+- [LICENSE](LICENSE): all rights reserved.
+
+The page ships with a strict Content-Security-Policy: scripts, styles, fonts and images only from the site itself, and no outgoing connections.
 
 ## Run locally
 
