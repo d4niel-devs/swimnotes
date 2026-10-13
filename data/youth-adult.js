@@ -7,120 +7,250 @@ Object.assign(LEVEL_DATA, {
           "You entered the shallow water feet first and moved away from the edge with confidence.",
           "Your feet-first entry into the shallow water looked relaxed and controlled, and you stayed safe around the pool edge.",
           "You looked confident each time you stepped into the shallow water feet first, and you moved safely once you were in.",
-          "Each time you entered the shallow water, you went in feet first and moved with care."
+          "Each time you entered the shallow water, you went in feet first and moved with care.",
+          "You stepped into the shallow water feet first and settled quickly, staying relaxed near the edge.",
+          "You entered carefully each time, using the side for support and keeping your balance.",
+          "Your calm, steady entries showed that you are building safe habits at the pool edge.",
+          "You moved away from the wall with control once you were in the water.",
+          "You showed solid awareness of how to enter the pool safely and without rushing.",
+          "Your feet-first entries stayed smooth and consistent from one attempt to the next."
         ],
         critique: [
           "You are working on entering shallow water feet first, so keep your movements steady and stay in control as you move away from the edge.",
           "Your entry into shallow water is still developing, so slow down and keep your movements calm from the edge into the water.",
-          "A helpful next step is to practise going in feet first, moving slowly from the edge and staying careful once you are in the water."
+          "A helpful next step is to practise going in feet first, moving slowly from the edge and staying careful once you are in the water.",
+          "You are still learning to slow your entries down, so hold the side and lower yourself in with care.",
+          "Your entry will keep improving as you take a moment at the edge to feel ready before you step in.",
+          "You can build confidence by repeating the same careful routine every time you enter the water.",
+          "Your movements will become steadier if you look at where you are stepping and keep your hand on the wall.",
+          "A helpful next step is to sit on the edge, turn toward the wall and lower your feet in first.",
+          "Focusing on one calm movement at a time will help you stay in control as you enter.",
+          "Practising a few slow entries at the start of each session will help the movement feel natural."
         ] },
       { label: "Jump into chest-deep water with controlled return to surface and safe return to side",
         praise: [
           "You jumped into chest-deep water with confidence and came back up to the surface calmly.",
           "Your jump into chest-deep water was well controlled, and you moved safely back to the side.",
           "You looked calm and steady after each jump, then made your way back to the side safely.",
-          "Coming back up to the surface calmly and getting safely back to the side were real strengths in your chest-deep jumps."
+          "Coming back up to the surface calmly and getting safely back to the side were real strengths in your chest-deep jumps.",
+          "You jumped into chest-deep water, bent your knees on landing and stood up steadily.",
+          "You looked ahead during each jump and kept your balance on entry.",
+          "Your jumps were controlled, and you made your way back to the side calmly.",
+          "You stayed relaxed after landing and moved to the wall without hurrying.",
+          "A smooth landing and a calm return to the side showed your growing confidence in deeper water.",
+          "You jumped in with confidence and settled quickly each time."
         ],
         critique: [
           "You are working on coming back up to the surface calmly after your jump, then moving safely back to the side.",
           "Your jump into chest-deep water is still developing, so try to stay calm after you land and take your time getting back to the side.",
-          "A helpful next step is to take a moment after each jump, come back up to the surface calmly, and move safely back to the side."
+          "A helpful next step is to take a moment after each jump, come back up to the surface calmly, and move safely back to the side.",
+          "You are still building confidence with the jump, so take a calm breath at the edge before you go.",
+          "Your landings will become steadier if you bend your knees as you enter the water.",
+          "You can build control by looking at a spot straight ahead while you jump.",
+          "Your return to the side will feel smoother if you pause after landing and then walk to the wall.",
+          "A helpful next step is to practise the jump with a partner or instructor close by.",
+          "Starting with a smaller jump will help you work up to chest-deep water with confidence.",
+          "Keeping your arms slightly out to the sides will help you balance after landing."
         ] },
       { label: "Tread water (15-30 sec.) wearing a PFD",
         praise: [
           "You treaded water in your lifejacket, staying upright in the water with your mouth and nose above the surface the whole time.",
           "Your hands moved in small circles to help you stay up while you treaded water, and you stayed relaxed.",
           "You kept a steady kick going, which helped you stay in place while treading water in your lifejacket.",
-          "Staying upright with your mouth and nose above the water showed real confidence while you treaded in your lifejacket."
+          "Staying upright with your mouth and nose above the water showed real confidence while you treaded in your lifejacket.",
+          "You treaded water in your lifejacket with your head up and your body upright.",
+          "You moved your hands in small, steady circles and kept a gentle kick going.",
+          "You stayed relaxed and breathed evenly while treading water.",
+          "Your mouth and nose stayed above the surface for the whole time.",
+          "A steady rhythm in your hands and legs showed that you understand how to stay in one place.",
+          "You gained stamina quickly and held your position with less effort."
         ],
         critique: [
           "You are working on building your treading time, so stay upright in the water and keep your mouth and nose above the surface.",
           "Your treading in a lifejacket is still developing, so try moving your hands in small circles to stay up and keep a steady kick going.",
-          "You will keep improving by staying upright, moving your hands in small circles, and keeping your kick steady so your mouth and nose stay above the water."
+          "You will keep improving by staying upright, moving your hands in small circles, and keeping your kick steady so your mouth and nose stay above the water.",
+          "You are still building your treading time, so keep your body upright and your head above the water.",
+          "Your hand circles will help you stay up if you keep them small and quick.",
+          "You can build stamina by kicking steadily and breathing slowly as you tread.",
+          "Your treading will improve as you relax your shoulders and avoid rushing your movements.",
+          "A helpful next step is to add a few seconds to each attempt in your lifejacket.",
+          "Practising near the wall will help you feel secure while you work on your rhythm.",
+          "Keeping your legs moving even when you feel tired will help you finish the time."
         ] },
       { label: "Holding breath underwater (5-10 sec.)",
         praise: [
           "You held your breath underwater with a calm, relaxed face and body, then came back up to the surface calmly.",
           "Your breath control underwater was steady, and you stayed relaxed while you held your breath beneath the surface.",
           "You looked confident holding your breath and staying under for the full count.",
-          "Staying calm with your face under the water helped you hold your breath for the whole time."
+          "Staying calm with your face under the water helped you hold your breath for the whole time.",
+          "You took a breath, put your face under and held your breath calmly for the full count.",
+          "You stayed still and relaxed under the water.",
+          "Your breath control was steady, and you came back up smoothly.",
+          "You showed growing comfort with your face underwater.",
+          "Counting slowly in your head helped you stay calm for the whole hold.",
+          "You held your breath for longer with each attempt."
         ],
         critique: [
           "You are working on holding your breath underwater, so take a breath, put your face under, and stay calm and relaxed for the full count.",
           "Your breath holding is still developing, so try short turns under the water and add a little more time as you feel comfortable.",
-          "A helpful next step is to take a breath before you go under, keep your body loose, and hold your breath for 5 to 10 seconds."
+          "A helpful next step is to take a breath before you go under, keep your body loose, and hold your breath for 5 to 10 seconds.",
+          "You are still working on holding your breath, so take a full breath before you go under.",
+          "Your breath hold will improve as you relax your face and body underwater.",
+          "You can build up the time by adding one second to each attempt.",
+          "Your confidence will grow with short, repeated turns under the water.",
+          "A helpful next step is to count slowly in your head to help you stay relaxed.",
+          "Blowing a few gentle bubbles at the end of each hold will help you feel comfortable.",
+          "Practising with only your face in the water first will help you feel at ease."
         ] },
       { label: "Submerge and exhale (5 times) with full face submerged and eyes open",
         praise: [
           "You went under five times and blew out steadily, with your whole face in the water and your eyes open.",
           "Your whole face stayed under the water with your eyes open on every try, and your blowing out was slow and steady.",
           "Blowing out slowly underwater with your eyes open was a clear strength across all five tries.",
-          "You looked relaxed and confident blowing out underwater, keeping your eyes open and your face fully under each time."
+          "You looked relaxed and confident blowing out underwater, keeping your eyes open and your face fully under each time.",
+          "You went under five times, blowing out steadily with your eyes open.",
+          "You kept your whole face in the water and let the air out slowly each time.",
+          "Your breathing rhythm stayed calm from the first try to the last.",
+          "You looked relaxed and in control of your breath underwater.",
+          "Opening your eyes underwater showed your growing comfort below the surface.",
+          "You repeated the skill smoothly without rushing between turns."
         ],
         critique: [
           "You are working on keeping your whole face under the water with your eyes open as you blow out on each of the five tries.",
           "Your blowing out underwater is still developing, so try a slow, steady breath out with your eyes open.",
-          "A helpful next step is to put your whole face under, open your eyes, and blow out slowly before coming up for air."
+          "A helpful next step is to put your whole face under, open your eyes, and blow out slowly before coming up for air.",
+          "You are still learning to blow out slowly, so imagine blowing out a candle underwater.",
+          "Your breathing will improve as you take a quick breath at the top and a slow breath out below.",
+          "You can build comfort by opening your eyes for a moment and then a little longer each time.",
+          "Your rhythm will become steadier if you count each try aloud.",
+          "A helpful next step is to keep your whole face under the water for the full breath out.",
+          "Humming gently underwater will help you let the air out evenly.",
+          "Practising at the wall will help you stay relaxed while you repeat the skill."
         ] },
       { label: "Glide on front, back, and side (3-5 m each)",
         praise: [
           "You glided on your front with your face in the water, blowing out slowly, and your arms stretched out in front.",
           "Your back glide kept your ears in the water and your body relaxed, and your side glide stayed balanced on your side.",
           "Your glides on your front, back, and side were smooth and controlled over the distance.",
-          "You looked confident gliding in all three positions, staying stretched out long and straight and relaxed."
+          "You looked confident gliding in all three positions, staying stretched out long and straight and relaxed.",
+          "You glided on your front, back and side, staying stretched out and relaxed.",
+          "You pushed off the wall firmly and held your position as you slowed down.",
+          "Your face stayed in the water on the front glide and your ears stayed in on the back glide.",
+          "You kept your body long and straight in each position.",
+          "Your side glide stayed balanced, with your lower arm stretched out in front.",
+          "You made the glides look smooth and travelled a long way from each push."
         ],
         critique: [
           "You are working on your front glide, so put your face in the water, blow out slowly, and stretch your arms out in front.",
           "Your back and side glides are still developing, so keep your ears in the water on your back and lie on your side with your bottom arm stretched out in front.",
-          "A helpful next step is to glide with your face in the water on your front and your ears in the water on your back."
+          "A helpful next step is to glide with your face in the water on your front and your ears in the water on your back.",
+          "You are still working on your glides, so push off the wall with a strong, steady movement.",
+          "Your front glide will improve as you keep your arms stretched out and your face in the water.",
+          "You can build balance on your side by resting your ear on your shoulder.",
+          "Your back glide will feel easier if you look up at the ceiling and keep your head still.",
+          "A helpful next step is to squeeze your legs together as you glide.",
+          "Staying relaxed after the push will help you glide further.",
+          "Practising the long, straight shape on land will help you find it in the water."
         ] },
       { label: "Flutter kick on front, back, and side (3-5 m each)",
         praise: [
           "You kept a steady flutter kick going on your front, back, and side, kicking from your hips with a slight bend in your knees.",
           "Your front flutter kick kept your face in the water with steady bubbles, and your back kick kept your tummy near the top of the water.",
           "A relaxed, steady flutter kick carried you forward on your front, back, and side over the whole distance.",
-          "Your kick stayed steady in all three positions, and you stayed relaxed as you moved along."
+          "Your kick stayed steady in all three positions, and you stayed relaxed as you moved along.",
+          "You flutter kicked on your front, back and side with a steady, relaxed rhythm.",
+          "You kicked from your hips with a slight bend in your knees in every position.",
+          "Your face stayed in the water on the front, with bubbles flowing steadily.",
+          "Your tummy stayed near the surface when you kicked on your back.",
+          "Your side kick kept you balanced and moving forward.",
+          "You moved through all three distances with control and without stopping."
         ],
         critique: [
           "You are working on kicking from your hips with a slight bend in your knees, looking down and blowing bubbles on your front.",
           "Your flutter kick on your back is still developing, so push your tummy up to the surface to stay as close to the top of the water as possible.",
-          "You will keep improving by keeping your kick going without stopping on your front, back, and side, always kicking from your hips."
+          "You will keep improving by keeping your kick going without stopping on your front, back, and side, always kicking from your hips.",
+          "You are still building your kick, so keep your legs moving from your hips and avoid bending only your knees.",
+          "Your front kick will improve as you keep your face in the water and blow bubbles.",
+          "You can build your back kick by pushing your tummy up toward the surface.",
+          "Your side kick will feel steadier if you keep your body long and straight.",
+          "A helpful next step is to point your toes and keep your ankles relaxed.",
+          "Practising short, steady distances will help you build your endurance.",
+          "Holding the wall and kicking will help you feel the movement before you try it moving."
         ] },
       { label: "Swim to Survive: completing skills in a continuous sequence within distance and time requirements",
         praise: [
           "You moved smoothly from one Swim to Survive skill to the next without stopping.",
           "Your Swim to Survive skills came in the right order, and you stayed calm within the distance and time limits.",
           "You looked confident linking each Swim to Survive skill together and stayed relaxed through the whole sequence.",
-          "Moving through the whole Swim to Survive sequence without stopping showed your growing water confidence and stamina."
+          "Moving through the whole Swim to Survive sequence without stopping showed your growing water confidence and stamina.",
+          "You went straight from each Swim to Survive skill into the one after it, never pausing between them.",
+          "You stayed calm and kept your head up through the whole sequence.",
+          "You finished the skills in order and within the time and distance limits.",
+          "Your steady pace showed that you understand how to save energy.",
+          "Linking each skill together showed your growing stamina and confidence.",
+          "You kept your breathing even from the first skill to the last."
         ],
         critique: [
           "You are working on moving straight from one Swim to Survive skill to the next without stopping.",
           "Your Swim to Survive sequence is still developing, so practise each skill on its own until you can link them all within the distance and time limits.",
-          "A helpful next step is to keep the Swim to Survive skills in order, staying calm and relaxed so you finish within the distance and time limits."
+          "A helpful next step is to keep the Swim to Survive skills in order, staying calm and relaxed so you finish within the distance and time limits.",
+          "You are still learning to link the skills, so practise each one on its own first.",
+          "Your sequence will improve as you move straight from one skill into the next.",
+          "You can build confidence by repeating the whole sequence a few times each session.",
+          "Your pacing will improve if you choose a speed you can hold for the full distance.",
+          "A helpful next step is to take a calm breath between the skills without stopping.",
+          "Keeping your mouth and nose above the water while treading will help you save energy.",
+          "Practising the order of the skills will help you move through them without hesitating."
         ] },
       { label: "Interval training: 2 x 9-12 m flutter kick with 10-15 sec. rests",
         praise: [
           "You kicked both repeats with a strong, steady flutter kick and recovered well during the short rests.",
           "Your kick stayed steady over both repeats, and your breathing settled nicely during each rest.",
           "You kept a steady pace through the interval set, kicking from your hips on each of the two repeats.",
-          "Finishing two flutter kick repeats with only short rests showed your improving stamina."
+          "Finishing two flutter kick repeats with only short rests showed your improving stamina.",
+          "You kicked both repeats with a strong, steady rhythm and used the rests well.",
+          "You kept your kick even across the two repeats.",
+          "You settled your breathing during each short rest and started the second repeat ready.",
+          "Your pace stayed controlled from the first repeat to the last.",
+          "You kicked from your hips with a slight bend in your knees on both repeats.",
+          "You showed growing stamina by finishing both repeats strongly."
         ],
         critique: [
           "You are working on finishing both repeats with a strong, steady flutter kick from your hips.",
           "Your interval kicking is still developing, so keep your kick going without stopping for the whole distance of each repeat.",
-          "A helpful next step is to use each rest to catch your breath, then start the next repeat kicking from your hips with a slight bend in your knees."
+          "A helpful next step is to use each rest to catch your breath, then start the next repeat kicking from your hips with a slight bend in your knees.",
+          "You are still building stamina for the repeats, so start at a pace you can hold.",
+          "Your kick will stay steadier if you keep it going without stopping for the whole distance.",
+          "You can use each rest to breathe slowly and get ready for the next repeat.",
+          "Your kicking will improve as you relax your ankles and kick from your hips.",
+          "A helpful next step is to keep your face in the water and blow bubbles while you kick.",
+          "Pacing yourself will help you finish the second repeat as strongly as the first.",
+          "Counting your breaths during the rest will help you recover."
         ] },
       { label: "Water Smart messages: Swim with a Buddy, Wear a Lifejacket, Within Arms' Reach",
         praise: [
           "You took an active part in the Water Smart talks and shared what Swim with a Buddy, Wear a Lifejacket, and Within Arms' Reach mean.",
           "Your thoughtful answers about swimming with a buddy, wearing a lifejacket, and staying within arms' reach showed you understand these safety messages.",
           "You showed strong awareness of water safety by explaining how a buddy, a lifejacket, and staying within arms' reach keep people safe.",
-          "Joining in the Water Smart messages with interest and real examples showed that you understand how to stay safe around water."
+          "Joining in the Water Smart messages with interest and real examples showed that you understand how to stay safe around water.",
+          "You took part in the Water Smart talks and explained each safety message clearly.",
+          "You gave thoughtful examples of when to swim with a buddy and when to wear a lifejacket.",
+          "You understood why staying within arms' reach matters, and said so confidently.",
+          "Your answers showed strong awareness of how to stay safe around water.",
+          "You joined the discussion with interest and shared real examples.",
+          "You connected each safety message to situations you might meet outside the pool."
         ],
         critique: [
           "You are encouraged to join the Water Smart talks and explain what Swim with a Buddy, Wear a Lifejacket, and Within Arms' Reach mean.",
           "Your Water Smart knowledge is still developing, so try describing when you would swim with a buddy and when you would wear a lifejacket.",
-          "You are reminded to share an example of each Water Smart message, including staying within arms' reach."
+          "You are reminded to share an example of each Water Smart message, including staying within arms' reach.",
+          "You are still getting familiar with the Water Smart messages, so try to explain each one in your own words.",
+          "Your understanding will grow as you think of an example for each message.",
+          "You can build your knowledge by talking about these messages with friends and family.",
+          "Your answers will improve if you describe when you would use each safety habit.",
+          "A helpful next step is to name one place where you might need each message.",
+          "Looking for lifejackets and water safety signs will help you connect the messages to real life.",
+          "Sharing an example of staying within arms' reach will help you remember what it means."
         ] }
     ]
   },
@@ -132,108 +262,225 @@ Object.assign(LEVEL_DATA, {
           "You jumped into deep water with confidence, came back up calmly, and swam to the side to get out safely.",
           "Your deep water jump was controlled, and you came back up to the surface calmly before heading to the side.",
           "You looked relaxed as you made your way back to the side and climbed out safely.",
-          "A calm return to the surface and a safe exit at the side were clear strengths in your deep water jumps."
+          "A calm return to the surface and a safe exit at the side were clear strengths in your deep water jumps.",
+          "You jumped into deep water, surfaced calmly and swam to the side before climbing out.",
+          "You stayed relaxed after the jump and kept your head above the water.",
+          "Your exit was steady and careful, with both hands on the wall.",
+          "You handled each step in order and finished with control.",
+          "A calm return to the surface showed growing confidence in deep water.",
+          "You climbed out safely without rushing."
         ],
         critique: [
           "You are working on coming back up to the surface calmly after your deep water jump, then swimming to the side and getting out safely.",
           "Your deep water jump is still developing, so stay calm after you land and move safely back to the side to get out.",
-          "A helpful next step is to come back up to the surface calmly, swim to the side, and get out without rushing."
+          "A helpful next step is to come back up to the surface calmly, swim to the side, and get out without rushing.",
+          "You are still building confidence in deep water, so take a calm breath before you jump.",
+          "Your return to the side will improve if you kick steadily and keep your head above the water.",
+          "You can build control by looking at the wall as soon as you surface.",
+          "Your exit will feel safer if you use both hands and bring one knee up at a time.",
+          "A helpful next step is to practise each part of the sequence slowly.",
+          "Staying relaxed after you land will help you surface in control.",
+          "Practising with an instructor nearby will help you feel secure."
         ] },
       { label: "Sideways entry into deep water wearing a PFD",
         praise: [
           "You entered deep water sideways in your lifejacket with control and came back up to the surface calmly.",
           "Your sideways entry into deep water was confident, and your lifejacket kept you up as you came back to the surface.",
           "You looked more comfortable with each sideways entry and stayed relaxed once you were in the water.",
-          "A controlled entry and a calm return to the surface showed your growing comfort with sideways entries in a lifejacket."
+          "A controlled entry and a calm return to the surface showed your growing comfort with sideways entries in a lifejacket.",
+          "You sat at the edge, turned and entered deep water sideways in your lifejacket with control.",
+          "You let your lifejacket hold you up and stayed relaxed after the entry.",
+          "Your balance was steady, and you surfaced calmly.",
+          "You held the edge with both hands as you lowered your body into the water.",
+          "Each entry looked smoother than the last.",
+          "You showed growing confidence entering deep water in a lifejacket."
         ],
         critique: [
           "You are working on your sideways entry into deep water, so go in with control and come back up to the surface calmly.",
           "Your sideways entry in a lifejacket is still developing, so practise a slow, steady entry from the edge into deep water.",
-          "You are reminded to stay in control as you enter sideways, then come back up to the surface and move safely to the side."
+          "You are reminded to stay in control as you enter sideways, then come back up to the surface and move safely to the side.",
+          "You are still learning the sideways entry, so hold the edge firmly while you turn.",
+          "Your entry will improve if you lower yourself slowly rather than dropping in.",
+          "You can build confidence by taking a calm breath before each entry.",
+          "Your balance will improve if you keep your body close to the wall.",
+          "A helpful next step is to practise the entry with an instructor close by.",
+          "Checking that your lifejacket is snug before you enter will help you feel secure.",
+          "Letting the lifejacket hold you up will help you relax in the deep water."
         ] },
       { label: "Tread water (30 sec.) wearing a PFD",
         praise: [
           "You treaded water for the full 30 seconds in your lifejacket, staying upright with your mouth and nose above the water.",
           "Your hands moved in small circles to hold you up, and your steady kick kept you in place while you treaded.",
           "Staying upright and relaxed with your mouth and nose above the water, you treaded in your lifejacket with confidence.",
-          "You showed solid stamina by combining a steady kick with small hand circles while treading water."
+          "You showed solid stamina by combining a steady kick with small hand circles while treading water.",
+          "You treaded water in your lifejacket for the full 30 seconds with your head up.",
+          "You moved your hands in small circles and kept a steady kick going.",
+          "You stayed relaxed and breathed evenly throughout.",
+          "Your mouth and nose stayed above the water the whole time.",
+          "A steady rhythm showed that you understand how to hold your position.",
+          "You finished the time with energy to spare."
         ],
         critique: [
           "You are working on treading for a full 30 seconds in your lifejacket, so stay upright with your mouth and nose above the water.",
           "Your treading is still developing, so try moving your hands in small circles to stay up and keep your kick steady.",
-          "A helpful next step is to stay upright, move your hands in small circles, and keep kicking so your mouth and nose stay above the water the whole time."
+          "A helpful next step is to stay upright, move your hands in small circles, and keep kicking so your mouth and nose stay above the water the whole time.",
+          "You are still building your treading time, so keep your body upright and your head above the water.",
+          "Your hand circles will help you stay up if you keep them small and quick.",
+          "You can build stamina by kicking steadily and breathing slowly as you tread.",
+          "Your treading will improve as you relax your shoulders.",
+          "A helpful next step is to add a few seconds to each attempt.",
+          "Practising near the wall will help you feel secure while you work on your rhythm.",
+          "Keeping your legs moving even when you feel tired will help you finish the time."
         ] },
       { label: "Submerge and exhale (10 times) with full face submerged",
         praise: [
           "You went under and blew out ten times with your whole face in the water, keeping your breathing slow and steady.",
           "Your blowing out underwater was relaxed and even across all ten tries, with your face fully under each time.",
           "Your breath control was strong across ten tries, with your face under the water and a slow, steady release of air.",
-          "You looked comfortable and confident going under ten times without rushing."
+          "You looked comfortable and confident going under ten times without rushing.",
+          "You went under ten times, blowing out slowly with your whole face in the water.",
+          "You kept a steady breathing rhythm from the first try to the last.",
+          "Your breath control was strong, and you stayed relaxed throughout.",
+          "You looked comfortable and unhurried underwater.",
+          "You repeated the skill smoothly without pausing.",
+          "Your breathing stayed even and controlled across all ten tries."
         ],
         critique: [
           "You are working on keeping your whole face under the water and blowing out steadily on each of the ten tries.",
           "Your underwater breathing is still developing, so try a slow, steady breath out before you come back up to the surface.",
-          "A helpful next step is to take a breath, put your whole face under, and blow out in a relaxed way on every try."
+          "A helpful next step is to take a breath, put your whole face under, and blow out in a relaxed way on every try.",
+          "You are still building a steady rhythm, so take a quick breath at the top and a slow breath out below.",
+          "Your breath control will improve as you keep your whole face under the water.",
+          "You can build endurance by counting each try aloud.",
+          "Your breathing will feel easier if you relax your shoulders.",
+          "A helpful next step is to blow out for as long as your face is under the water.",
+          "Humming gently underwater will help you let the air out evenly.",
+          "Practising at the wall will help you stay relaxed while you repeat the skill."
         ] },
       { label: "Recovering an object from the bottom in chest-deep water",
         praise: [
           "You picked up an object from the bottom in chest-deep water with your eyes open, then came back up calmly.",
           "Your object pick-up was controlled, and you found the object underwater and brought it to the surface with confidence.",
           "Opening your eyes underwater and staying relaxed helped you pick up the object from the bottom.",
-          "You went under with confidence and came back up to the surface calmly while holding the object."
+          "You went under with confidence and came back up to the surface calmly while holding the object.",
+          "You took a breath, opened your eyes underwater and picked up the object from the bottom.",
+          "You went down in chest-deep water, found the object and came back up smoothly.",
+          "You stayed relaxed underwater and surfaced with the object in hand.",
+          "You showed strong confidence reaching the bottom without hesitating.",
+          "Keeping your eyes open helped you locate the object quickly.",
+          "You returned to the surface calmly and held the object firmly."
         ],
         critique: [
           "You are working on putting your whole face under, opening your eyes, and reaching the bottom to pick up the object.",
           "Your object pick-up is still developing, so practise going under in a controlled way and coming back up calmly.",
-          "You are reminded to keep your eyes open underwater, take a breath before you go under, and come back up to the surface calmly with the object."
+          "You are reminded to keep your eyes open underwater, take a breath before you go under, and come back up to the surface calmly with the object.",
+          "You are still working on recovering the object, so open your eyes underwater to find it.",
+          "Your technique will improve if you take a full breath before you go down.",
+          "You can build skill by bending your knees and reaching down to the bottom.",
+          "Your confidence will grow with practice in shallower water first.",
+          "A helpful next step is to keep your eyes on the object while you reach.",
+          "Blowing a few bubbles on the way down will help you stay calm underwater.",
+          "Coming up slowly once you have the object will help you stay in control."
         ] },
       { label: "Whip kick in a vertical position (15-30 sec.) with aid",
         praise: [
           "You did whip kick while upright in the water, with your feet flexed and your ankles kicking out and back in a stretched-out position.",
           "Your whip kick was steady and controlled with your feet flexed, and the floating aid helped you stay upright.",
           "Keeping your feet flexed and your kick going, you stayed upright using whip kick for the whole time.",
-          "You kept your whip kick controlled without flutter kicking in between, finishing each kick stretched out."
+          "You kept your whip kick controlled without flutter kicking in between, finishing each kick stretched out.",
+          "You held an upright whip kick with a floating aid, keeping your feet flexed.",
+          "You kicked your ankles out and back and stayed in one spot.",
+          "Your kick was controlled and showed growing coordination.",
+          "You avoided flutter kicking between kicks and kept your rhythm even.",
+          "You stayed upright and relaxed for the full time.",
+          "You finished each kick stretched out, which kept your movements clean."
         ],
         critique: [
           "You are working on keeping your feet flexed and kicking your ankles out and back in a stretched-out position during whip kick.",
           "Your whip kick is still developing, so try kicking without any flutter kicking in between.",
-          "A helpful next step is to flex your feet, kick your ankles out and back, and finish each kick stretched out while you stay upright with the floating aid."
+          "A helpful next step is to flex your feet, kick your ankles out and back, and finish each kick stretched out while you stay upright with the floating aid.",
+          "You are still learning the whip kick, so keep your feet flexed on every kick.",
+          "Your kick will improve as you move your ankles out and then back together.",
+          "You can build power by finishing each kick with your legs long and straight.",
+          "Your rhythm will feel steadier if you practise slowly while holding the wall.",
+          "A helpful next step is to avoid flutter kicking in between each whip kick.",
+          "Staying upright with your head above the water will help you hold your position.",
+          "Practising the leg movement while sitting at the pool edge will help you feel the pattern."
         ] },
       { label: "Front crawl or back crawl (10-15 m)",
         praise: [
           "You swam front crawl or back crawl with your arms moving one after the other, bringing each arm over the water and pulling it through the water.",
           "Your kick stayed steady and came from your hips, and your arms kept moving one after the other as you swam.",
           "On front crawl, you turned your head to the side to breathe when your arm came up, then put your face back in the water with your arm.",
-          "You swam in a calm, controlled way, with a relaxed body and a kick that supported your arms."
+          "You swam in a calm, controlled way, with a relaxed body and a kick that supported your arms.",
+          "You swam 10-15 m of front crawl or back crawl with your arms taking turns and a steady kick.",
+          "You turned your head to breathe as your arm came up and returned your face to the water.",
+          "You kept a relaxed, steady rhythm from the start of the swim to the finish.",
+          "Your kick supported your arms and kept your body flat.",
+          "You blew bubbles underwater and breathed smoothly on front crawl.",
+          "On back crawl, you kept your hips high and your head still."
         ],
         critique: [
           "You are working on keeping your arms moving one after the other without stopping, bringing each arm over the water and pulling it through the water.",
           "Your front crawl breathing is still developing, so turn your head to the side to breathe when your arm comes up, then put your face back in the water with your arm.",
-          "A helpful next step on back crawl is to push your hips up and kick with a slight bend in your knees, pointing your toes."
+          "A helpful next step on back crawl is to push your hips up and kick with a slight bend in your knees, pointing your toes.",
+          "You are still working on your arm rhythm, so keep your arms moving one after the other.",
+          "Your breathing will improve if you turn your head only as your arm comes up.",
+          "You can build your kick by pointing your toes and kicking from your hips.",
+          "Your stroke will feel smoother if you stay relaxed and avoid rushing.",
+          "A helpful next step on front crawl is to keep your face in the water between breaths.",
+          "Looking at the bottom of the pool will help you keep your head in line with your body.",
+          "Pushing your tummy up toward the surface on back crawl will help you stay flat."
         ] },
       { label: "Interval training: 4 x 9-12 m flutter kick with 10-15 sec. rests",
         praise: [
           "You finished all four flutter kick repeats with a strong, steady kick and recovered well during each short rest.",
           "Your kick stayed steady and came from your hips across all four repeats.",
           "You kept an even pace through the interval set, with a slight bend in your knees on every repeat.",
-          "Finishing four repeats with only short rests showed your improving stamina and steady kicking."
+          "Finishing four repeats with only short rests showed your improving stamina and steady kicking.",
+          "You finished all four flutter kick repeats and used each rest to recover.",
+          "You kept your kick steady and even from the first repeat to the last.",
+          "You kicked from your hips with a slight bend in your knees each time.",
+          "Your pacing was sensible, and you finished the set with energy left.",
+          "Your breathing settled quickly during each rest.",
+          "You showed growing stamina across the four repeats."
         ],
         critique: [
           "You are working on finishing all four repeats with a strong, steady flutter kick that starts at your hips.",
           "Your interval kicking is still developing, so keep your kick going without stopping for the whole distance of every repeat.",
-          "A helpful next step is to use each short rest to recover, then start the next repeat kicking from your hips with a slight bend in your knees."
+          "A helpful next step is to use each short rest to recover, then start the next repeat kicking from your hips with a slight bend in your knees.",
+          "You are still building stamina for the set, so start at a pace you can hold across all four repeats.",
+          "Your kick will stay steadier if you keep it going without stopping.",
+          "You can use each rest to breathe slowly and prepare for the next repeat.",
+          "Your kicking will improve as you relax your ankles and kick from your hips.",
+          "A helpful next step is to keep your face in the water and blow bubbles while you kick.",
+          "Pacing yourself will help you finish the last repeat as strongly as the first.",
+          "Counting your breaths during the rest will help you recover."
         ] },
       { label: "Active participation in Water Smart messages",
         praise: [
           "You took an active part in the Water Smart talks and shared thoughtful ideas about staying safe in and around the water.",
           "Your answers in the Water Smart messages showed you understand how to make safe choices at the pool and beyond.",
           "You showed strong awareness of water safety by answering questions and giving examples in the Water Smart talks.",
-          "Joining in the Water Smart messages with interest showed that you understand why these safety habits matter."
+          "Joining in the Water Smart messages with interest showed that you understand why these safety habits matter.",
+          "You joined the Water Smart talks and shared thoughtful ideas about staying safe near water.",
+          "You answered questions with clear examples from your own experience.",
+          "You showed a strong understanding of why safe habits matter at the pool and beyond.",
+          "You took part with interest and connected each message to everyday situations.",
+          "Your answers showed that you can make safe choices around water.",
+          "You explained the safety messages in your own words."
         ],
         critique: [
           "You are encouraged to join the Water Smart talks by answering questions and sharing an example of safe behaviour.",
           "Your Water Smart participation is still developing, so try describing how you would stay safe around water.",
-          "You are reminded to join in the Water Smart talks and explain a safety message in your own words."
+          "You are reminded to join in the Water Smart talks and explain a safety message in your own words.",
+          "You are still getting familiar with the Water Smart messages, so try to explain each one in your own words.",
+          "Your understanding will grow as you think of an example for each message.",
+          "You can build your knowledge by talking about these messages with friends and family.",
+          "Your answers will improve if you describe when you would use each safety habit.",
+          "A helpful next step is to answer at least one question in each safety talk.",
+          "Looking for water safety signs will help you connect the messages to real life.",
+          "Describing how you would stay safe near open water will help you remember each message."
         ] }
     ]
   },
@@ -245,96 +492,200 @@ Object.assign(LEVEL_DATA, {
           "You did a forward roll into deep water in your lifejacket with control and came back up to the surface calmly.",
           "Your forward roll entry was smooth and confident, and your lifejacket held you up as you came back to the surface.",
           "A controlled roll into the water and a calm return to the surface showed your growing comfort with forward roll entries.",
-          "You stayed calm once you were in the water after a safe, controlled forward roll."
+          "You stayed calm once you were in the water after a safe, controlled forward roll.",
+          "You rolled forward into deep water in your lifejacket and surfaced with control.",
+          "You tucked your chin and kept your body compact during the roll.",
+          "You let your lifejacket hold you up and stayed relaxed afterward.",
+          "Your roll was smooth and unhurried, showing growing confidence.",
+          "You found the surface easily and looked around calmly.",
+          "You moved safely to the side after surfacing."
         ],
         critique: [
           "You are working on rolling into the water with control and coming back up to the surface calmly in your lifejacket.",
           "Your forward roll entry is still developing, so practise a slow, steady roll from the edge.",
-          "You are reminded to stay in control as you roll into deep water, then come back up to the surface and move safely to the side."
+          "You are reminded to stay in control as you roll into deep water, then come back up to the surface and move safely to the side.",
+          "You are still learning the forward roll entry, so tuck your chin and roll slowly from the edge.",
+          "Your roll will improve if you keep your knees close to your chest.",
+          "You can build confidence by practising the roll in shallower water first.",
+          "Your return to the surface will feel smoother if you stay relaxed after the roll.",
+          "A helpful next step is to look for the wall as soon as you surface.",
+          "Taking a calm breath at the edge will help you feel ready to roll.",
+          "Letting your lifejacket lift you will help you come up in control."
         ] },
       { label: "Tuck jump (cannonball) into deep water",
         praise: [
           "You did a tuck jump into deep water with confidence, bringing your knees up as you entered and coming back up to the surface calmly.",
           "Your cannonball entry was well timed and controlled, and you came back up to the surface calmly.",
           "A confident jump and a calm return to the surface were clear strengths in your tuck jumps.",
-          "You stayed relaxed and calm as you came back up after each tuck jump into deep water."
+          "You stayed relaxed and calm as you came back up after each tuck jump into deep water.",
+          "You jumped high, pulled your knees up and entered the water in a tight tuck.",
+          "You timed the jump well and surfaced calmly.",
+          "Your cannonball was compact and controlled.",
+          "You stayed relaxed as you came back up after each jump.",
+          "You showed strong confidence in deep water, jumping in again and again.",
+          "You kept your body tucked until you entered the water."
         ],
         critique: [
           "You are working on your tuck jump into deep water, so jump with control and come back up to the surface calmly.",
           "Your tuck jump is still developing, so practise a confident jump with your knees pulled up and a calm return to the surface.",
-          "A helpful next step is to stay in control as you jump into deep water, then come back up and move safely to the side."
+          "A helpful next step is to stay in control as you jump into deep water, then come back up and move safely to the side.",
+          "You are still learning the tuck jump, so pull your knees tightly toward your chest.",
+          "Your jump will improve if you jump strongly upward before you tuck.",
+          "You can build confidence by practising the tuck from a low height first.",
+          "Your entry will feel more controlled if you hold your tuck until you enter the water.",
+          "A helpful next step is to kick up to the surface calmly after the jump.",
+          "Wrapping your arms around your knees will help you stay compact.",
+          "Looking ahead during the jump will help you stay balanced."
         ] },
       { label: "Tread water (30-60 sec.)",
         praise: [
           "You treaded water for the full time, staying upright with your mouth and nose above the water throughout.",
           "Your hands moved in small circles and your steady kick kept you balanced and relaxed while treading.",
           "Staying upright with a steady kick, you built impressive stamina treading water on your own.",
-          "You treaded with confidence, using your hands and legs together to keep your mouth and nose above the water."
+          "You treaded with confidence, using your hands and legs together to keep your mouth and nose above the water.",
+          "You treaded water for the full time with your head up and your body upright.",
+          "You kept a steady kick going and moved your hands in small, even circles.",
+          "You stayed relaxed and breathed evenly throughout.",
+          "Your mouth and nose stayed above the water the whole time.",
+          "You showed strong stamina, holding the same rhythm from start to finish.",
+          "A smooth, steady technique helped you save energy."
         ],
         critique: [
           "You are working on building your treading time, so stay upright with your mouth and nose above the water.",
           "Your treading for 30 to 60 seconds is still developing, so try moving your hands in small circles and keeping a steady kick.",
-          "A helpful next step is to stay upright, move your hands in small circles, and keep your kick steady so your mouth and nose stay above the water for the full time."
+          "A helpful next step is to stay upright, move your hands in small circles, and keep your kick steady so your mouth and nose stay above the water for the full time.",
+          "You are still building your treading time, so keep your body upright and your head above the water.",
+          "Your hand circles will help you stay up if you keep them small and quick.",
+          "You can build stamina by kicking steadily and breathing slowly as you tread.",
+          "Your treading will improve as you relax your shoulders.",
+          "A helpful next step is to add a few seconds to each attempt.",
+          "Keeping your legs moving even when you feel tired will help you finish the time.",
+          "Practising near the wall will help you feel secure while you work on your rhythm."
         ] },
       { label: "Handstand in shallow water (hands on bottom, feet off bottom, head submerged)",
         praise: [
           "You did a handstand in shallow water with your hands on the bottom, your feet off the bottom, and your head under the water.",
           "Your handstand showed solid control, with your hands planted on the bottom and your feet lifted clear while your head stayed under the water.",
           "Staying calm with your head under the water, you lifted your feet off the bottom and held a steady handstand.",
-          "You looked confident balancing on your hands in shallow water with your head fully under."
+          "You looked confident balancing on your hands in shallow water with your head fully under.",
+          "You placed your hands on the bottom, lifted your feet and held a handstand with your head under.",
+          "You stayed balanced and returned to standing with control.",
+          "A steady handstand showed that you are calm and comfortable underwater.",
+          "You kept your legs straight and still while your head was submerged.",
+          "You showed strong body awareness, holding the position without wobbling.",
+          "You looked relaxed and in control throughout."
         ],
         critique: [
           "You are working on placing your hands on the bottom, lifting your feet off the bottom, and keeping your head under the water.",
           "Your handstand is still developing, so practise lifting your feet off the bottom while you stay calm underwater.",
-          "A helpful next step is to keep your head under and your hands on the bottom as you lift your feet up for the handstand."
+          "A helpful next step is to keep your head under and your hands on the bottom as you lift your feet up for the handstand.",
+          "You are still learning the handstand, so place your hands firmly on the bottom first.",
+          "Your balance will improve if you lift your feet slowly while keeping your head under.",
+          "You can build skill by practising a tuck position before extending your legs.",
+          "Your handstand will feel steadier if you look at the bottom of the pool.",
+          "A helpful next step is to take a breath before going down to stay relaxed.",
+          "Practising near the wall will help you feel secure.",
+          "Keeping your body straight will help you hold the position longer."
         ] },
       { label: "Swim to Survive: roll entry into deep water, tread 30 sec., and swim 25 m",
         praise: [
           "You moved through the roll entry, 30 seconds of treading, and the 25 m swim in the right order without stopping.",
           "Your roll entry flowed straight into treading water and then into your swim, and you stayed calm through the sequence.",
           "You looked confident linking the roll entry, the tread, and the 25 m swim without stopping between skills.",
-          "Moving smoothly through each part of the Swim to Survive sequence showed your growing stamina and water confidence."
+          "Moving smoothly through each part of the Swim to Survive sequence showed your growing stamina and water confidence.",
+          "You completed the roll entry, 30 seconds of treading and the 25 m swim in order.",
+          "You stayed calm from the roll to the treading and kept going into the swim.",
+          "You moved from one skill to the next without stopping or losing your rhythm.",
+          "You showed strong determination and finished the sequence with energy left.",
+          "You kept your head up while treading and settled into a steady stroke.",
+          "Linking each skill showed your growing stamina and confidence."
         ],
         critique: [
           "You are working on moving through the roll entry, 30 seconds of treading, and the 25 m swim without stopping between skills.",
           "Your Swim to Survive sequence is still developing, so keep your mouth and nose above the water while treading before you start your swim.",
-          "A helpful next step is to move straight from the roll entry into treading water, then into your 25 m swim, staying calm and relaxed."
+          "A helpful next step is to move straight from the roll entry into treading water, then into your 25 m swim, staying calm and relaxed.",
+          "You are still learning to link the skills, so practise each part on its own first.",
+          "Your sequence will improve if you keep your mouth and nose above the water while treading.",
+          "You can build stamina by repeating the sequence a few times each session.",
+          "Your transition will feel smoother if you move straight from treading into your stroke.",
+          "A helpful next step is to take a calm breath after the roll.",
+          "Choosing a comfortable pace for the swim will help you save energy.",
+          "Practising the order of the skills will help you move through them without hesitating."
         ] },
       { label: "Front crawl (15-25 m)",
         praise: [
           "You swam front crawl with a steady kick from your hips and arms that moved one after the other.",
           "Your breathing was controlled, with your head turned to the side when your arm came up and your face back in the water with your arm.",
           "Looking down and blowing bubbles, you kept a relaxed body over the whole distance.",
-          "Your arms and kick worked well together to keep you moving forward in a smooth, steady front crawl."
+          "Your arms and kick worked well together to keep you moving forward in a smooth, steady front crawl.",
+          "You swam 15-25 m of front crawl with your arms taking turns and a steady kick from your hips.",
+          "You turned your head to breathe as your arm came up and returned your face to the water with your arm.",
+          "You blew bubbles underwater and kept your body flat and relaxed.",
+          "Your arms and legs worked together to keep you moving smoothly.",
+          "You showed strong coordination and a steady rhythm.",
+          "You finished the distance without stopping and with control."
         ],
         critique: [
           "You are working on turning your head to the side to breathe when your arm comes up, then putting your face back in the water with your arm.",
           "Your front crawl is still developing, so kick from your hips with a slight bend in your knees, looking down and blowing bubbles.",
-          "A helpful next step is to keep your arms moving one after the other, bringing each arm over the water, so your swimming stays smooth."
+          "A helpful next step is to keep your arms moving one after the other, bringing each arm over the water, so your swimming stays smooth.",
+          "You are still working on your breathing, so turn your head only as your arm comes up.",
+          "Your stroke will improve if you put your face back in the water with your arm.",
+          "You can build your kick by kicking from your hips with a slight bend in your knees.",
+          "Your front crawl will feel smoother if you keep your arms moving without pausing.",
+          "A helpful next step is to practise your breathing with a kickboard.",
+          "Looking down at the bottom will help you keep your head in line with your body.",
+          "Staying relaxed will help you keep a steady rhythm for the full distance."
         ] },
       { label: "Back crawl (15-25 m)",
         praise: [
           "You swam back crawl with your arms moving one after the other, keeping a steady pace over the whole distance.",
           "Your kick stayed strong with a slight bend in your knees and pointed toes, and your hips stayed up near the top of the water.",
           "You looked relaxed on back crawl, with your ears in the water and your tummy pushed up to stay close to the top of the water.",
-          "A steady arm action and a steady flutter kick carried you smoothly down the pool on your back."
+          "A steady arm action and a steady flutter kick carried you smoothly down the pool on your back.",
+          "You swam 15-25 m of back crawl with your arms taking turns and your ears in the water.",
+          "You pushed your hips up and kicked with pointed toes.",
+          "Your head stayed still and your body stayed flat.",
+          "You kept a steady, relaxed rhythm from start to finish.",
+          "A strong kick supported your arms and kept you moving forward.",
+          "You showed solid control, keeping your body near the surface."
         ],
         critique: [
           "You are working on keeping your arms moving one after the other without stopping on back crawl.",
           "Your back crawl kick is still developing, so push your hips up and kick with a slight bend in your knees, pointing your toes.",
-          "A helpful next step is to push your tummy up to the surface to stay as close to the top of the water as possible while you swim on your back."
+          "A helpful next step is to push your tummy up to the surface to stay as close to the top of the water as possible while you swim on your back.",
+          "You are still working on your arm rhythm, so keep your arms moving one after the other.",
+          "Your kick will improve if you push your hips up and point your toes.",
+          "You can build your technique by keeping your head still with your ears in the water.",
+          "Your stroke will feel smoother if you stay relaxed and avoid rushing.",
+          "A helpful next step is to push your tummy up toward the surface.",
+          "Looking up at the ceiling will help you keep your body flat.",
+          "Practising the arm movement slowly will help you find a steady rhythm."
         ] },
       { label: "Active participation in Water Smart messages",
         praise: [
           "You joined in the Water Smart talks with enthusiasm and shared practical ideas for staying safe near pools, lakes, and rivers.",
           "Your answers in the Water Smart messages showed you understand how to make safe choices at the pool and in open water.",
           "You showed strong awareness of water safety by answering questions and giving real-life examples in the Water Smart talks.",
-          "Taking part in the Water Smart messages with interest showed that you understand why safe habits around water matter."
+          "Taking part in the Water Smart messages with interest showed that you understand why safe habits around water matter.",
+          "In the Water Smart talks, you offered practical suggestions for staying safe around pools, lakes and rivers.",
+          "You answered questions with clear, real-life examples.",
+          "You showed a strong understanding of why safe habits matter around water.",
+          "You took part with interest and connected each message to everyday situations.",
+          "Your answers showed that you can make safe choices in open water.",
+          "You explained the safety messages in your own words."
         ],
         critique: [
           "You are encouraged to join the Water Smart talks by answering questions and sharing one way you stay safe around water.",
           "Your Water Smart participation is still developing, so try describing how you would stay safe near open water.",
-          "You are reminded to explain each Water Smart safety message in your own words, using an example from your own life."
+          "You are reminded to explain each Water Smart safety message in your own words, using an example from your own life.",
+          "You are still getting familiar with the Water Smart messages, so try to explain each one in your own words.",
+          "Your understanding will grow as you think of an example for each message.",
+          "You can build your knowledge by talking about these messages with friends and family.",
+          "Your answers will improve if you describe when you would use each safety habit.",
+          "A helpful next step is to answer at least one question in each safety talk.",
+          "Looking for water safety signs will help you connect the messages to real life.",
+          "Describing how you would stay safe near open water will help you remember each message."
         ] }
     ]
   },
@@ -346,96 +697,200 @@ Object.assign(LEVEL_DATA, {
           "You did a standing dive into deep water with confidence, going in head first and coming back up to the surface calmly.",
           "Your standing dive showed a stretched-out, straight body as you entered, and your return to the surface was calm and controlled.",
           "You went in head first with control, showing a confident standing dive into deep water.",
-          "A steady, controlled dive and a relaxed return to the surface were clear strengths in your standing dives."
+          "A steady, controlled dive and a relaxed return to the surface were clear strengths in your standing dives.",
+          "You stood at the edge, stretched your arms overhead and dove into deep water with a smooth, straight line.",
+          "You kept your head between your arms and entered cleanly.",
+          "Your dive was controlled, and you surfaced calmly.",
+          "You leaned forward slowly and pushed off with control.",
+          "Staying long and straight from take-off to entry showed strong body control.",
+          "You surfaced calmly and returned to the wall with a steady kick."
         ],
         critique: [
           "You are working on your standing dive, so enter the water head first, stretched out long and straight, and come back up to the surface calmly.",
           "Your standing dive into deep water is still developing, so practise a slow, steady entry from the edge.",
-          "A helpful next step is to stay in control as you dive into deep water, then come back up calmly and move safely to the side."
+          "A helpful next step is to stay in control as you dive into deep water, then come back up calmly and move safely to the side.",
+          "You are still learning the standing dive, so squeeze your arms against your ears to keep your head tucked.",
+          "Your dive will improve if you lean forward slowly and let your hands lead.",
+          "You can build confidence by practising from a kneeling position first.",
+          "Your entry will feel smoother if you look at the water just ahead of your hands.",
+          "A helpful next step is to stretch your legs out long once you leave the edge.",
+          "Relaxing your body at the edge will help you enter in a straight line.",
+          "Pushing off gently with your legs will help you slide in rather than drop."
         ] },
       { label: "Forward roll entry into deep water with controlled return to surface",
         praise: [
           "You did a forward roll into deep water with confidence and came back up to the surface calmly.",
           "Your forward roll entry was smooth and well controlled, and you came back to the surface calmly.",
           "A controlled roll into the water followed by a relaxed return to the surface showed your comfort with forward roll entries.",
-          "You stayed composed as you came back up after a safe forward roll into deep water."
+          "You stayed composed as you came back up after a safe forward roll into deep water.",
+          "You rolled forward into deep water, tucked and surfaced with control.",
+          "You kept your body compact and relaxed during the roll.",
+          "Your roll was smooth and unhurried, showing strong confidence.",
+          "You found the surface easily and looked around calmly.",
+          "You stayed relaxed and in control from the edge to the surface.",
+          "You moved safely to the side after surfacing."
         ],
         critique: [
           "You are working on a controlled forward roll into the water, followed by a calm return to the surface.",
           "Your forward roll entry is still developing, so practise a steady roll from the edge and come back up to the surface calmly.",
-          "You are reminded to stay in control as you roll into deep water, then come back up and move safely to the side."
+          "You are reminded to stay in control as you roll into deep water, then come back up and move safely to the side.",
+          "You are still refining the forward roll entry, so tuck your chin and roll slowly from the edge.",
+          "Your roll will improve if you keep your knees close to your chest.",
+          "You can build confidence by practising the roll in shallower water first.",
+          "Your return to the surface will feel smoother if you stay relaxed after the roll.",
+          "A helpful next step is to look for the wall as soon as you surface.",
+          "Taking a calm breath at the edge will help you feel ready to roll.",
+          "Staying tucked through the roll will help you rotate smoothly."
         ] },
       { label: "Tread water (1-2 min.)",
         praise: [
           "You treaded water for a long time, staying upright with your mouth and nose above the water throughout.",
           "Your hands moved in small circles and your steady kick kept you balanced and relaxed for the whole time.",
           "Staying upright and calm, you built excellent stamina treading water for one to two minutes.",
-          "You treaded with confidence, using your hands and legs together to stay in place without effort."
+          "You treaded with confidence, using your hands and legs together to stay in place without effort.",
+          "You treaded water for one to two minutes with your head up and your body upright.",
+          "You kept a steady kick going and moved your hands in small, even circles.",
+          "You stayed relaxed and breathed evenly throughout.",
+          "Your mouth and nose stayed above the water the whole time.",
+          "You showed strong stamina, holding the same rhythm from start to finish.",
+          "A smooth, steady technique helped you save energy."
         ],
         critique: [
           "You are working on building toward two minutes of treading by staying upright with your mouth and nose above the water.",
           "Your treading for one to two minutes is still developing, so try moving your hands in small circles and keeping a steady kick.",
-          "A helpful next step is to stay upright, move your hands in small circles, and keep your kick steady so your mouth and nose stay above the water as you tire."
+          "A helpful next step is to stay upright, move your hands in small circles, and keep your kick steady so your mouth and nose stay above the water as you tire.",
+          "You are still building your treading time, so keep your body upright and your head above the water.",
+          "Your hand circles will help you stay up if you keep them small and quick.",
+          "You can build stamina by kicking steadily and breathing slowly as you tread.",
+          "Your treading will improve as you relax your shoulders.",
+          "A helpful next step is to add a few seconds to each attempt.",
+          "Keeping your legs moving even when you feel tired will help you finish the time.",
+          "Practising near the wall will help you feel secure while you work on your rhythm."
         ] },
       { label: "Front somersault in the water",
         praise: [
           "You did a front somersault in the water with a tucked, controlled roll and a calm return to the surface.",
           "Your front somersault showed solid control, and you stayed relaxed underwater as you rolled forward.",
           "Tucking your body and rolling forward with control, you showed a confident front somersault.",
-          "A smooth roll underwater and a calm return to the surface were clear strengths in your front somersault."
+          "A smooth roll underwater and a calm return to the surface were clear strengths in your front somersault.",
+          "You tucked your chin and knees and rolled over in a smooth front somersault.",
+          "You stayed in a tight ball all the way around and finished balanced.",
+          "A calm, controlled somersault showed that you are comfortable upside down underwater.",
+          "You blew out gently underwater and rolled over without hurrying.",
+          "You surfaced relaxed and ready for the next skill.",
+          "You kept your body compact and found your balance quickly afterward."
         ],
         critique: [
           "You are working on tucking your body and rolling forward with control during your front somersault, staying calm underwater.",
           "Your front somersault is still developing, so practise a smooth roll forward followed by a calm return to the surface.",
-          "You are reminded to stay relaxed as you roll forward in the water and to come back up to the surface calmly when the somersault is done."
+          "You are reminded to stay relaxed as you roll forward in the water and to come back up to the surface calmly when the somersault is done.",
+          "You are still refining the front somersault, so pull your knees in close to your chest.",
+          "Your somersault will improve if you tuck your chin down before you roll.",
+          "You can build comfort by blowing out gently through your nose.",
+          "Your rotation will feel smoother if you start with a small push from the bottom.",
+          "A helpful next step is to practise a slow, tight tuck first.",
+          "Staying relaxed will help you complete a full rotation.",
+          "Keeping your body small and round will help you roll all the way around."
         ] },
       { label: "Whip kick on back (10-15 m)",
         praise: [
           "You did whip kick on your back with your feet flexed, kicking your ankles out and back in a stretched-out position.",
           "Your whip kick on your back was steady and controlled, and you moved smoothly along without flutter kicking in between.",
           "Keeping your feet flexed and your kick going, you travelled the full distance on your back using whip kick.",
-          "You kept your whip kick relaxed and controlled, with each kick finishing in a stretched-out position."
+          "You kept your whip kick relaxed and controlled, with each kick finishing in a stretched-out position.",
+          "You swam 10-15 m of whip kick on your back with your feet flexed and your ankles moving out and back.",
+          "You kept your ears in the water and stayed relaxed.",
+          "A smooth whip kick showed that you are building coordination and control.",
+          "You paused briefly after each kick and avoided flutter kicking in between.",
+          "You held the same rhythm for the full distance.",
+          "You finished each kick with your legs together in a stretched-out position."
         ],
         critique: [
           "You are working on keeping your feet flexed and kicking your ankles out and back in a stretched-out position during whip kick on your back.",
           "Your whip kick on your back is still developing, so try kicking without any flutter kicking in between.",
-          "A helpful next step is to flex your feet, kick your ankles out and back, and finish each kick stretched out as you travel on your back."
+          "A helpful next step is to flex your feet, kick your ankles out and back, and finish each kick stretched out as you travel on your back.",
+          "You are still refining the whip kick, so keep your feet flexed on every kick.",
+          "Your kick will improve if you bring your legs together and pause after each one.",
+          "You can build power by finishing each kick with your legs long and straight.",
+          "Your rhythm will feel steadier if you practise slowly while holding the wall.",
+          "A helpful next step is to avoid flutter kicking in between each whip kick.",
+          "Keeping your head still will help you stay balanced on your back.",
+          "Pushing your tummy up toward the surface will help you travel further with each kick."
         ] },
       { label: "Canadian Swim to Survive Standard: roll entry into deep water, tread 1 min., and swim 50 m",
         praise: [
           "You moved through the roll entry, one minute of treading, and the 50 m swim of the Canadian Swim to Survive Standard in the right order.",
           "Your roll entry led straight into treading water and then into your swim, showing control and calm from start to finish.",
           "You showed confidence and stamina linking the roll entry, the one minute tread, and the 50 m swim without stopping.",
-          "Moving smoothly through each part of the Swim to Survive Standard showed your growing stamina and water confidence."
+          "Moving smoothly through each part of the Swim to Survive Standard showed your growing stamina and water confidence.",
+          "You completed the roll entry, one minute of treading and the 50 m swim in order.",
+          "You stayed calm from the roll to the treading and kept going into the swim.",
+          "You moved from one skill to the next without stopping or losing your rhythm.",
+          "You showed strong determination and finished the sequence with energy left.",
+          "You kept your head up while treading and settled into a steady stroke.",
+          "Linking each skill showed your growing stamina and confidence."
         ],
         critique: [
           "You are working on moving through the roll entry, one minute of treading, and the 50 m swim without stopping between skills.",
           "Your Swim to Survive Standard is still developing, so keep your mouth and nose above the water while treading before you start the swim.",
-          "A helpful next step is to move straight from the roll entry into treading water, then into your 50 m swim, staying calm and relaxed."
+          "A helpful next step is to move straight from the roll entry into treading water, then into your 50 m swim, staying calm and relaxed.",
+          "You are still refining the Standard, so practise each part on its own first.",
+          "Your sequence will improve if you keep your mouth and nose above the water while treading.",
+          "You can build stamina by repeating the sequence a few times each session.",
+          "Your transition will feel smoother if you move straight from treading into your stroke.",
+          "A helpful next step is to take a calm breath after the roll.",
+          "Choosing a comfortable pace for the swim will help you save energy.",
+          "Practising the order of the skills will help you move through them without hesitating."
         ] },
       { label: "Front crawl and back crawl (50-100 m)",
         praise: [
           "You swam front crawl and back crawl over a long distance with your arms moving one after the other and a steady kick from your hips.",
           "Your breathing on front crawl was controlled, with your head turned to the side when your arm came up and your face back in the water with your arm.",
           "On back crawl, your arms kept moving one after the other, and your tummy stayed up to keep you close to the top of the water.",
-          "You showed strong stamina and relaxed technique, keeping a steady pace over the whole distance on both strokes."
+          "You showed strong stamina and relaxed technique, keeping a steady pace over the whole distance on both strokes.",
+          "You swam 50-100 m of front crawl and back crawl with your arms taking turns and a steady kick.",
+          "You turned your head to breathe as your arm came up on front crawl.",
+          "You kept your tummy up on back crawl and stayed near the surface.",
+          "You held a smooth rhythm across the whole distance on both strokes.",
+          "Your stamina showed in the way you kept your technique to the end.",
+          "You paced your swims sensibly and finished with energy left."
         ],
         critique: [
           "You are working on turning your head to the side to breathe when your arm comes up on front crawl, then putting your face back in the water with your arm.",
           "Your back crawl arms are still developing, so keep them moving one after the other without stopping.",
-          "You will keep improving by kicking from your hips with a slight bend in your knees on front crawl, and pointing your toes on back crawl."
+          "You will keep improving by kicking from your hips with a slight bend in your knees on front crawl, and pointing your toes on back crawl.",
+          "You are still building stamina over longer distances, so keep your stroke smooth.",
+          "Your breathing will improve if you turn your head only as your arm comes up on front crawl.",
+          "You can build your back crawl by keeping your arms moving one after the other.",
+          "Your kick will stay stronger if you kick from your hips and point your toes.",
+          "A helpful next step is to choose a comfortable pace and hold it for the full distance.",
+          "Swimming a little further each session will help you build endurance.",
+          "Relaxing your shoulders will help you keep a steady rhythm."
         ] },
       { label: "Active participation in Water Smart messages",
         praise: [
           "You took an active role in the Water Smart talks and offered thoughtful ideas about safe choices in, on, and around the water.",
           "Your comments in the Water Smart messages showed you understand how to stay safe in pools, lakes, and rivers.",
           "You showed mature awareness of water safety by explaining the Water Smart messages and sharing examples from your own experience.",
-          "Engaging with each Water Smart message and sharing examples showed that you understand how safe habits protect you and others."
+          "Engaging with each Water Smart message and sharing examples showed that you understand how safe habits protect you and others.",
+          "In the Water Smart talks, you put forward thoughtful ideas for making safe choices near, on and in the water.",
+          "You answered questions with clear examples from your own experience.",
+          "You showed a mature understanding of why safe habits protect you and others.",
+          "You took part with interest and connected each message to everyday situations.",
+          "Your answers showed that you can make safe choices in pools, lakes and rivers.",
+          "You explained the safety messages in your own words."
         ],
         critique: [
           "You are encouraged to take an active part in the Water Smart talks by answering questions and explaining how you would use each message.",
           "Your Water Smart participation is still developing, so try describing how you would help others stay safe.",
-          "You are reminded to join in the Water Smart talks and put each safety message into your own words."
+          "You are reminded to join in the Water Smart talks and put each safety message into your own words.",
+          "You are still getting familiar with the Water Smart messages, so try to explain each one in your own words.",
+          "Your understanding will grow as you think of an example for each message.",
+          "You can build your knowledge by talking about these messages with friends and family.",
+          "Your answers will improve if you describe how you would help others stay safe.",
+          "A helpful next step is to answer at least one question in each safety talk.",
+          "Looking for water safety signs will help you connect the messages to real life.",
+          "Describing how you would stay safe near open water will help you remember each message."
         ] }
     ]
   },
@@ -447,60 +902,125 @@ Object.assign(LEVEL_DATA, {
           "You swam front crawl and back crawl over a long distance with a smooth body roll and a pull slightly wider than your body.",
           "Your body roll and wider pull made your strokes long and smooth, with your arms moving one after the other on both strokes.",
           "Turning your head to the side to breathe when your arm came up, then putting your face back in with your arm, kept your front crawl relaxed and steady.",
-          "You showed strong stamina and polished technique, with a steady kick from your hips supporting your arms on both strokes."
+          "You showed strong stamina and polished technique, with a steady kick from your hips supporting your arms on both strokes.",
+          "Across 50-100 m of front crawl and back crawl, your body roll stayed smooth and your pull travelled slightly wide.",
+          "You kept your arms taking turns and your kick steady on both strokes.",
+          "A long, smooth body roll helped you glide with each stroke.",
+          "You breathed to the side as your arm came up on front crawl and kept your body in line.",
+          "You showed strong stamina and polished technique.",
+          "You held the same rhythm from the first length to the last."
         ],
         critique: [
           "You are working on adding a smooth body roll to your front crawl and back crawl, with a pull slightly wider than your body.",
           "Your front crawl breathing is still developing, so turn your head to the side when your arm comes up and put your face back in the water with your arm.",
-          "A helpful next step is to keep your arms moving one after the other on back crawl and kick from your hips with a slight bend in your knees."
+          "A helpful next step is to keep your arms moving one after the other on back crawl and kick from your hips with a slight bend in your knees.",
+          "You are still refining your body roll, so let your shoulders and hips rotate together.",
+          "Your front crawl will improve if you turn your head to breathe only as your arm comes up.",
+          "You can build your back crawl by keeping your arms moving one after the other.",
+          "Your pull will feel stronger if it travels slightly wider than your body.",
+          "A helpful next step is to kick from your hips with a slight bend in your knees.",
+          "Relaxing your shoulders will help you keep a steady rhythm.",
+          "Practising the body roll slowly will help you find a smooth pattern."
         ] },
       { label: "Interval training: 4 x 50 m front or back crawl with 30 sec. rests",
         praise: [
           "You finished all four 50 m repeats with a steady, even stroke and recovered well during each 30 second rest.",
           "Your pace stayed controlled across the whole interval set, and your stroke stayed smooth from the first repeat to the last.",
           "You showed strong stamina through the interval training, keeping your arms moving one after the other and your kick steady each time.",
-          "Using the rests to recover and then starting each repeat with a relaxed, steady stroke showed your improved stamina."
+          "Using the rests to recover and then starting each repeat with a relaxed, steady stroke showed your improved stamina.",
+          "You swam four 50 m repeats and used each 30-second rest to recover.",
+          "You kept your stroke steady and even from the first repeat to the last.",
+          "Your kick supported your arms and kept your body flat on every repeat.",
+          "Your pacing was sensible, and you finished the set with energy left.",
+          "You showed strong stamina across the whole interval set.",
+          "Your breathing settled quickly during each rest."
         ],
         critique: [
           "You are working on finishing all four 50 m repeats with a smooth, steady stroke and a steady kick from your hips.",
           "Your interval swimming is still developing, so keep your arms moving one after the other for the whole distance of each repeat.",
-          "A helpful next step is to use each 30 second rest to recover, then begin the next repeat with a relaxed, steady stroke."
+          "A helpful next step is to use each 30 second rest to recover, then begin the next repeat with a relaxed, steady stroke.",
+          "You are still building stamina for the set, so start at a pace you can hold across all four repeats.",
+          "Your stroke will stay smoother if you keep your arms moving one after the other.",
+          "You can use each rest to breathe slowly and prepare for the next repeat.",
+          "Your kicking will improve as you relax your ankles and kick from your hips.",
+          "A helpful next step is to count your strokes so you stay consistent.",
+          "Pacing yourself will help you finish the last repeat as strongly as the first.",
+          "Focusing on a smooth stroke will help you hold your technique when you feel tired."
         ] },
       { label: "Sprint (25-50 m) front crawl, back crawl, or breaststroke",
         praise: [
           "You sprinted the distance as fast as you could, with a strong kick and quick arms.",
           "Your sprint showed power and control, and your stroke stayed tidy as your speed went up.",
           "Keeping a strong kick and fast arms, you showed a confident, energetic sprint over the whole distance.",
-          "You put in excellent effort in your sprint, swimming the distance as fast as possible while keeping your technique under control."
+          "You put in excellent effort in your sprint, swimming the distance as fast as possible while keeping your technique under control.",
+          "You sprinted with powerful, quick arms and a strong kick.",
+          "You kept your technique tidy even at top speed.",
+          "You gave a strong effort and kept your body flat.",
+          "Your push-off from the wall gave you a fast start.",
+          "A confident, energetic sprint showed your growing strength.",
+          "You swam the whole distance without losing your stroke."
         ],
         critique: [
           "You are working on swimming the sprint distance as fast as possible, with a strong kick and arms that keep moving.",
           "Your sprint is still developing, so keep your arms moving one after the other as you speed up.",
-          "A helpful next step is to keep your technique under control as you speed up, kicking from your hips with a slight bend in your knees."
+          "A helpful next step is to keep your technique under control as you speed up, kicking from your hips with a slight bend in your knees.",
+          "You are still learning to sprint without losing your technique, so keep your arms moving one after the other.",
+          "Your speed will improve if you kick from your hips with a slight bend in your knees.",
+          "You can build power by pushing off the wall strongly.",
+          "Your sprint will feel smoother if you breathe at regular points.",
+          "A helpful next step is to practise short, fast bursts with rest in between.",
+          "Keeping your head still will help you stay streamlined.",
+          "Staying relaxed will help you hold your speed to the finish."
         ] },
       { label: "Workout: 300 m combining a warm-up, front crawl and back crawl sets, and a cool-down",
         praise: [
           "You finished the 300 m workout with a relaxed warm-up, steady front crawl and back crawl sets, and a calm cool-down.",
           "Your workout showed steady pacing and stamina, and your technique stayed smooth from the warm-up to the cool-down.",
           "You showed strong stamina by moving through each part of the 300 m workout in order.",
-          "Keeping a steady pace through your front crawl and back crawl sets, you finished the whole workout calmly."
+          "Keeping a steady pace through your front crawl and back crawl sets, you finished the whole workout calmly.",
+          "You completed the 300 m workout, moving through the warm-up, the sets and the cool-down in order.",
+          "You paced your effort across the whole workout and finished strongly.",
+          "Your technique stayed smooth from the first length to the last.",
+          "A steady rhythm and regular breathing carried you through each set.",
+          "You showed strong stamina and discipline.",
+          "You finished with a calm, relaxed cool-down."
         ],
         critique: [
           "You are working on moving through the 300 m workout in order, with a warm-up, front crawl and back crawl sets, and a cool-down.",
           "Your 300 m workout is still developing, so pace your effort so your stroke stays steady through each set.",
-          "A helpful next step is to keep your arms moving one after the other and your kick steady as you move from the warm-up into the sets and the cool-down."
+          "A helpful next step is to keep your arms moving one after the other and your kick steady as you move from the warm-up into the sets and the cool-down.",
+          "You are still building stamina for the workout, so choose a pace you can hold for each set.",
+          "Your technique will stay smoother if you keep your arms moving one after the other.",
+          "You can build endurance by keeping your kick steady throughout.",
+          "Your pacing will improve if you check your effort at the end of each set.",
+          "A helpful next step is to use the warm-up to find a comfortable rhythm.",
+          "Using the cool-down to relax your stroke will help you recover.",
+          "Focusing on a smooth stroke will help you hold your technique when you feel tired."
         ] },
       { label: "Water Smart messages: Swim with a Buddy, Wear a Lifejacket, Check the Ice, Swim to Survive, Within Arms' Reach",
         praise: [
           "You took an active part in the Water Smart talks and explained each of the five safety messages with understanding.",
           "Your thoughtful answers about each Water Smart message showed you understand how to stay safe around pools, lakes, and ice.",
           "You showed strong awareness of water safety by explaining how a buddy, a lifejacket, checking the ice, and staying within arms' reach protect people.",
-          "Taking part in the Water Smart messages with interest and real examples showed that you understand why these safety habits matter."
+          "Taking part in the Water Smart messages with interest and real examples showed that you understand why these safety habits matter.",
+          "In the Water Smart talks, you talked through all five safety messages and showed that you understood each one.",
+          "You gave clear, practical examples for each message.",
+          "You showed a strong awareness of how a buddy, a lifejacket and checking the ice protect people.",
+          "You joined the discussion with interest and connected each message to real situations.",
+          "Your answers showed that you can make safe choices in pools, lakes and on ice.",
+          "You explained the safety messages in your own words."
         ],
         critique: [
           "You are encouraged to join the Water Smart talks and explain all five safety messages in your own words.",
           "Your Water Smart knowledge is still developing, so try describing when you would wear a lifejacket and how you would check the ice.",
-          "You are reminded to share an example of each Water Smart message, including swimming with a buddy and staying within arms' reach."
+          "You are reminded to share an example of each Water Smart message, including swimming with a buddy and staying within arms' reach.",
+          "You are still getting familiar with all five Water Smart messages, so try to explain each one in your own words.",
+          "Your understanding will grow as you think of an example for each message.",
+          "You can build your knowledge by talking about these messages with friends and family.",
+          "Your answers will improve if you describe how you would check the ice.",
+          "A helpful next step is to answer at least one question in each safety talk.",
+          "Looking for water safety signs will help you connect the messages to real life.",
+          "Describing when you would wear a lifejacket will help you remember each message."
         ] }
     ]
   }

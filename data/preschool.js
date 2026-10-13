@@ -7,108 +7,225 @@ Object.assign(LEVEL_DATA, {
           "{S} entered the water feet first, moving slowly and staying in control each time.",
           "{S} stayed calm and steady while getting into the water feet first.",
           "Getting into the pool feet first came naturally to {S}, who moved safely and carefully every time.",
-          "Entering feet first with care, {S} showed {their} understanding of how to stay safe at the pool."
+          "Entering feet first with care, {S} showed {their} understanding of how to stay safe at the pool.",
+          "{S} sat at the edge and slid in feet first, moving with care every time.",
+          "{S} took a breath, turned to the wall and lowered {their} feet into the water with control.",
+          "Every entry was slow and steady, and {S} understood that feet first is the safe way to get in.",
+          "{S} showed strong habits at the pool edge by entering feet first and waiting until {their} body was steady.",
+          "With calm, careful movements, {S} slipped into the water feet first and stayed close to the wall.",
+          "{S} entered feet first each time without rushing, a sign of growing pool safety awareness."
         ],
         critique: [
           "{S} {is} still working on getting into the water feet first and {is} encouraged to go slowly and stay close to the edge.",
           "A helpful next step for {S} is to practise slow feet-first entries, keeping {their} movements calm and controlled.",
-          "{S} will keep improving by waiting until {their} body feels steady before moving away from the edge."
+          "{S} will keep improving by waiting until {their} body feels steady before moving away from the edge.",
+          "{S} {is} still learning to enter feet first at a slow pace, and sitting on the edge before sliding in will help.",
+          "{S} will keep improving by holding the edge with both hands as {their} feet go into the water.",
+          "Taking a calm breath before each entry will help {S} keep {their} movements slow and controlled.",
+          "{S} can build control by repeating the same careful entry each time, with the instructor close by.",
+          "A helpful routine for {S} is to sit, turn, then lower {their} feet in first before letting go of the edge.",
+          "{S} {is} working toward steady feet-first entries, and pausing for a moment once {their} feet touch the water will help.",
+          "Practising slow entries at home near the bath or a paddling pool can help {S} understand how to go in feet first."
         ] },
       { label: "Jump into chest-deep water (assisted)",
         praise: [
           "With help from the instructor, {S} jumped into chest-deep water with confidence and a real willingness to try.",
           "{S} showed growing courage by jumping into chest-deep water with support and looked happy doing it.",
           "{S} felt comfortable with the water up to {their} chest and jumped in happily with the instructor close by.",
-          "A relaxed jump into chest-deep water with support showed how comfortable {S} {is} becoming in the pool."
+          "A relaxed jump into chest-deep water with support showed how comfortable {S} {is} becoming in the pool.",
+          "{S} jumped into chest-deep water holding the instructor's hands and landed with a big smile.",
+          "{S} bent {their} knees and jumped in happily, trusting the instructor to stay close.",
+          "Jumping into chest-deep water with support was something {S} enjoyed and wanted to repeat.",
+          "{S} showed courage at the edge and jumped in without hesitating.",
+          "{S} landed on {their} feet and looked pleased after each assisted jump.",
+          "With the instructor's hands for support, {S} jumped in confidently and stayed calm."
         ],
         critique: [
           "{S} {is} still building confidence jumping into chest-deep water and {is} encouraged to take a calm moment before each jump.",
           "A helpful next step for {S} is to practise short jumps from the edge with the instructor close by.",
-          "{S} will keep improving by holding the instructor's hands and jumping in when ready."
+          "{S} will keep improving by holding the instructor's hands and jumping in when ready.",
+          "{S} {is} still building confidence jumping into chest-deep water, and taking a deep breath at the edge before each jump will help.",
+          "{S} will keep improving by jumping from a seated position at the edge before trying from standing.",
+          "Holding the instructor's hands and counting to three together will help {S} feel ready to jump.",
+          "{S} can build confidence by watching a friend jump first, then trying with support.",
+          "A helpful next step for {S} is to practise bending {their} knees and landing on both feet.",
+          "{S} {is} working toward jumping in with ease, and short, repeated jumps with plenty of encouragement will help.",
+          "Starting with smaller jumps into shallower water will help {S} build up to chest-deep water."
         ] },
       { label: "Balance recovered following entry",
         praise: [
           "{S} found {their} balance quickly after jumping in and stood steadily before moving on.",
           "{S} stayed calm and steady on {their} feet after every entry.",
           "Standing up steadily after each entry came easily to {S}, who stayed calm and settled in the water.",
-          "Finding steady footing after each entry was a strength for {S}, who stayed relaxed in the water."
+          "Finding steady footing after each entry was a strength for {S}, who stayed relaxed in the water.",
+          "{S} landed from the jump and quickly stood upright, steady on {their} feet.",
+          "After every entry, {S} planted {their} feet and stood tall without wobbling.",
+          "{S} regained {their} balance quickly and was ready for the next step right away.",
+          "Standing steadily after a jump came easily to {S}, who stayed calm in the water.",
+          "{S} found {their} footing right away, using {their} arms to stay balanced.",
+          "{S} recovered from each entry with a steady stance and a relaxed face."
         ],
         critique: [
           "{S} {is} still working on finding {their} balance after jumping in and {is} encouraged to pause and steady {their} body before moving.",
           "A helpful next step for {S} is to practise entries with the instructor close by for extra support.",
-          "{S} will keep improving by staying relaxed after entering and reaching for support if needed while finding steady footing."
+          "{S} will keep improving by staying relaxed after entering and reaching for support if needed while finding steady footing.",
+          "{S} {is} still working on standing steadily after an entry, and spreading {their} arms out to the sides for balance will help.",
+          "{S} will keep improving by planting {their} feet apart after landing and pausing before moving.",
+          "A helpful next step for {S} is to reach for the instructor's hands when {S} feels unsteady.",
+          "{S} can build balance by practising standing up in shallow water after a small hop.",
+          "Taking a moment to find {their} footing before walking away from the edge will help {S}.",
+          "{S} {is} working toward steady balance after entry, and pushing {their} feet flat on the bottom will help.",
+          "Bending {their} knees slightly on landing will help {S} stay upright in the water."
         ] },
       { label: "Face fully submerged with bubble blowing",
         praise: [
           "{S} put {their} whole face in the water and blew bubbles with confidence.",
           "{S} looked relaxed with {their} face in the water and blew bubbles steadily.",
           "Putting {their} face fully in the water and blowing bubbles was a highlight for {S}, who looked very comfortable.",
-          "Blowing bubbles with {their} whole face in the water came easily to {S}, who showed growing comfort underwater."
+          "Blowing bubbles with {their} whole face in the water came easily to {S}, who showed growing comfort underwater.",
+          "{S} lowered {their} whole face into the water and blew a stream of bubbles.",
+          "{S} showed growing comfort by putting {their} face fully underwater and blowing bubbles.",
+          "Bubbles came easily to {S}, who kept {their} face in the water and looked relaxed.",
+          "{S} blew bubbles again and again, clearly enjoying having {their} face in the water.",
+          "With {their} whole face in the water, {S} made bubbles that bubbled up all around {their} mouth.",
+          "{S} put {their} face in without hesitation and blew bubbles for several seconds."
         ],
         critique: [
           "{S} {is} still getting used to having {their} whole face in the water and {is} encouraged to blow bubbles, starting with a short time and building up.",
           "A helpful next step for {S} is to practise blowing bubbles at bath time with {their} face in the water.",
-          "{S} will keep improving by keeping {their} face in the water and blowing out through {their} mouth."
+          "{S} will keep improving by keeping {their} face in the water and blowing out through {their} mouth.",
+          "{S} {is} still getting used to having {their} whole face in the water, and starting with just {their} mouth and nose will help.",
+          "{S} will keep improving by taking a breath in, then putting {their} face in and blowing bubbles.",
+          "Practising bubbles in a bowl of water or at bath time will help {S} feel more comfortable.",
+          "{S} can build up gradually, trying a few seconds more with {their} face in the water each lesson.",
+          "A helpful next step for {S} is to blow bubbles while the instructor does too, so {S} can copy.",
+          "{S} {is} working toward keeping {their} whole face in the water, and keeping {their} eyes on a toy will help.",
+          "Humming while {their} face is in the water will help {S} blow out steadily."
         ] },
       { label: "Controlled exhalation underwater",
         praise: [
           "{S} blew out slowly underwater and made a smooth stream of bubbles with a relaxed face.",
           "{S} blew bubbles slowly and evenly rather than all at once, a sign of growing breath control.",
           "A smooth stream of bubbles underwater showed how well {S} could control {their} breathing out.",
-          "A slow, steady breath out underwater showed how comfortable {S} {is} becoming with {their} face in the water."
+          "A slow, steady breath out underwater showed how comfortable {S} {is} becoming with {their} face in the water.",
+          "{S} blew out slowly underwater and made a long, even line of bubbles.",
+          "{S} kept bubbles coming for the whole time {their} face was underwater.",
+          "Breathing out gently underwater, {S} showed strong breath control and a calm face.",
+          "{S} did not rush {their} breath, blowing out steadily from start to finish.",
+          "A smooth, steady stream of bubbles showed that {S} understands how to breathe out underwater.",
+          "{S} controlled {their} breathing nicely, pacing the bubbles evenly while underwater."
         ],
         critique: [
           "{S} {is} still learning to blow out slowly underwater and {is} encouraged to keep {their} face in the water and make a long, steady stream of bubbles.",
           "A helpful next step for {S} is to practise making long, slow bubbles with {their} face in the water.",
-          "{S} will keep improving by blowing bubbles gently and steadily underwater rather than letting all the air out at once."
+          "{S} will keep improving by blowing bubbles gently and steadily underwater rather than letting all the air out at once.",
+          "{S} {is} still learning to blow out slowly underwater, and imagining blowing out a birthday candle will help.",
+          "{S} will keep improving by saving some air so bubbles last the whole time {their} face is in.",
+          "Humming a long note underwater will help {S} pace {their} breath.",
+          "{S} can build breath control by blowing bubbles at a floating toy for as long as possible.",
+          "A helpful next step for {S} is to take a big breath in first, then blow out in a slow, steady way.",
+          "{S} {is} working toward longer, smoother bubbles, and counting slowly in {their} head while blowing will help.",
+          "Practising slow breaths out at bath time will help {S} get used to the feeling."
         ] },
       { label: "Float on front and back (3 sec. each) with face in water",
         praise: [
           "{S} floated on {their} front and back for 3 seconds each, staying relaxed and still with {their} face in the water on the front.",
           "Calm, still floats on the front and back were a strength for {S}, who held each one for 3 seconds.",
           "{S} stayed relaxed while holding a front float and a back float for 3 seconds each.",
-          "Floating for 3 seconds on the front and on the back showed {S} developing balance and comfort at the surface."
+          "Floating for 3 seconds on the front and on the back showed {S} developing balance and comfort at the surface.",
+          "{S} lay still on the front with {their} face in the water, then floated on the back for the full 3 seconds.",
+          "{S} kept {their} body quiet and relaxed in both floats for 3 seconds.",
+          "Holding steady on the front and the back, {S} showed strong balance at the surface.",
+          "{S} stayed relaxed in both floats and looked comfortable the whole time.",
+          "{S} let {their} body rest on the water and counted along with the instructor for 3 seconds.",
+          "With {their} face in the water on the front and {their} head back on the back, {S} floated calmly in both positions."
         ],
         critique: [
           "{S} {is} still working on front and back floats and {is} encouraged to keep {their} face in the water on the front and push {their} tummy up toward the surface.",
           "On the back float, a helpful next step for {S} is to relax and tilt {their} head back so {their} ears are in the water.",
-          "{S} will keep improving by staying relaxed and keeping {their} body close to the surface while floating for 3 seconds."
+          "{S} will keep improving by staying relaxed and keeping {their} body close to the surface while floating for 3 seconds.",
+          "{S} {is} still working on staying still in front and back floats, and relaxing {their} arms and legs will help.",
+          "{S} will keep improving by taking a breath in before the front float and keeping {their} face in the water.",
+          "Looking up at the ceiling will help {S} lean {their} head back for the back float.",
+          "{S} can build up the floats a second at a time, with the instructor counting beside {S}.",
+          "A helpful next step for {S} is to stretch {their} arms out wide for balance while floating.",
+          "{S} {is} working toward holding each float for 3 seconds, and pushing {their} tummy up toward the surface will help.",
+          "Practising relaxed floats in the bath, with {their} ears resting in the water, will help {S} on the back float."
         ] },
       { label: "Glide on front and back (3 m each), assisted, wearing a PFD",
         praise: [
           "{S} glided 3 metres on {their} front and back with help while wearing a lifejacket, staying relaxed and stretched out long and straight.",
           "{S} travelled 3 metres on the front and the back with the instructor's help, wearing a lifejacket.",
           "With a lifejacket on and the instructor nearby, {S} glided smoothly through the water for 3 metres on {their} front and back.",
-          "Smooth glides of 3 metres on the front and the back showed how relaxed {S} felt wearing a lifejacket."
+          "Smooth glides of 3 metres on the front and the back showed how relaxed {S} felt wearing a lifejacket.",
+          "{S} pushed off the wall wearing a lifejacket and glided 3 metres with {their} body long and straight.",
+          "In a lifejacket, {S} stretched out and glided smoothly on both the front and back.",
+          "{S} stayed relaxed during each assisted glide and travelled the full 3 metres.",
+          "{S} kept {their} arms stretched forward and glided calmly, with the instructor close by.",
+          "With a lifejacket for support, {S} glided through the water with a quiet, steady body.",
+          "{S} showed growing confidence in {their} lifejacket, gliding 3 metres on each side of {their} body."
         ],
         critique: [
           "{S} {is} still working on glides and {is} encouraged to keep {their} arms stretched out in front of {their} head while wearing a lifejacket.",
           "A helpful next step for {S} is to push off gently and keep {their} body close to the surface.",
-          "{S} will keep improving by staying relaxed, keeping {their} face in the water on the front and tilting {their} head back on the back."
+          "{S} will keep improving by staying relaxed, keeping {their} face in the water on the front and tilting {their} head back on the back.",
+          "{S} {is} still learning to glide in a lifejacket, and a gentle push from the wall with {their} arms stretched forward will help.",
+          "{S} will keep improving by looking down at the bottom for the front glide and up at the ceiling for the back glide.",
+          "Squeezing {their} legs together while gliding will help {S} stay long and straight.",
+          "{S} can build glides by pushing off gently and staying still until {their} body slows down.",
+          "A helpful next step for {S} is to practise the shape on land first, standing tall with arms stretched up.",
+          "{S} {is} working toward gliding the full 3 metres, and keeping {their} body flat on the water will help.",
+          "Relaxing {their} head into the water will help {S} keep {their} body in line."
         ] },
       { label: "Safe movement through water forwards, backwards, and sideways (assisted)",
         praise: [
           "{S} moved forwards, backwards and sideways through the water with help, staying safe and in control.",
           "{S} happily changed direction in the water with a helping hand, moving forwards, backwards and sideways.",
           "Moving in different directions with support was a strength for {S}, who stayed calm and controlled.",
-          "Safe, controlled movement in all three directions showed {S} growing more independent in the water."
+          "Safe, controlled movement in all three directions showed {S} growing more independent in the water.",
+          "{S} walked forwards, backwards and sideways in the water and stayed in control each time.",
+          "{S} changed direction easily with the instructor's help and kept {their} balance.",
+          "Moving every which way in the water, {S} showed growing independence and balance.",
+          "{S} followed directions to move forwards, backwards and sideways and smiled throughout.",
+          "{S} stayed steady on {their} feet while changing direction with support.",
+          "Using {their} arms for balance, {S} moved safely in all three directions."
         ],
         critique: [
           "{S} {is} still working on moving in different directions and {is} encouraged to practise going forwards, backwards and sideways in shallow water with help.",
           "A helpful next step for {S} is to try each direction slowly with an adult close by.",
-          "{S} will keep improving by moving slowly and calmly and holding on to support when needed."
+          "{S} will keep improving by moving slowly and calmly and holding on to support when needed.",
+          "{S} {is} still learning to move backwards and sideways in the water, and taking small, slow steps will help.",
+          "{S} will keep improving by holding the wall or the instructor's hand while trying each direction.",
+          "Using {their} arms to help push the water will help {S} change direction with more control.",
+          "{S} can build confidence by practising one direction at a time in shallow water.",
+          "A helpful next step for {S} is to look where {S} is going before moving, which keeps {their} movements safe.",
+          "{S} {is} working toward moving in any direction with control, and turning {their} whole body slowly will help.",
+          "Playing follow-the-leader in shallow water will help {S} practise changing direction."
         ] },
       { label: "Active participation in Water Smart messages",
         praise: [
           "{S} took an active part in the Water Smart messages, listening carefully and joining in the water safety talks.",
           "{S} listened, answered questions and joined in every Water Smart activity with enthusiasm.",
           "Joining in with each Water Smart message showed how much {S} {is} learning about staying safe around water.",
-          "Real interest in learning about water safety was clear as {S} took part in the Water Smart messages."
+          "Real interest in learning about water safety was clear as {S} took part in the Water Smart messages.",
+          "{S} listened carefully to every Water Smart message and answered with confidence.",
+          "{S} joined in the water safety discussions and showed what {S} had learned.",
+          "When asked about water safety, {S} had thoughtful answers and shared them eagerly.",
+          "{S} followed along with each Water Smart activity and clearly understood the message.",
+          "{S} showed pride in what {S} knows about staying safe near water.",
+          "Taking part in the safety talks came naturally to {S}, who listened and joined in."
         ],
         critique: [
           "{S} {is} encouraged to listen closely during the Water Smart messages and join in each activity.",
           "A helpful next step for {S} is to talk about the Water Smart messages at home with family.",
-          "{S} will keep improving by joining in the Water Smart talks and asking and answering questions about staying safe near water."
+          "{S} will keep improving by joining in the Water Smart talks and asking and answering questions about staying safe near water.",
+          "{S} {is} still getting used to joining in the Water Smart messages, and listening for the key words will help.",
+          "{S} will keep improving by raising {their} hand to answer or share an idea during the safety talks.",
+          "Talking about water safety rules at home will help {S} remember what {S} hears at lessons.",
+          "{S} can build understanding by repeating each safety message back to the instructor.",
+          "A helpful next step for {S} is to name one way to stay safe around water at the end of each lesson.",
+          "{S} {is} working toward joining in every Water Smart activity, and watching the instructor's actions will help.",
+          "Spotting water safety signs when out and about will help {S} connect the lessons to real life."
         ] }
     ]
   },
@@ -121,120 +238,250 @@ Object.assign(LEVEL_DATA, {
           "{S} put on a lifejacket correctly on land with a little help and joined in with the fastening.",
           "{S} did up {their} lifejacket on land with help from the instructor and made sure it was snug.",
           "A correctly fitted lifejacket on land showed {S} taking real interest in how to stay safe.",
-          "Putting on a lifejacket on land with help was a strength for {S}, who worked with the instructor to do it up snugly."
+          "Putting on a lifejacket on land with help was a strength for {S}, who worked with the instructor to do it up snugly.",
+          "{S} put on a lifejacket and checked each strap with the instructor, doing the fastenings up snugly.",
+          "{S} worked through the steps of putting on a lifejacket and asked for help only when needed.",
+          "Putting on a lifejacket on land came naturally to {S}, who did up the buckles with care.",
+          "{S} showed a clear understanding of why a lifejacket needs to be snug and secure.",
+          "{S} slipped into the lifejacket and fastened it with a little help, checking that it felt tight.",
+          "{S} took pride in putting on the lifejacket and making sure each strap was done up."
         ],
         critique: [
           "{S} {is} still learning to put on a lifejacket and {is} encouraged to keep practising putting it on and fastening it on land with help.",
           "A helpful next step for {S} is to practise each step with an adult on land before going in the water.",
-          "{S} will keep improving by slowing down and checking with the instructor that every fastening is done up."
+          "{S} will keep improving by slowing down and checking with the instructor that every fastening is done up.",
+          "{S} {is} still learning the steps for putting on a lifejacket, and doing the same steps in the same order each time will help.",
+          "{S} will keep improving by pulling gently on the shoulders of the lifejacket to check that it is snug.",
+          "Practising the buckles and straps at home will help {S} become faster and more confident.",
+          "{S} can build skill by saying each step aloud while putting the lifejacket on.",
+          "A helpful next step for {S} is to ask the instructor to check the fit before every swim.",
+          "{S} {is} working toward fastening the lifejacket with less help, and starting with the bottom buckle will help.",
+          "Practising on land before getting in the water will help {S} get the lifejacket on correctly."
         ] },
       { label: "Enter and exit shallow water wearing a PFD",
         praise: [
           "{S} got into and out of the shallow water safely while wearing a lifejacket, moving with control and confidence.",
           "{S} felt comfortable in {their} lifejacket and moved safely in and out of the shallow end.",
           "Safe entries and exits in shallow water came easily to {S}, who stayed calm in a lifejacket.",
-          "Moving carefully each time, {S} got in and out of the shallow water in a lifejacket."
+          "Moving carefully each time, {S} got in and out of the shallow water in a lifejacket.",
+          "{S} stepped carefully into and out of the shallow end in a lifejacket and stayed in control.",
+          "Wearing a lifejacket, {S} moved safely at the pool edge and stayed calm.",
+          "{S} entered the shallow water in a lifejacket without rushing and exited with care.",
+          "{S} showed strong habits at the edge, using the wall for support while in a lifejacket.",
+          "In a lifejacket, {S} got in and out smoothly and kept a steady pace.",
+          "{S} understood how to move around the pool safely while wearing a lifejacket."
         ],
         critique: [
           "{S} {is} still working on getting in and out of the water in a lifejacket and {is} encouraged to move slowly and carefully.",
           "A helpful next step for {S} is to practise at a calm pace with the instructor nearby.",
-          "{S} will keep improving by taking {their} time and moving carefully when going in and out of the water in a lifejacket."
+          "{S} will keep improving by taking {their} time and moving carefully when going in and out of the water in a lifejacket.",
+          "{S} {is} still working on getting in and out in a lifejacket, and holding the wall with both hands will help.",
+          "{S} will keep improving by sitting at the edge, turning and slipping in before letting go.",
+          "Slowing each step down will help {S} stay safe when entering and exiting in a lifejacket.",
+          "{S} can build control by practising the entry and exit a few times each lesson.",
+          "A helpful next step for {S} is to keep {their} eyes on the edge while climbing out.",
+          "{S} {is} working toward calm, careful entries and exits, and the lifejacket's extra buoyancy will take some getting used to.",
+          "Practising stepping down from the edge with the instructor's hand will help {S} feel secure."
         ] },
       { label: "Jump into chest-deep water",
         praise: [
           "{S} jumped into chest-deep water on {their} own and with confidence, showing growing courage in the pool.",
           "{S} jumped in eagerly without help and stayed calm when entering the water.",
           "A confident jump into chest-deep water on {their} own was a highlight for {S}.",
-          "Jumping in from the edge without help, {S} showed comfort and enthusiasm."
+          "Jumping in from the edge without help, {S} showed comfort and enthusiasm.",
+          "{S} jumped into chest-deep water without help and landed on {their} feet.",
+          "{S} bent {their} knees, took a breath and jumped in confidently.",
+          "Jumping independently into chest-deep water was a clear strength for {S}.",
+          "{S} jumped in from the edge happily and stood up steadily afterward.",
+          "{S} showed courage and determination, jumping in each time without hesitating.",
+          "{S} jumped in with a big smile and a strong, steady landing."
         ],
         critique: [
           "{S} {is} still building confidence jumping into chest-deep water and {is} encouraged to practise jumping in from the edge.",
           "A helpful next step for {S} is to practise short jumps with the instructor nearby, taking a calm moment before each one.",
-          "{S} will keep improving by looking at the instructor and jumping in when ready."
+          "{S} will keep improving by looking at the instructor and jumping in when ready.",
+          "{S} {is} still building confidence to jump alone, and taking a moment to look at the water before jumping will help.",
+          "{S} will keep improving by jumping from a seated position at the edge before trying from standing.",
+          "Bending {their} knees before the jump will help {S} land more steadily.",
+          "{S} can build confidence by jumping near the instructor and then moving a little further away each time.",
+          "A helpful next step for {S} is to watch a classmate jump first and then try.",
+          "{S} {is} working toward jumping in without help, and counting down before each jump will help.",
+          "Starting with a smaller jump into shallower water will help {S} work up to chest-deep water."
         ] },
       { label: "Holding breath underwater (3 sec.)",
         praise: [
           "{S} held {their} breath underwater for 3 seconds and stayed calm with {their} face in the water.",
           "{S} looked relaxed under the water while holding {their} breath for a full 3 seconds.",
           "Holding {their} breath for 3 seconds underwater showed how much breath control {S} has gained.",
-          "A calm 3-second breath hold underwater showed how comfortable {S} {is} becoming with {their} face in the water."
+          "A calm 3-second breath hold underwater showed how comfortable {S} {is} becoming with {their} face in the water.",
+          "{S} took a breath in, put {their} face under and held {their} breath for 3 seconds.",
+          "{S} stayed calm during each 3-second breath hold and surfaced smoothly.",
+          "Holding {their} breath came naturally to {S}, who kept {their} face in the water and stayed still.",
+          "{S} counted to 3 underwater and showed strong control of {their} breath.",
+          "With a big breath in, {S} went under with a relaxed face and held {their} breath well.",
+          "{S} showed growing confidence underwater, holding {their} breath for the full 3 seconds."
         ],
         critique: [
           "{S} {is} still working on holding {their} breath underwater and {is} encouraged to hold it a little longer each time, working up to 3 seconds.",
           "A helpful next step for {S} is to take a big breath in before putting {their} face in the water.",
-          "{S} will keep improving by staying relaxed with {their} face under the water and counting slowly to 3 with an adult."
+          "{S} will keep improving by staying relaxed with {their} face under the water and counting slowly to 3 with an adult.",
+          "{S} {is} still working on holding {their} breath, and taking a big breath in before going under will help.",
+          "{S} will keep improving by holding {their} breath for a second or two longer each time.",
+          "Counting slowly in {their} head while underwater will help {S} reach 3 seconds.",
+          "{S} can build breath holding by playing games, such as seeing how long a toy can stay underwater.",
+          "A helpful next step for {S} is to keep {their} face still and relaxed while holding {their} breath.",
+          "{S} {is} working toward a calm 3-second breath hold, and blowing a few bubbles after the hold will help.",
+          "Practising at bath time with just {their} face in the water will help {S} feel comfortable under the surface."
         ] },
       { label: "Entire body submerged with controlled return to surface",
         praise: [
           "{S} went all the way under the water and came back up to the surface calmly.",
           "{S} stayed relaxed while going fully underwater and rising back up in a smooth, controlled way.",
           "With {their} whole body under the water, {S} came back to the surface smoothly and with confidence.",
-          "Going fully underwater and coming back up calmly showed {S} building real confidence in the water."
+          "Going fully underwater and coming back up calmly showed {S} building real confidence in the water.",
+          "{S} went completely underwater and came back up in a smooth, calm way.",
+          "{S} showed confidence going fully under and rising slowly with a relaxed face.",
+          "With {their} whole body below the surface, {S} stayed relaxed and came up with control.",
+          "{S} bent {their} knees to go down and pushed gently up again, staying steady the whole time.",
+          "{S} was comfortable going under and made {their} return to the surface look easy.",
+          "{S} showed growing control, going under and coming up calmly each time."
         ],
         critique: [
           "{S} {is} still getting used to putting {their} whole body under the water and {is} encouraged to come back up to the surface calmly.",
           "A helpful next step for {S} is to go underwater step by step, blowing bubbles on the way down.",
-          "{S} will keep improving by staying relaxed when going under and coming back up slowly."
+          "{S} will keep improving by staying relaxed when going under and coming back up slowly.",
+          "{S} {is} still getting used to going fully underwater, and bending {their} knees to lower {their} body slowly will help.",
+          "{S} will keep improving by blowing bubbles on the way down and the way up.",
+          "Pushing gently off the bottom will help {S} come back to the surface in a controlled way.",
+          "{S} can build confidence by going under for one second and then a little longer.",
+          "A helpful next step for {S} is to hold the wall while going under, then letting go gradually.",
+          "{S} {is} working toward a calm return to the surface, and looking up toward the light will help.",
+          "Taking a breath in before every dip will help {S} feel ready to go underwater."
         ] },
       { label: "Float on front and back (3 sec. each) wearing a PFD or buoyant aid",
         praise: [
           "Wearing a lifejacket or floating aid, {S} floated on the front and back for 3 seconds each, staying relaxed and still.",
           "{S} held calm, relaxed floats on both the front and back for 3 seconds with the help of a floating aid.",
           "{S} kept {their} body close to the surface while floating for 3 seconds on the front and on the back.",
-          "Relaxed, still floats in both positions were a highlight, as {S} held each one for 3 seconds with a floating aid."
+          "Relaxed, still floats in both positions were a highlight, as {S} held each one for 3 seconds with a floating aid.",
+          "{S} floated on the front and the back for 3 seconds each with the support of a lifejacket and stayed quiet and still.",
+          "With a floating aid, {S} held two calm floats and kept {their} body near the surface.",
+          "{S} relaxed {their} body into the water and floated steadily for the full 3 seconds.",
+          "Floating in both positions with a lifejacket or aid came easily to {S}, who looked at ease.",
+          "{S} showed strong balance and calm in each float.",
+          "{S} stayed relaxed and breathing steadily during both the front and back floats."
         ],
         critique: [
           "{S} {is} still working on front and back floats and {is} encouraged to stay still and keep {their} body close to the surface in a lifejacket or floating aid.",
           "On the front float, a helpful next step for {S} is to keep {their} face in the water and push {their} tummy up toward the surface.",
-          "{S} will keep improving on the back float by relaxing and tilting {their} head back so {their} ears are in the water."
+          "{S} will keep improving on the back float by relaxing and tilting {their} head back so {their} ears are in the water.",
+          "{S} {is} still working on staying still in front and back floats, and relaxing {their} arms and legs will help.",
+          "{S} will keep improving by keeping {their} face in the water on the front float.",
+          "Leaning {their} head back until {their} ears are in the water will help {S} on the back float.",
+          "{S} can build floats by adding a second each time while the instructor counts along.",
+          "A helpful next step for {S} is to push {their} tummy up toward the surface on the back float.",
+          "{S} {is} working toward steady 3-second floats, and slow, calm breathing will help.",
+          "Spreading {their} arms out to the sides will help {S} balance while floating."
         ] },
       { label: "Lateral roll front to back and back to front wearing a PFD or buoyant aid",
         praise: [
           "{S} rolled from front to back and back to front wearing a lifejacket or floating aid, moving with control and ease.",
           "{S} became more aware of {their} body in the water by rolling smoothly in both directions.",
           "With a floating aid for support, {S} confidently turned over from front to back and then back to front.",
-          "A controlled roll between front and back was a strength for {S}, who stayed calm during each turn."
+          "A controlled roll between front and back was a strength for {S}, who stayed calm during each turn.",
+          "{S} rolled from front to back and back to front with a relaxed body.",
+          "In a lifejacket or with a floating aid, {S} turned over smoothly in both directions.",
+          "{S} turned over with a calm face and kept {their} body close to the surface.",
+          "Rolling over came easily to {S}, who stayed steady and looked comfortable.",
+          "{S} showed growing body awareness, rolling over without losing {their} balance.",
+          "With help from a floating aid, {S} rolled from front to back and back again with control."
         ],
         critique: [
           "{S} {is} still working on rolling and {is} encouraged to stay relaxed and roll between front and back slowly, using a lifejacket or floating aid for support.",
           "A helpful next step for {S} is to practise each roll slowly with the instructor nearby.",
-          "{S} will keep improving by staying calm and keeping {their} body close to the surface while rolling in both directions."
+          "{S} will keep improving by staying calm and keeping {their} body close to the surface while rolling in both directions.",
+          "{S} {is} still learning to roll over smoothly, and turning {their} head and shoulders first will help.",
+          "{S} will keep improving by rolling slowly so {their} body stays relaxed.",
+          "Keeping {their} arms by {their} sides while rolling will help {S} stay balanced.",
+          "{S} can build rolling skills by practising one direction at a time.",
+          "A helpful next step for {S} is to take a breath before rolling onto the front.",
+          "{S} {is} working toward smooth rolls in both directions, and keeping {their} body long will help.",
+          "Practising slow rolls with a floating aid will help {S} feel secure."
         ] },
       { label: "Glide on front and back (3 m each) wearing a PFD or buoyant aid",
         praise: [
           "{S} glided 3 metres on both the front and back wearing a lifejacket or floating aid, travelling smoothly with a relaxed body.",
           "{S} pushed off and glided for 3 metres on the front and the back, staying stretched out and still.",
           "Smooth glides of 3 metres in each position showed {S} developing balance with the help of a floating aid.",
-          "Front and back glides over 3 metres went well for {S}, who kept {their} body stretched out long and straight in a lifejacket."
+          "Front and back glides over 3 metres went well for {S}, who kept {their} body stretched out long and straight in a lifejacket.",
+          "{S} pushed off the wall, stretched out and glided 3 metres on the front and on the back.",
+          "With a floating aid, {S} stayed long and quiet and glided in a straight line.",
+          "{S} kept {their} arms stretched forward and travelled smoothly across the water.",
+          "{S} glided with a relaxed body and showed strong balance in both positions.",
+          "A smooth push from the wall carried {S} 3 metres on both the front and the back.",
+          "{S} stayed stretched out and still during each glide, travelling the full distance."
         ],
         critique: [
           "{S} {is} still working on glides and {is} encouraged to keep {their} arms stretched out in front of {their} head while gliding with a lifejacket or floating aid.",
           "A helpful next step for {S} is to keep {their} body close to the surface while gliding 3 metres on the front and back.",
-          "{S} will keep improving by keeping {their} face in the water on the front glide and staying still with {their} head tilted back on the back glide."
+          "{S} will keep improving by keeping {their} face in the water on the front glide and staying still with {their} head tilted back on the back glide.",
+          "{S} {is} still working on gliding, and pushing off the wall firmly with {their} arms stretched forward will help.",
+          "{S} will keep improving by squeezing {their} legs together while gliding.",
+          "Keeping {their} head down between {their} arms will help {S} stay streamlined on the front glide.",
+          "{S} can build glides by pushing off and staying still until the glide ends.",
+          "A helpful next step for {S} is to look at the bottom of the pool when gliding on the front.",
+          "{S} {is} working toward 3-metre glides, and starting with a strong push will help.",
+          "Practising the stretched-out shape on land will help {S} get a feel for the glide."
         ] },
       { label: "Flutter kick on back (5 m) with PFD or buoyant aid",
         praise: [
           "{S} kicked on {their} back for 5 metres with a lifejacket or floating aid, using a steady flutter kick.",
           "{S} kicked from the hips with a slight bend in the knees and travelled 5 metres on {their} back.",
           "A steady flutter kick on the back carried {S} 5 metres while wearing a lifejacket or floating aid.",
-          "Kicking one leg after the other, {S} travelled 5 metres on {their} back with the help of a floating aid."
+          "Kicking one leg after the other, {S} travelled 5 metres on {their} back with the help of a floating aid.",
+          "{S} kicked on the back for 5 metres using loose, steady kicks from the hips.",
+          "{S} kept {their} legs moving one after the other and travelled steadily across the pool.",
+          "With a floating aid, {S} stayed relaxed on the back and kicked all the way.",
+          "{S} kicked with a gentle bend in the knees and kept {their} ears in the water.",
+          "{S} showed growing leg strength, kicking for 5 metres without stopping.",
+          "{S} made small, quick kicks and moved steadily on {their} back."
         ],
         critique: [
           "{S} {is} still working on the flutter kick on the back and {is} encouraged to kick from the hips with a slight bend in the knees.",
           "A helpful next step for {S} is to keep kicking one leg after the other while staying close to the surface.",
-          "{S} will keep improving by relaxing and tilting {their} head back so {their} ears are in the water while kicking toward 5 metres."
+          "{S} will keep improving by relaxing and tilting {their} head back so {their} ears are in the water while kicking toward 5 metres.",
+          "{S} {is} still building the flutter kick on the back, and kicking from the hips with a slight bend in the knees will help.",
+          "{S} will keep improving by keeping {their} toes pointed and {their} legs relaxed.",
+          "Looking at the ceiling will help {S} keep {their} head back and {their} ears in the water.",
+          "{S} can build the kick by practising short distances and gradually going further.",
+          "A helpful next step for {S} is to kick with small splashes at the surface.",
+          "{S} {is} working toward 5 metres of steady kicking, and keeping {their} tummy up toward the surface will help.",
+          "Practising kicks while holding the wall will help {S} feel the movement."
         ] },
       { label: "Maintaining a streamlined, horizontal body position",
         praise: [
           "{S} stayed flat on the water with {their} body stretched out long and straight near the surface.",
           "{S} kept {their} arms stretched out in front and {their} body flat on the water during skills.",
           "Staying stretched out long and straight, {S} kept {their} body close to the surface during skills.",
-          "A flat, stretched-out body position showed how much better {S} {is} getting at controlling {their} body in the water."
+          "A flat, stretched-out body position showed how much better {S} {is} getting at controlling {their} body in the water.",
+          "{S} stayed stretched out and flat on the water throughout the lesson.",
+          "{S} kept {their} body in a long, straight line near the surface.",
+          "With {their} arms in front and {their} legs together, {S} held a neat, streamlined shape.",
+          "{S} showed strong control of {their} body position during floats and glides.",
+          "A flat, relaxed body position helped {S} move easily through the water.",
+          "{S} kept {their} head in line with {their} body and stayed close to the surface."
         ],
         critique: [
           "{S} {is} still working on staying flat on the water and {is} encouraged to keep {their} arms stretched out in front and {their} body close to the surface.",
           "A helpful next step for {S} is to push {their} tummy up toward the surface during floats and glides.",
-          "{S} will keep improving by keeping {their} face in the water on the front and stretching out long and straight."
+          "{S} will keep improving by keeping {their} face in the water on the front and stretching out long and straight.",
+          "{S} {is} still learning to stay flat on the water, and keeping {their} head down will help {S} stay in a straight line.",
+          "{S} will keep improving by squeezing {their} legs together and pointing {their} toes.",
+          "Pushing {their} tummy up toward the surface will help {S} keep {their} hips from sinking.",
+          "{S} can build streamlined position by practising pushing off the wall and holding the shape.",
+          "A helpful next step for {S} is to stretch {their} arms forward and keep {their} face in the water on the front.",
+          "{S} {is} working toward a flat body position, and relaxing {their} body will help.",
+          "Looking at the bottom of the pool will help {S} keep {their} head down."
         ] }
     ]
   },
@@ -247,132 +494,275 @@ Object.assign(LEVEL_DATA, {
           "{S} put on a lifejacket correctly and did it up securely on land, showing confidence with safety gear.",
           "{S} put on and fastened {their} lifejacket on land without any help.",
           "On land, {S} checked that {their} lifejacket was snug after doing it up correctly without help.",
-          "Doing up {their} lifejacket on land without help was a clear strength for {S}, who checked that it fit snugly."
+          "Doing up {their} lifejacket on land without help was a clear strength for {S}, who checked that it fit snugly.",
+          "{S} put on a lifejacket without help and fastened every buckle securely.",
+          "{S} quickly and neatly did up the lifejacket on land and checked that it was snug.",
+          "Putting on a lifejacket independently was easy for {S}, who knew each step.",
+          "{S} showed strong safety habits by checking that the lifejacket was fastened properly.",
+          "{S} did up each strap in order and made sure the lifejacket fit well.",
+          "{S} showed pride in putting on {their} own lifejacket correctly."
         ],
         critique: [
           "{S} {is} still working on putting on a lifejacket alone and {is} encouraged to fasten every part correctly on land without help.",
           "A helpful next step for {S} is to go through each step slowly, then check that the lifejacket is snug.",
-          "{S} will keep improving by taking {their} time on land and making sure the lifejacket is done up before going in the water."
+          "{S} will keep improving by taking {their} time on land and making sure the lifejacket is done up before going in the water.",
+          "{S} {is} still learning to put on a lifejacket alone, and going through the steps in the same order each time will help.",
+          "{S} will keep improving by pulling the shoulders of the lifejacket upward to check it is snug.",
+          "Practising the buckles and straps at home will help {S} do them up faster.",
+          "{S} can build independence by trying each step before asking for help.",
+          "A helpful next step for {S} is to say each step aloud while putting on the lifejacket.",
+          "{S} {is} working toward fastening the lifejacket alone, and starting at the bottom buckle will help.",
+          "Checking the fit with the instructor before each swim will help {S} get it right every time."
         ] },
       { label: "Jump into deep water wearing a PFD, with controlled return to surface and side",
         praise: [
           "{S} jumped into deep water wearing a lifejacket, came back up to the surface calmly and made {their} way confidently to the side.",
           "{S} showed growing courage by jumping into deep water in a lifejacket and then heading back to the side calmly.",
           "A confident jump into deep water in a lifejacket was followed by a calm return to the surface and the side.",
-          "Entering deep water in a lifejacket, {S} came up calmly and made {their} way safely to the side of the pool."
+          "Entering deep water in a lifejacket, {S} came up calmly and made {their} way safely to the side of the pool.",
+          "{S} jumped into deep water in a lifejacket, popped up and swam to the side calmly.",
+          "{S} bounced back to the surface in a lifejacket and made {their} way to the wall.",
+          "Jumping into deep water took courage, and {S} came up smiling and ready to go to the side.",
+          "{S} jumped in confidently and swam to the side with a steady, calm pace.",
+          "{S} stayed relaxed after the jump and moved straight to the side of the pool.",
+          "In a lifejacket, {S} jumped, surfaced and returned to the side without fuss."
         ],
         critique: [
           "{S} {is} still building confidence jumping into deep water and {is} encouraged to stay calm when coming back up to the surface and heading to the side.",
           "A helpful next step for {S} is to practise jumping in with a lifejacket on, taking a calm moment before each jump.",
-          "{S} will keep improving by staying relaxed after the jump and heading calmly back to the side."
+          "{S} will keep improving by staying relaxed after the jump and heading calmly back to the side.",
+          "{S} {is} still building confidence jumping into deep water, and taking a deep breath at the edge will help.",
+          "{S} will keep improving by looking at the wall as soon as {S} returns to the surface.",
+          "Practising the jump with the instructor close by will help {S} feel secure.",
+          "{S} can build confidence by jumping from a seated position first.",
+          "A helpful next step for {S} is to kick and paddle calmly toward the side after surfacing.",
+          "{S} {is} working toward a confident jump, and counting to three before jumping will help.",
+          "Bending {their} knees and keeping {their} arms by {their} sides will help {S} jump in safely."
         ] },
       { label: "Sideways entry wearing a PFD",
         praise: [
           "{S} entered the water sideways wearing a lifejacket, moving with control and staying calm.",
           "{S} felt comfortable in the deeper water and entered sideways in a lifejacket with confidence.",
           "A controlled sideways entry in a lifejacket was a highlight, and {S} moved safely after getting in.",
-          "Staying relaxed and in control, {S} did a sideways entry with a lifejacket on."
+          "Staying relaxed and in control, {S} did a sideways entry with a lifejacket on.",
+          "{S} sat at the edge, turned sideways and slid into deep water in a lifejacket with control.",
+          "{S} entered sideways with confidence, staying in control of {their} body.",
+          "A controlled sideways entry showed that {S} knows how to enter the water safely.",
+          "{S} slipped in sideways and stayed calm, ready for the next step.",
+          "{S} showed strong technique, holding the edge before lowering {their} body into the water.",
+          "{S} moved smoothly into the water sideways and came up with a smile."
         ],
         critique: [
           "{S} {is} still working on the sideways entry and {is} encouraged to practise at a calm pace, staying in control on the way in.",
           "A helpful next step for {S} is to practise entering sideways in a lifejacket with the instructor close by.",
-          "{S} will keep improving by taking a calm moment at the edge and entering sideways slowly."
+          "{S} will keep improving by taking a calm moment at the edge and entering sideways slowly.",
+          "{S} {is} still learning the sideways entry, and sitting on the edge before turning will help.",
+          "{S} will keep improving by holding the wall with both hands while turning and lowering {their} body.",
+          "Practising each part slowly will help {S} stay in control on the way in.",
+          "{S} can build confidence by trying the sideways entry with the instructor close by.",
+          "A helpful next step for {S} is to take a calm breath before sliding in.",
+          "{S} {is} working toward a smooth sideways entry, and keeping {their} body close to the wall will help.",
+          "Taking {their} time at the edge will help {S} feel prepared for each entry."
         ] },
       { label: "Tread water (10 sec.) wearing a PFD with scull support",
         praise: [
           "{S} stayed in one spot for 10 seconds in a lifejacket, moving {their} hands in small circles to help stay up.",
           "{S} stayed calm and upright while treading water for 10 seconds with a lifejacket on.",
           "Moving {their} hands in small circles to stay up, {S} kept afloat in deep water for 10 seconds wearing a lifejacket.",
-          "Keeping afloat for 10 seconds in a lifejacket showed {S} building confidence in deep water."
+          "Keeping afloat for 10 seconds in a lifejacket showed {S} building confidence in deep water.",
+          "{S} stayed in one spot in a lifejacket and moved {their} hands in small, steady circles.",
+          "{S} kept {their} head up and treaded water for the full 10 seconds.",
+          "With {their} hands scooping in little circles, {S} stayed afloat and calm.",
+          "{S} stayed upright and moved {their} legs steadily while treading water.",
+          "{S} showed growing stamina and comfort in deep water for the full 10 seconds.",
+          "Treading water with a lifejacket seemed natural for {S}, who stayed relaxed."
         ],
         critique: [
           "{S} {is} still working on treading water and {is} encouraged to keep moving {their} hands in small circles to stay up for the full 10 seconds.",
           "A helpful next step for {S} is to stay relaxed and keep {their} hands moving steadily while wearing a lifejacket.",
-          "{S} will keep improving by moving {their} legs steadily while {their} hands make small circles to stay up."
+          "{S} will keep improving by moving {their} legs steadily while {their} hands make small circles to stay up.",
+          "{S} {is} still working on treading water, and making small circles with {their} hands out to the sides will help.",
+          "{S} will keep improving by keeping {their} legs moving steadily while {their} hands scull.",
+          "Keeping {their} head up and {their} body upright will help {S} stay in one spot.",
+          "{S} can build stamina by treading water for a little longer each lesson.",
+          "A helpful next step for {S} is to relax {their} shoulders and move {their} hands slowly.",
+          "{S} {is} working toward 10 seconds of treading water, and a steady, rhythmic movement will help.",
+          "Practising the hand circles on land will help {S} get the motion right."
         ] },
       { label: "Open eyes underwater with full face submerged",
         praise: [
           "{S} opened {their} eyes underwater with {their} whole face in the water and looked around calmly.",
           "{S} showed real comfort underwater with {their} eyes open and {their} face fully in the water.",
           "Opening {their} eyes underwater was a clear strength for {S}, who stayed relaxed with {their} whole face in the water.",
-          "Looking around underwater with open eyes, {S} kept {their} whole face in the water with confidence."
+          "Looking around underwater with open eyes, {S} kept {their} whole face in the water with confidence.",
+          "{S} opened {their} eyes underwater and looked around with interest.",
+          "{S} kept {their} whole face in the water and noticed objects below the surface.",
+          "Having {their} eyes open underwater was easy for {S}, who stayed calm and curious.",
+          "{S} showed strong comfort underwater, scanning the pool bottom with open eyes.",
+          "{S} opened {their} eyes wide and watched the bubbles float up around {their} face.",
+          "{S} enjoyed looking around underwater and tried the activity again and again."
         ],
         critique: [
           "{S} {is} still getting comfortable opening {their} eyes underwater and {is} encouraged to keep {their} whole face in the water and blow bubbles while looking around.",
           "A helpful next step for {S} is to take short looks underwater with {their} face in the water, building up slowly.",
-          "{S} will keep improving by staying relaxed and opening {their} eyes for a moment at a time."
+          "{S} will keep improving by staying relaxed and opening {their} eyes for a moment at a time.",
+          "{S} {is} still getting used to opening {their} eyes underwater, and blowing bubbles while looking will help.",
+          "{S} will keep improving by opening {their} eyes for a second and then a little longer each time.",
+          "Looking at a bright toy on the pool bottom will help {S} focus.",
+          "{S} can build comfort by wearing goggles at first and then practising without them.",
+          "A helpful next step for {S} is to keep {their} whole face in the water while opening {their} eyes.",
+          "{S} {is} working toward looking around underwater, and relaxing {their} face will help.",
+          "Practising at bath time by looking at a toy under the water will help {S}."
         ] },
       { label: "Recovering an object from the pool bottom in waist-deep water",
         praise: [
           "{S} picked up an object from the pool bottom in waist-deep water, going under with {their} face in the water and coming back up calmly.",
           "{S} showed real confidence underwater by reaching the pool bottom in waist-deep water to pick up an object.",
           "Going underwater in waist-deep water, picking up an object and coming back up with control was a highlight for {S}.",
-          "Picking up an object from the pool bottom took confidence, and {S} went under calmly and came back up smoothly."
+          "Picking up an object from the pool bottom took confidence, and {S} went under calmly and came back up smoothly.",
+          "{S} went under in waist-deep water, picked up the object from the bottom and came up with it.",
+          "{S} opened {their} eyes underwater and found the object right away.",
+          "Reaching for an object on the bottom was something {S} did with calm and care.",
+          "{S} showed growing confidence underwater and brought the object up with a smile.",
+          "{S} bent {their} knees, reached down and recovered the object smoothly.",
+          "{S} took a breath, went under and returned to the surface with the object in hand."
         ],
         critique: [
           "{S} {is} still working on picking up objects from the bottom and {is} encouraged to go under in waist-deep water, keep {their} eyes open and reach for the object.",
           "A helpful next step for {S} is to practise going underwater in waist-deep water with {their} eyes open.",
-          "{S} will keep improving by taking a breath, going under calmly and reaching for the object before coming back up."
+          "{S} will keep improving by taking a breath, going under calmly and reaching for the object before coming back up.",
+          "{S} {is} still working on recovering an object from the bottom, and opening {their} eyes underwater to find it will help.",
+          "{S} will keep improving by taking a breath in and bending {their} knees before going down.",
+          "Practising with a toy that sinks slowly will help {S} spot it underwater.",
+          "{S} can build confidence by starting with an object in shallower water.",
+          "A helpful next step for {S} is to keep {their} eyes on the object while reaching toward it.",
+          "{S} {is} working toward picking up the object independently, and holding the wall to go down at first will help.",
+          "Blowing a few bubbles while going down will help {S} stay calm underwater."
         ] },
       { label: "Float on front and back (5 sec. each), starting and finishing independently",
         praise: [
           "{S} floated on the front and back for 5 seconds each, starting and finishing both floats without help.",
           "{S} kept {their} body relaxed and close to the surface while holding front and back floats for 5 seconds.",
           "Starting and finishing 5-second floats on the front and back without help showed {S} gaining balance and body control.",
-          "Holding the front and back positions for 5 seconds and moving in and out of each one alone was a strength for {S}."
+          "Holding the front and back positions for 5 seconds and moving in and out of each one alone was a strength for {S}.",
+          "{S} started and finished 5-second floats on both the front and the back without help.",
+          "{S} pushed off on {their} own and floated calmly in each position for 5 seconds.",
+          "Floating independently for 5 seconds showed {S} growing balance and body control.",
+          "{S} relaxed {their} body and kept it quiet during both floats.",
+          "{S} held each float until the count of 5, then stood up calmly on {their} own.",
+          "{S} showed confidence floating without help and stayed close to the surface."
         ],
         critique: [
           "{S} {is} still working on floating alone and {is} encouraged to keep {their} face in the water and push {their} tummy up toward the surface on the front float.",
           "On the back float, a helpful next step for {S} is to relax and tilt {their} head back so {their} ears are in the water for 5 seconds.",
-          "{S} will keep improving by starting and finishing each float without support and keeping {their} body close to the surface."
+          "{S} will keep improving by starting and finishing each float without support and keeping {their} body close to the surface.",
+          "{S} {is} still working on independent floats, and pushing off the wall gently will help {S} start in a steady position.",
+          "{S} will keep improving by keeping {their} face in the water on the front float.",
+          "Leaning {their} head back until {their} ears are in the water will help {S} on the back float.",
+          "{S} can build floats by trying for one more second each time.",
+          "A helpful next step for {S} is to stand up calmly at the end of each float.",
+          "{S} {is} working toward 5-second floats, and relaxing {their} arms and legs will help.",
+          "Pushing {their} tummy up toward the surface will help {S} stay flat on the water."
         ] },
       { label: "Glide on front and back (3 m each) wearing a PFD",
         praise: [
           "{S} glided 3 metres on both the front and the back wearing a lifejacket, staying stretched out and still.",
           "{S} pushed off and travelled 3 metres on the front and on the back with {their} arms stretched out in front.",
           "Smooth glides of 3 metres on the front and back showed {S} staying stretched out long and straight in a lifejacket.",
-          "Front and back glides over 3 metres were a strength, as {S} kept {their} body close to the surface and moved with control."
+          "Front and back glides over 3 metres were a strength, as {S} kept {their} body close to the surface and moved with control.",
+          "{S} pushed off in a lifejacket and glided 3 metres on the front and on the back.",
+          "{S} stretched {their} arms forward and glided in a long, straight line.",
+          "In a lifejacket, {S} glided smoothly and stayed relaxed in both positions.",
+          "{S} kept {their} body quiet and still, gliding the full 3 metres.",
+          "{S} showed strong balance and glided with a flat, steady body.",
+          "{S} made each glide look easy, travelling a long way from one push."
         ],
         critique: [
           "{S} {is} still working on gliding alone and {is} encouraged to keep {their} arms stretched out in front of {their} head while wearing a lifejacket.",
           "A helpful next step for {S} is to keep {their} body close to the surface while gliding 3 metres in a lifejacket.",
-          "{S} will keep improving by keeping {their} face in the water during the front glide and staying still with {their} head tilted back during the back glide."
+          "{S} will keep improving by keeping {their} face in the water during the front glide and staying still with {their} head tilted back during the back glide.",
+          "{S} {is} still working on gliding in a lifejacket, and a strong push off the wall will help.",
+          "{S} will keep improving by keeping {their} arms stretched out in front of {their} head.",
+          "Squeezing {their} legs together will help {S} stay streamlined.",
+          "{S} can build glides by staying still after the push until {their} body slows down.",
+          "A helpful next step for {S} is to put {their} face in the water on the front glide.",
+          "{S} {is} working toward 3-metre glides, and looking down at the bottom of the pool will help.",
+          "Practising the long, straight shape on land will help {S} feel what to do in the water."
         ] },
       { label: "Lateral roll front to back and back to front wearing a PFD",
         praise: [
           "{S} rolled from front to back and back to front in a lifejacket, moving with control and a relaxed body.",
           "{S} rolled smoothly and with control in both directions, showing growing awareness of {their} body in the water.",
           "Wearing a lifejacket, {S} confidently turned from the front onto the back and then from the back onto the front.",
-          "Rolling between front and back was a highlight for {S}, who stayed calm and relaxed through each turn."
+          "Rolling between front and back was a highlight for {S}, who stayed calm and relaxed through each turn.",
+          "{S} rolled from front to back and back to front in a lifejacket with a calm body.",
+          "{S} turned over smoothly in both directions and kept {their} face relaxed.",
+          "Rolling over came naturally to {S}, who stayed in control of {their} body.",
+          "{S} showed strong body awareness, turning over without losing {their} balance.",
+          "{S} rolled with ease and returned to a flat position each time.",
+          "Wearing a lifejacket, {S} turned from front to back and back again, looking comfortable throughout."
         ],
         critique: [
           "{S} {is} still working on rolling and {is} encouraged to roll between front and back slowly and with control while wearing a lifejacket.",
           "A helpful next step for {S} is to practise each roll in both directions, keeping {their} body close to the surface.",
-          "{S} will keep improving by staying relaxed and keeping {their} face in the water on the front side of each roll."
+          "{S} will keep improving by staying relaxed and keeping {their} face in the water on the front side of each roll.",
+          "{S} {is} still working on smooth rolls, and turning {their} head and shoulders first will help.",
+          "{S} will keep improving by rolling slowly and staying relaxed.",
+          "Keeping {their} arms close to {their} sides will help {S} stay balanced while rolling.",
+          "{S} can build rolling by practising one direction at a time.",
+          "A helpful next step for {S} is to take a breath before rolling onto the front.",
+          "{S} {is} working toward smooth rolls in both directions, and keeping {their} body long will help.",
+          "Practising on land by rolling over on a mat will help {S} get the idea."
         ] },
       { label: "Flutter kick on front and back (3 m each)",
         praise: [
           "{S} used a steady flutter kick on both the front and back for 3 metres each, kicking one leg after the other.",
           "{S} kicked from the hips with a slight bend in the knees and travelled 3 metres on the front and 3 metres on the back.",
           "A smooth flutter kick carried {S} 3 metres in each position, showing growing leg strength and control.",
-          "Keeping {their} legs kicking one after the other and {their} body near the surface, {S} did well on the front and back flutter kick."
+          "Keeping {their} legs kicking one after the other and {their} body near the surface, {S} did well on the front and back flutter kick.",
+          "{S} kicked on the front and the back for 3 metres each with steady, loose legs.",
+          "{S} kept {their} legs moving one after the other and travelled steadily.",
+          "With {their} toes pointed, {S} made small, quick kicks and moved forward with control.",
+          "{S} showed growing leg strength and coordination in both positions.",
+          "{S} kicked from the hips with a slight bend in the knees and stayed near the surface.",
+          "{S} kicked steadily without stopping and reached the end of each length."
         ],
         critique: [
           "{S} {is} still working on the flutter kick and {is} encouraged to kick from the hips with a slight bend in the knees for 3 metres.",
           "A helpful next step for {S} is to keep kicking one leg after the other, with {their} face in the water on the front.",
-          "{S} will keep improving by keeping {their} body close to the surface and tilting {their} head back so {their} ears are in the water when kicking on the back."
+          "{S} will keep improving by keeping {their} body close to the surface and tilting {their} head back so {their} ears are in the water when kicking on the back.",
+          "{S} {is} still building the flutter kick, and kicking from the hips with a slight bend in the knees will help.",
+          "{S} will keep improving by keeping {their} legs close together and {their} toes pointed.",
+          "Keeping {their} face in the water on the front will help {S} keep {their} legs near the surface.",
+          "{S} can build the kick by practising holding the wall and kicking quickly.",
+          "A helpful next step for {S} is to tilt {their} head back on the back kick, with {their} ears in the water.",
+          "{S} {is} working toward 3-metre kicks, and small, fast kicks with relaxed legs will help.",
+          "Practising kicks while sitting at the edge of the pool will help {S} feel the motion."
         ] },
       { label: "Completing the Swim to Survive sequence",
         praise: [
           "{S} showed each part of the Swim to Survive sequence in order, from the entry to treading water to swimming, with control.",
           "{S} stayed calm and kept moving through every part of the Swim to Survive sequence.",
           "Joining the Swim to Survive skills together was a strength, and {S} showed growing stamina and confidence in deep water.",
-          "Moving steadily and with control through every step of the Swim to Survive sequence, {S} showed real determination."
+          "Moving steadily and with control through every step of the Swim to Survive sequence, {S} showed real determination.",
+          "{S} completed each part of the Swim to Survive sequence in order and stayed relaxed.",
+          "{S} moved from the entry to treading water to swimming without losing {their} calm.",
+          "{S} showed growing stamina and confidence during the whole sequence.",
+          "{S} linked each skill smoothly and finished the sequence with a smile.",
+          "Completing the Swim to Survive sequence took focus, and {S} stayed steady throughout.",
+          "{S} showed determination and kept moving through each part of the sequence."
         ],
         critique: [
           "{S} {is} still working on joining the Swim to Survive skills together and {is} encouraged to practise each skill in order, staying calm between steps.",
           "A helpful next step for {S} is to practise the entry, treading water and swimming slowly one at a time before joining them up.",
-          "{S} will keep improving by keeping {their} body close to the surface and moving steadily through the whole sequence."
+          "{S} will keep improving by keeping {their} body close to the surface and moving steadily through the whole sequence.",
+          "{S} {is} still learning to link the skills together, and practising each part slowly will help.",
+          "{S} will keep improving by taking a calm breath between the entry, treading water and swimming.",
+          "Remembering the order of the steps will help {S} move on without stopping.",
+          "{S} can build stamina by repeating the sequence a few times each lesson.",
+          "A helpful next step for {S} is to rest briefly when needed and then keep going.",
+          "{S} {is} working toward completing the full sequence, and focusing on one step at a time will help.",
+          "Practising the sequence with the instructor close by will help {S} feel secure."
         ] }
     ]
   },
@@ -385,96 +775,200 @@ Object.assign(LEVEL_DATA, {
           "{S} jumped into deep water, came back up to the surface calmly and called for help in a clear voice.",
           "{S} stayed calm after jumping in and called for help clearly when asked.",
           "A confident jump into deep water was followed by a calm return to the surface and a clear call for help.",
-          "Showing real courage, {S} jumped in, came back up calmly and called for help as taught."
+          "Showing real courage, {S} jumped in, came back up calmly and called for help as taught.",
+          "{S} jumped into deep water, bobbed up calmly and called for help in a loud, clear voice.",
+          "{S} showed courage jumping in and stayed relaxed while waiting for help.",
+          "A big jump, a calm return to the surface and a clear call for help showed that {S} understands what to do.",
+          "{S} stayed calm after the jump and gave a strong call for help.",
+          "{S} jumped in and used a loud, confident voice to call for an adult.",
+          "{S} showed strong safety habits, remembering to call for help once back at the surface."
         ],
         critique: [
           "{S} {is} still building confidence jumping into deep water and {is} encouraged to stay calm coming back up before calling for help.",
           "A helpful next step for {S} is to practise a calm return to the surface followed by a clear call for help.",
-          "{S} will keep improving by taking a calm moment after the jump and then calling out for help."
+          "{S} will keep improving by taking a calm moment after the jump and then calling out for help.",
+          "{S} {is} still building confidence jumping into deep water, and taking a deep breath before the jump will help.",
+          "{S} will keep improving by looking at the instructor right after surfacing and calling out clearly.",
+          "Practising a loud, clear call for help on land will help {S} feel ready.",
+          "{S} can build confidence by jumping near the wall and then moving a little further out.",
+          "A helpful next step for {S} is to wave one hand while calling for help.",
+          "{S} {is} working toward a calm return to the surface, and keeping {their} head up will help.",
+          "Saying 'help' in a firm, clear voice will help {S} be heard."
         ] },
       { label: "Sideways entry into deep water",
         praise: [
           "{S} entered deep water sideways with control, showing confidence in the deep end of the pool.",
           "{S} moved with confidence when entering deep water sideways and came up to the surface calmly afterwards.",
           "A controlled sideways entry into deep water was a real highlight, with {S} staying calm and relaxed on the way in.",
-          "Showing comfort and control in deep water, {S} did the sideways entry well."
+          "Showing comfort and control in deep water, {S} did the sideways entry well.",
+          "{S} slid sideways into deep water and stayed calm and in control.",
+          "{S} entered deep water with a controlled sideways entry and surfaced smoothly.",
+          "With a steady hold on the edge, {S} lowered {their} body into deep water and came up smiling.",
+          "{S} showed growing confidence in the deep end with a smooth sideways entry.",
+          "{S} slipped in sideways without a splash and was ready for the next step.",
+          "{S} showed strong technique, sitting at the edge, turning and slipping into the water."
         ],
         critique: [
           "{S} {is} still working on the sideways entry into deep water and {is} encouraged to enter at a calm pace and stay in control.",
           "A helpful next step for {S} is to practise with the instructor close by to build confidence.",
-          "{S} will keep improving by taking a calm moment at the edge and entering sideways with control."
+          "{S} will keep improving by taking a calm moment at the edge and entering sideways with control.",
+          "{S} {is} still learning to enter deep water sideways, and holding the edge with both hands will help.",
+          "{S} will keep improving by lowering {their} body slowly rather than dropping in.",
+          "Practising the entry in shallower water first will help {S} feel secure.",
+          "{S} can build confidence by trying the sideways entry with the instructor close by.",
+          "A helpful next step for {S} is to take a calm breath before turning and sliding in.",
+          "{S} {is} working toward a smooth sideways entry, and keeping {their} body close to the wall will help.",
+          "Taking {their} time at the edge will help {S} feel prepared."
         ] },
       { label: "Tread water (30 sec.)",
         praise: [
           "{S} stayed in one place for 30 seconds while treading water, keeping {their} head above the surface and staying calm.",
           "{S} kept afloat for 30 seconds without support, using steady arm and leg movements.",
           "Treading water for a full 30 seconds showed {S} building real stamina and control in deep water.",
-          "Staying relaxed and upright from start to finish, {S} kept treading water for 30 seconds."
+          "Staying relaxed and upright from start to finish, {S} kept treading water for 30 seconds.",
+          "{S} treaded water for the full 30 seconds with {their} head up and {their} body upright.",
+          "{S} moved {their} arms and legs steadily and stayed in one place.",
+          "Keeping {their} head up for 30 seconds in deep water showed how much stamina {S} has gained.",
+          "{S} kept calm and breathing steadily while treading water.",
+          "{S} used small, steady hand circles and strong legs to stay up the whole time.",
+          "{S} treaded water with a relaxed body and finished the time with energy left."
         ],
         critique: [
           "{S} {is} still building stamina for treading water and {is} encouraged to keep {their} arms and legs moving steadily for the full 30 seconds.",
           "A helpful next step for {S} is to practise slow, relaxed movements for a little longer each time.",
-          "{S} will keep improving by staying calm and moving {their} hands in small circles to stay up while {their} legs keep moving."
+          "{S} will keep improving by staying calm and moving {their} hands in small circles to stay up while {their} legs keep moving.",
+          "{S} {is} still building stamina for treading water, and moving {their} arms and legs slowly and steadily will help.",
+          "{S} will keep improving by keeping {their} head up and {their} chin above the water.",
+          "Making small circles with {their} hands will help {S} stay up without tiring.",
+          "{S} can build endurance by treading water for a little longer each lesson.",
+          "A helpful next step for {S} is to keep {their} body upright with {their} legs moving in a bicycle motion.",
+          "{S} {is} working toward 30 seconds of treading water, and relaxing {their} shoulders will help.",
+          "Breathing slowly and calmly will help {S} save energy while treading water."
         ] },
       { label: "Submerge and exhale (3 times)",
         praise: [
           "{S} went under the water and blew bubbles three times in a row, staying steady each time.",
           "{S} made a steady stream of bubbles every time {their} face went under, three times in a row.",
           "Three slow, steady rounds of going under and blowing bubbles showed {S} gaining breath control and comfort in the water.",
-          "Going under and blowing out three times, {S} stayed relaxed with {their} face in the water."
+          "Going under and blowing out three times, {S} stayed relaxed with {their} face in the water.",
+          "{S} went under and blew bubbles three times in a row, each one smooth and slow.",
+          "{S} blew out every time {their} face went under and came up for a calm breath.",
+          "{S} showed strong breath control with three steady rounds of bubbles.",
+          "Going under and blowing bubbles again and again looked easy for {S}.",
+          "{S} kept up a relaxed rhythm, breathing in at the top and out underwater.",
+          "{S} repeated the skill three times with the same steady bubbles."
         ],
         critique: [
           "{S} {is} still working on going under again and again and {is} encouraged to keep {their} face in the water and blow out steadily each of the 3 times.",
           "A helpful next step for {S} is to practise slow, steady bubbles underwater 3 times in a row.",
-          "{S} will keep improving by coming up for a calm breath between each go and blowing bubbles the whole time {their} face is under."
+          "{S} will keep improving by coming up for a calm breath between each go and blowing bubbles the whole time {their} face is under.",
+          "{S} {is} still learning to breathe out underwater three times in a row, and taking a quick breath in between will help.",
+          "{S} will keep improving by keeping {their} face in the water and blowing out steadily each time.",
+          "Counting each go aloud will help {S} remember to keep going.",
+          "{S} can build rhythm by practising slowly and calmly at the wall.",
+          "A helpful next step for {S} is to blow out the whole time {their} face is underwater.",
+          "{S} {is} working toward three smooth rounds, and pacing {their} breath will help.",
+          "Humming underwater will help {S} keep bubbles flowing."
         ] },
       { label: "Front float, roll to back, swim 5 m",
         praise: [
           "{S} floated on the front, rolled onto the back and swam 5 metres, moving smoothly from one step to the next.",
           "{S} stayed relaxed through a front float, a roll onto the back and a 5-metre swim.",
           "Moving from a front float into a roll and then swimming 5 metres showed {S} gaining confidence and body control.",
-          "After a relaxed front float, {S} rolled over to the back and kept going for 5 metres with control."
+          "After a relaxed front float, {S} rolled over to the back and kept going for 5 metres with control.",
+          "{S} floated on the front, rolled to the back and swam 5 metres with smooth control.",
+          "{S} stayed calm through each part and kept moving to the end.",
+          "Moving from a front float to a roll and then a swim on the back looked easy for {S}.",
+          "{S} kept {their} body flat and relaxed during the float and the swim.",
+          "{S} showed strong balance and control while rolling over from the front float.",
+          "{S} finished the sequence with a steady kick and a calm face."
         ],
         critique: [
           "{S} {is} still working on the front float and roll to the back and {is} encouraged to push {their} tummy up toward the surface before rolling.",
           "A helpful next step for {S} is to practise each part slowly, keeping {their} body close to the surface on the way to 5 metres.",
-          "{S} will keep improving by staying still on the back with {their} head tilted back so {their} ears are in the water while kicking."
+          "{S} will keep improving by staying still on the back with {their} head tilted back so {their} ears are in the water while kicking.",
+          "{S} {is} still learning to link the front float, the roll and the swim, and practising each part slowly will help.",
+          "{S} will keep improving by keeping {their} face in the water on the front float before rolling.",
+          "Rolling over smoothly, with {their} head turning first, will help {S} stay balanced.",
+          "{S} can build skill by practising the roll on its own first.",
+          "A helpful next step for {S} is to tilt {their} head back and kick steadily on the back.",
+          "{S} {is} working toward a smooth, continuous sequence, and keeping {their} body flat will help.",
+          "Pushing {their} tummy up toward the surface on the back will help {S} swim the full 5 metres."
         ] },
       { label: "Back float, roll to front, swim 3 m",
         praise: [
           "{S} floated on the back, rolled onto the front and swam 3 metres, moving from one position to the next with control.",
           "{S} stayed calm through a back float, a roll onto the front and a 3-metre swim.",
           "A relaxed back float followed by a smooth roll to the front and a 3-metre swim showed {S} building water confidence.",
-          "From a still back float, {S} rolled over to the front and swam 3 metres calmly."
+          "From a still back float, {S} rolled over to the front and swam 3 metres calmly.",
+          "{S} floated on the back, rolled to the front and swam 3 metres smoothly.",
+          "{S} stayed relaxed from the back float to the roll and into the swim.",
+          "Moving from the back float to the front looked natural for {S}, who stayed calm.",
+          "{S} showed strong body control, turning over without hesitation.",
+          "{S} kept {their} body near the surface and swam steadily on the front.",
+          "{S} rolled onto the front with {their} face going into the water and swam on."
         ],
         critique: [
           "{S} {is} still working on the back float and roll to the front and {is} encouraged to relax and tilt {their} head back so {their} ears are in the water.",
           "A helpful next step for {S} is to practise the roll slowly, putting {their} face in the water as {their} body turns over.",
-          "{S} will keep improving by keeping {their} body close to the surface and moving steadily after rolling over."
+          "{S} will keep improving by keeping {their} body close to the surface and moving steadily after rolling over.",
+          "{S} {is} still learning to roll from the back to the front, and turning {their} head and shoulders first will help.",
+          "{S} will keep improving by relaxing {their} head back during the back float.",
+          "Putting {their} face in the water as {S} rolls will help {S} start swimming right away.",
+          "{S} can build skill by practising the roll with the instructor close by.",
+          "A helpful next step for {S} is to kick steadily during the front swim.",
+          "{S} {is} working toward a smooth sequence, and keeping {their} body flat will help.",
+          "Taking a breath in before the roll will help {S} feel prepared for the front swim."
         ] },
       { label: "Rolling laterally front to back and back to front",
         praise: [
           "{S} rolled from front to back and from back to front with control and a relaxed body.",
           "{S} moved easily between front and back positions, rolling smoothly in both directions.",
           "Without any support, {S} turned from the front onto the back and then onto the front again with confidence.",
-          "Staying calm and keeping {their} body close to the surface, {S} rolled well in both directions."
+          "Staying calm and keeping {their} body close to the surface, {S} rolled well in both directions.",
+          "{S} rolled over in both directions and stayed relaxed through every turn.",
+          "{S} showed strong control, rolling from the front to the back and back again.",
+          "Rolling without support was easy for {S}, who kept {their} body flat.",
+          "{S} turned over smoothly and kept {their} face calm.",
+          "{S} rolled slowly and with confidence, keeping close to the surface.",
+          "{S} showed growing body awareness through each roll."
         ],
         critique: [
           "{S} {is} still working on rolling and {is} encouraged to roll slowly and with control between front and back, staying relaxed.",
           "A helpful next step for {S} is to practise rolling in both directions with an instructor nearby.",
-          "{S} will keep improving by keeping {their} face in the water on the front and staying still on the back as {their} body rolls over."
+          "{S} will keep improving by keeping {their} face in the water on the front and staying still on the back as {their} body rolls over.",
+          "{S} {is} still working on rolling between the front and back, and turning {their} head and shoulders first will help.",
+          "{S} will keep improving by rolling slowly and staying relaxed.",
+          "Keeping {their} arms close to {their} sides will help {S} stay balanced.",
+          "{S} can build control by practising each direction on its own.",
+          "A helpful next step for {S} is to take a breath before rolling onto the front.",
+          "{S} {is} working toward smooth rolls, and keeping {their} body long will help.",
+          "Practising with the instructor nearby will help {S} feel secure."
         ] },
       { label: "Completing the Swim to Survive sequence",
         praise: [
           "{S} showed each part of the Swim to Survive sequence in order, from the entry through treading water to swimming.",
           "{S} stayed calm and kept moving through the whole Swim to Survive sequence, even though it took plenty of stamina.",
           "Growing stamina and confidence were clear as {S} swam through the Swim to Survive sequence in deep water.",
-          "Moving steadily and in control through every step, {S} showed real determination in the Swim to Survive sequence."
+          "Moving steadily and in control through every step, {S} showed real determination in the Swim to Survive sequence.",
+          "{S} completed every part of the Swim to Survive sequence in order, from the entry to the swim.",
+          "{S} stayed calm and kept going through each step.",
+          "Moving through the whole sequence showed {S} building stamina and determination.",
+          "{S} linked each skill smoothly, finishing the sequence with energy.",
+          "{S} showed growing confidence in deep water during the whole sequence.",
+          "{S} followed each step in order and kept {their} body relaxed."
         ],
         critique: [
           "{S} {is} still learning to link the Swim to Survive skills together and {is} encouraged to practise each skill in order, staying calm between steps.",
           "A helpful next step for {S} is to practise the entry, treading water and swimming one part at a time before linking them.",
-          "{S} will keep improving by keeping {their} body close to the surface and moving steadily from the start of the sequence to the end."
+          "{S} will keep improving by keeping {their} body close to the surface and moving steadily from the start of the sequence to the end.",
+          "{S} {is} still learning to link the skills, and practising each part slowly will help.",
+          "{S} will keep improving by taking a calm breath between steps.",
+          "Remembering the order of the steps will help {S} keep going without stopping.",
+          "{S} can build stamina by repeating the sequence a few times each lesson.",
+          "A helpful next step for {S} is to rest briefly when needed and then carry on.",
+          "{S} {is} working toward completing the full sequence, and focusing on one step at a time will help.",
+          "Practising with the instructor nearby will help {S} feel secure in deep water."
         ] }
     ]
   },
@@ -487,120 +981,250 @@ Object.assign(LEVEL_DATA, {
           "{S} jumped into deep water, returned to the side on {their} own and climbed out of the pool with confidence.",
           "{S} showed growing courage by jumping into deep water, making {their} way back to the wall and climbing out safely.",
           "A confident jump into deep water was followed by a calm return to the side and a safe exit, all done independently.",
-          "Staying calm from the jump through to the exit, {S} handled each step with care."
+          "Staying calm from the jump through to the exit, {S} handled each step with care.",
+          "{S} jumped into deep water, swam to the wall and climbed out on {their} own.",
+          "{S} showed courage and independence, jumping in and returning to the side without help.",
+          "Every step, from the jump to the exit, was calm and well controlled for {S}.",
+          "{S} jumped in with confidence and used the wall to climb out safely.",
+          "{S} stayed calm and moved steadily from the jump to the wall.",
+          "{S} climbed out safely and carefully after swimming back to the side."
         ],
         critique: [
           "{S} {is} still building confidence in deep water and {is} encouraged to practise jumping in, returning to the side calmly and climbing out with control.",
           "A helpful next step for {S} is to practise each step slowly with an instructor nearby.",
-          "{S} will keep improving by staying relaxed after the jump, heading steadily to the side and exiting the pool carefully."
+          "{S} will keep improving by staying relaxed after the jump, heading steadily to the side and exiting the pool carefully.",
+          "{S} {is} still building confidence in deep water, and taking a deep breath before the jump will help.",
+          "{S} will keep improving by looking at the wall as soon as {S} surfaces.",
+          "Practising the exit with the instructor close by will help {S} climb out safely.",
+          "{S} can build confidence by practising each step slowly.",
+          "A helpful next step for {S} is to kick and paddle steadily toward the side.",
+          "{S} {is} working toward an independent return and exit, and using both hands on the wall will help.",
+          "Practising the climb out, with one knee up at a time, will help {S}."
         ] },
       { label: "Tread water (5 sec.)",
         praise: [
           "{S} stayed in one spot for 5 seconds while treading water, keeping {their} head above the surface and staying calm.",
           "{S} kept afloat for 5 seconds without support and looked comfortable doing it.",
           "Treading water for 5 seconds showed {S} learning to use {their} arms and legs together in deep water.",
-          "Staying upright and relaxed, {S} did well treading water for 5 seconds."
+          "Staying upright and relaxed, {S} did well treading water for 5 seconds.",
+          "{S} treaded water for 5 seconds with {their} head up and {their} body upright.",
+          "{S} moved {their} arms and legs together and stayed in one place.",
+          "Staying afloat for 5 seconds showed {S} learning to coordinate {their} arms and legs.",
+          "{S} kept calm in deep water and treaded water comfortably.",
+          "{S} used small hand circles and steady legs to stay up.",
+          "{S} showed a relaxed, upright body while treading water."
         ],
         critique: [
           "{S} {is} still working on treading water and {is} encouraged to keep {their} arms and legs moving steadily for the full 5 seconds.",
           "A helpful next step for {S} is to practise relaxed, steady movements with an instructor close by.",
-          "{S} will keep improving by staying calm and keeping {their} legs moving while {their} hands make small circles to stay up."
+          "{S} will keep improving by staying calm and keeping {their} legs moving while {their} hands make small circles to stay up.",
+          "{S} {is} still learning to tread water, and moving {their} arms and legs steadily will help.",
+          "{S} will keep improving by making small circles with {their} hands.",
+          "Keeping {their} head up and {their} body upright will help {S} stay in one spot.",
+          "{S} can build skill by practising near the wall first.",
+          "A helpful next step for {S} is to kick {their} legs in a steady rhythm while {S} scoops with {their} hands.",
+          "{S} {is} working toward 5 seconds of treading water, and staying calm will help.",
+          "Practising with the instructor nearby will help {S} feel secure."
         ] },
       { label: "Submerge and exhale (5 times)",
         praise: [
           "{S} went under the water and blew bubbles five times in a row, staying steady with {their} face in the water.",
           "{S} kept a calm pace from the first time under the water to the last, blowing bubbles five times.",
           "Five slow, steady rounds of going under and blowing bubbles showed {S} gaining breath control and comfort in the water.",
-          "Going under and blowing out five times, {S} made a smooth stream of bubbles each time and stayed relaxed."
+          "Going under and blowing out five times, {S} made a smooth stream of bubbles each time and stayed relaxed.",
+          "{S} went under and blew bubbles five times in a row, each one smooth and steady.",
+          "{S} kept {their} face in the water and blew out the whole time.",
+          "{S} showed strong breath control through five rounds of bubbles.",
+          "{S} came up for a quick breath each time and went right back under.",
+          "{S} kept a relaxed pace and a steady rhythm through all five.",
+          "{S} repeated the skill five times with a calm face."
         ],
         critique: [
           "{S} {is} still working on going under again and again and {is} encouraged to keep {their} face in the water and blow bubbles steadily each of the 5 times.",
           "A helpful next step for {S} is to practise slow, steady bubbles underwater 5 times in a row.",
-          "{S} will keep improving by taking a calm breath between each go and blowing out the whole time {their} face is under."
+          "{S} will keep improving by taking a calm breath between each go and blowing out the whole time {their} face is under.",
+          "{S} {is} still learning to repeat the skill five times, and taking a calm breath between each go will help.",
+          "{S} will keep improving by blowing out the whole time {their} face is underwater.",
+          "Counting each go aloud will help {S} keep track.",
+          "{S} can build rhythm by practising slowly at the wall.",
+          "A helpful next step for {S} is to breathe in quickly at the top and out slowly underwater.",
+          "{S} {is} working toward five smooth rounds, and pacing {their} breath will help.",
+          "Humming underwater will help {S} keep bubbles flowing."
         ] },
       { label: "Submerge and hold breath (5 sec.)",
         praise: [
           "{S} went under the water and held {their} breath for 5 seconds, staying calm and relaxed.",
           "{S} held {their} breath for a full 5 seconds with {their} face in the water and looked comfortable.",
           "A calm 5-second breath hold underwater showed {S} growing in confidence beneath the surface.",
-          "Holding {their} breath underwater for 5 seconds, {S} showed relaxed breath control."
+          "Holding {their} breath underwater for 5 seconds, {S} showed relaxed breath control.",
+          "{S} took a breath, went under and held {their} breath for 5 seconds.",
+          "{S} stayed relaxed and still with {their} face under the water.",
+          "A calm 5-second breath hold showed that {S} is gaining control underwater.",
+          "{S} counted slowly and held {their} breath for the full time.",
+          "{S} showed strong confidence underwater, staying calm for 5 seconds.",
+          "{S} went under without hesitating and held {their} breath well."
         ],
         critique: [
           "{S} {is} still working on holding {their} breath underwater and {is} encouraged to hold it a little longer each time, working up to 5 seconds.",
           "A helpful next step for {S} is to take a big breath in before going under and to stay relaxed.",
-          "{S} will keep improving by keeping {their} face under the water and counting slowly to 5 with an adult."
+          "{S} will keep improving by keeping {their} face under the water and counting slowly to 5 with an adult.",
+          "{S} {is} still working on holding {their} breath, and taking a big breath in before going under will help.",
+          "{S} will keep improving by holding {their} breath one second longer each time.",
+          "Counting slowly in {their} head will help {S} reach 5 seconds.",
+          "{S} can build breath holding by playing games, such as seeing how long a toy can stay under.",
+          "A helpful next step for {S} is to keep {their} face relaxed while holding {their} breath.",
+          "{S} {is} working toward a calm 5-second hold, and blowing a few bubbles at the end will help.",
+          "Practising at bath time with just {their} face in the water will help {S}."
         ] },
       { label: "Recovering an object from the bottom in chest-deep water",
         praise: [
           "{S} picked up an object from the bottom in chest-deep water, going under with control and coming back up calmly.",
           "{S} showed confidence and comfort underwater by reaching the bottom in chest-deep water to pick up an object.",
           "Picking up an object from the pool bottom in chest-deep water was a highlight, and {S} brought it back up smoothly.",
-          "Going underwater in chest-deep water took confidence, and {S} came back up with the object in a smooth, calm way."
+          "Going underwater in chest-deep water took confidence, and {S} came back up with the object in a smooth, calm way.",
+          "{S} took a breath, went down to the bottom in chest-deep water and picked up the object.",
+          "{S} opened {their} eyes underwater and found the object quickly.",
+          "{S} came back up with the object and a big smile.",
+          "{S} showed strong control going down and coming back up.",
+          "{S} went under calmly and brought the object back to the surface.",
+          "Reaching the bottom in chest-deep water took confidence, and {S} did it with ease."
         ],
         critique: [
           "{S} {is} still working on picking up objects from the bottom and {is} encouraged to put {their} whole face in the water and keep {their} eyes open.",
           "A helpful next step for {S} is to practise going underwater slowly and with control in chest-deep water.",
-          "{S} will keep improving by taking a breath, going under with {their} whole face in the water and reaching for the object before coming back up."
+          "{S} will keep improving by taking a breath, going under with {their} whole face in the water and reaching for the object before coming back up.",
+          "{S} {is} still working on recovering an object, and opening {their} eyes underwater will help.",
+          "{S} will keep improving by taking a breath in and bending {their} knees before going down.",
+          "Practising with a toy that sinks slowly will help {S} spot it underwater.",
+          "{S} can build confidence by starting with an object in shallower water.",
+          "A helpful next step for {S} is to keep {their} eyes on the object while reaching.",
+          "{S} {is} working toward recovering the object independently, and holding the wall at first will help.",
+          "Blowing a few bubbles on the way down will help {S} stay calm."
         ] },
       { label: "Sideways entry into deep water wearing a PFD, tread 15 sec., then swim/kick 5 m",
         praise: [
           "Wearing a lifejacket, {S} entered deep water sideways, kept treading water for 15 seconds and then swam or kicked 5 metres with control.",
           "{S} did a sideways entry in a lifejacket, stayed up for 15 seconds and then travelled 5 metres, showing real stamina.",
           "{S} linked a sideways entry, 15 seconds of treading water and a 5-metre swim or kick together while wearing a lifejacket.",
-          "Moving from the entry into treading water and then travelling 5 metres, {S} stayed calm and in control throughout."
+          "Moving from the entry into treading water and then travelling 5 metres, {S} stayed calm and in control throughout.",
+          "{S} entered deep water sideways in a lifejacket, treaded water for 15 seconds and then swam 5 metres.",
+          "{S} linked each skill smoothly and stayed in control from start to finish.",
+          "Wearing a lifejacket, {S} showed stamina and determination through all three parts.",
+          "{S} stayed calm from the entry to the treading water to the swim.",
+          "{S} moved from one skill to the next with confidence and kept {their} body relaxed.",
+          "{S} showed growing confidence in deep water, completing every step in a lifejacket."
         ],
         critique: [
           "{S} {is} still working on linking the entry, treading water and swimming in a lifejacket and {is} encouraged to practise each part in order.",
           "A helpful next step for {S} is to keep {their} hands moving in small circles and kick steadily while treading water for 15 seconds.",
-          "{S} will keep improving by staying relaxed after entering deep water and keeping {their} body close to the surface when swimming or kicking."
+          "{S} will keep improving by staying relaxed after entering deep water and keeping {their} body close to the surface when swimming or kicking.",
+          "{S} {is} still learning to link the entry, treading water and swimming, and practising each part slowly will help.",
+          "{S} will keep improving by moving {their} hands in small circles while treading water.",
+          "Kicking steadily for the full 15 seconds will help {S} stay afloat.",
+          "{S} can build stamina by repeating the sequence a few times each lesson.",
+          "A helpful next step for {S} is to keep {their} body flat and close to the surface during the swim.",
+          "{S} {is} working toward linking all three parts, and focusing on one step at a time will help.",
+          "Taking a calm breath between each step will help {S} keep going."
         ] },
       { label: "Glide on side (3 m)",
         praise: [
           "{S} glided on {their} side for 3 metres, staying stretched out and relaxed.",
           "{S} pushed off onto {their} side and glided 3 metres with {their} body close to the surface.",
           "A smooth side glide of 3 metres showed {S} developing balance and a long, straight body position.",
-          "Keeping {their} arms stretched out in front of {their} head, {S} covered 3 metres in a side glide."
+          "Keeping {their} arms stretched out in front of {their} head, {S} covered 3 metres in a side glide.",
+          "{S} pushed off the wall onto {their} side and glided 3 metres with {their} body long and straight.",
+          "{S} stayed stretched out and still during the whole glide.",
+          "{S} showed strong balance, gliding on {their} side with a steady body.",
+          "With {their} arms stretched forward, {S} glided smoothly across the water.",
+          "{S} made the side glide look easy, travelling a long way from one push.",
+          "{S} kept calm and quiet, letting {their} body slide through the water."
         ],
         critique: [
           "{S} {is} still working on the side glide and {is} encouraged to keep {their} arms stretched out in front of {their} head for the full 3 metres.",
           "A helpful next step for {S} is to keep {their} body close to the surface while gliding on {their} side.",
-          "{S} will keep improving by staying relaxed and still after pushing off and letting {their} body glide long and straight."
+          "{S} will keep improving by staying relaxed and still after pushing off and letting {their} body glide long and straight.",
+          "{S} {is} still working on the side glide, and a strong push off the wall will help.",
+          "{S} will keep improving by stretching {their} arms out in front of {their} head.",
+          "Squeezing {their} legs together will help {S} stay streamlined.",
+          "{S} can build the glide by staying still after the push until {their} body slows down.",
+          "A helpful next step for {S} is to keep {their} ear resting on {their} shoulder as {S} glides.",
+          "{S} {is} working toward a 3-metre glide, and keeping {their} body flat will help.",
+          "Practising the shape on land will help {S} feel what to do in the water."
         ] },
       { label: "Flutter kick on front (5 m)",
         praise: [
           "{S} used a steady flutter kick on the front for 5 metres, with {their} face in the water and one leg kicking after the other.",
           "{S} kicked from the hips with a slight bend in the knees and travelled 5 metres on the front with control.",
           "A smooth flutter kick carried {S} 5 metres on the front, showing growing leg strength and coordination.",
-          "Keeping {their} legs kicking one after the other and {their} body close to the surface, {S} did well on the front flutter kick for 5 metres."
+          "Keeping {their} legs kicking one after the other and {their} body close to the surface, {S} did well on the front flutter kick for 5 metres.",
+          "{S} kicked on the front for 5 metres with {their} face in the water and loose, steady legs.",
+          "{S} kept {their} legs moving one after the other and travelled steadily.",
+          "With {their} toes pointed, {S} made small, quick kicks and moved forward with control.",
+          "{S} showed growing leg strength and coordination on the front kick.",
+          "{S} kicked from the hips with a slight bend in the knees and stayed near the surface.",
+          "{S} kicked steadily without stopping and reached the end of the distance."
         ],
         critique: [
           "{S} {is} still working on the flutter kick on the front and {is} encouraged to kick from the hips with a slight bend in the knees, aiming for 5 metres.",
           "A helpful next step for {S} is to keep kicking one leg after the other with {their} face in the water.",
-          "{S} will keep improving by keeping {their} arms stretched out in front and {their} body close to the surface while kicking on the front."
+          "{S} will keep improving by keeping {their} arms stretched out in front and {their} body close to the surface while kicking on the front.",
+          "{S} {is} still building the flutter kick on the front, and kicking from the hips with a slight bend in the knees will help.",
+          "{S} will keep improving by keeping {their} legs close together and {their} toes pointed.",
+          "Keeping {their} face in the water will help {S} keep {their} legs near the surface.",
+          "{S} can build the kick by practising holding the wall and kicking quickly.",
+          "A helpful next step for {S} is to stretch {their} arms out in front while kicking.",
+          "{S} {is} working toward 5 metres of kicking, and small, fast kicks with relaxed legs will help.",
+          "Practising kicks while sitting at the edge of the pool will help {S} feel the motion."
         ] },
       { label: "Flutter kick on back (5 m)",
         praise: [
           "{S} used a steady flutter kick on the back for 5 metres, with {their} ears in the water and {their} body relaxed.",
           "{S} kicked from the hips with a slight bend in the knees and travelled 5 metres on {their} back, staying close to the surface.",
           "A smooth flutter kick on the back, one leg after the other, carried {S} 5 metres with confidence.",
-          "Steady leg movements and a relaxed body helped {S} kick 5 metres on {their} back."
+          "Steady leg movements and a relaxed body helped {S} kick 5 metres on {their} back.",
+          "{S} kicked on the back for 5 metres with {their} ears in the water and a relaxed face.",
+          "{S} kept {their} legs moving steadily and travelled the full distance.",
+          "With {their} head resting back, {S} kicked smoothly and stayed close to the surface.",
+          "{S} showed growing leg strength, kicking steadily on {their} back.",
+          "{S} made small, even kicks from the hips and moved with control.",
+          "{S} stayed relaxed on {their} back and kicked without stopping."
         ],
         critique: [
           "{S} {is} still working on the flutter kick on the back and {is} encouraged to kick from the hips with a slight bend in the knees, aiming for 5 metres.",
           "A helpful next step for {S} is to push {their} tummy up toward the surface while kicking steadily on {their} back.",
-          "{S} will keep improving by tilting {their} head back so {their} ears are in the water and keeping {their} body close to the surface while kicking."
+          "{S} will keep improving by tilting {their} head back so {their} ears are in the water and keeping {their} body close to the surface while kicking.",
+          "{S} {is} still building the flutter kick on the back, and kicking from the hips with a slight bend in the knees will help.",
+          "{S} will keep improving by keeping {their} toes pointed and {their} legs relaxed.",
+          "Looking at the ceiling will help {S} keep {their} head back and {their} ears in the water.",
+          "{S} can build the kick by practising short distances and gradually going further.",
+          "A helpful next step for {S} is to kick with small splashes at the surface.",
+          "{S} {is} working toward 5 metres of steady kicking, and keeping {their} tummy up will help.",
+          "Practising kicks while holding the wall will help {S} feel the movement."
         ] },
       { label: "Front crawl (5 m) wearing a PFD",
         praise: [
           "Wearing a lifejacket, {S} swam 5 metres of front crawl, using {their} arms and a steady kick with {their} face in the water.",
           "{S} moved forward over 5 metres of front crawl in a lifejacket, using one arm after the other and a steady kick.",
           "{S} did well on the front crawl, travelling 5 metres in a lifejacket with {their} arms and legs working together.",
-          "With a lifejacket for support, {S} showed growing front crawl skill over 5 metres, keeping {their} body near the surface."
+          "With a lifejacket for support, {S} showed growing front crawl skill over 5 metres, keeping {their} body near the surface.",
+          "{S} swam 5 metres of front crawl in a lifejacket, with {their} arms reaching and {their} legs kicking.",
+          "{S} reached forward with one arm after the other and kept {their} face in the water.",
+          "{S} showed growing coordination, using {their} arms and legs together.",
+          "With a lifejacket for support, {S} swam smoothly across the pool.",
+          "{S} kept a steady kick and reaching arms, travelling the full 5 metres.",
+          "{S} made front crawl look fun, moving forward with energy."
         ],
         critique: [
           "{S} {is} still working on front crawl and {is} encouraged to keep {their} face in the water, reach with one arm after the other and kick from the hips.",
           "A helpful next step for {S} is to keep steady arm and leg movements while staying close to the surface for 5 metres.",
-          "{S} will keep improving by staying relaxed and keeping {their} arms reaching forward and {their} legs kicking steadily in a lifejacket."
+          "{S} will keep improving by staying relaxed and keeping {their} arms reaching forward and {their} legs kicking steadily in a lifejacket.",
+          "{S} {is} still learning front crawl, and reaching forward with one arm after the other will help.",
+          "{S} will keep improving by keeping {their} face in the water and kicking from the hips.",
+          "Keeping {their} arms reaching forward will help {S} move through the water.",
+          "{S} can build front crawl by practising the kick and arm movements separately.",
+          "A helpful next step for {S} is to take a breath by turning {their} head to the side.",
+          "{S} {is} working toward smooth front crawl, and a steady kick will help.",
+          "Practising the arm movement while standing in shallow water will help {S} learn the pattern."
         ] }
     ]
   }

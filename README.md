@@ -11,7 +11,7 @@ Live site: https://daniel-mend0nca.github.io/swimnotes/
 
 `intro, praise (Strength 1), critique (Area for growth), praise (Strength 2), closing`
 
-- Every skill has 4 praise and 3 critique variants; intros and closings have 8 variants per voice.
+- Every skill has 10 praise and 10 critique variants; intros and closings have 8 variants per voice.
 - Variants are picked at random; **Regenerate** and **Generate all comments** avoid repeating wording.
 - Sentences that open with the swimmer's first name (or "you") are sometimes given a short linking phrase ("In addition,", "To keep improving,") so the comment flows like a paragraph.
 - Optional note fields under Strength 1, Strength 2, and Area for growth are appended to the end of that part of the comment.
@@ -51,15 +51,15 @@ Each skill looks like:
 
 ```js
 { label: "Tread water (15 sec.)",
-  praise:   ["...", "...", "...", "..."],
-  critique: ["...", "...", "..."] }
+  praise:   ["...", "...", "..."],   // 10 variants
+  critique: ["...", "...", "..."] }  // 10 variants
 ```
 
 Tokens available in name-voice sentences: `{S}` (subject), `{their}`, `{is}`, `{has}`, `{name}`.
 Youth & Adult and Patrol files are written directly in second person.
 Writing rules: no pass/fail, good/bad or "worked hard"; critiques must say how to improve using test-sheet technique.
 Plain language for parents: say "lifejacket" (not PFD), "blowing bubbles" (not exhalation), "upright in the water" (not vertical body position), and so on.
-In each skill, at least 2 praise and 2 critique variants should start with `{S}` (or "You"/"Your" in second-person files) so linking phrases can be placed in front of them.
+In each skill, at least 3 praise and 4 critique variants should start with `{S}` (or "You"/"Your" in second-person files) so linking phrases can be placed in front of them.
 The skill `label`s are the exact curriculum test-sheet wording (they still say "PFD") because they drive the dropdowns; only the comment sentences are plain-language.
 
 ## Design notes

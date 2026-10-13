@@ -7,132 +7,275 @@ Object.assign(LEVEL_DATA, {
           "You swam 25 m of head-up front crawl or breaststroke with your head above the water and a clear, steady stroke.",
           "Your head-up swim looked controlled, with your eyes looking forward and your arms and legs working well for the full 25 m.",
           "Keeping your head above the water, you swam the whole 25 m without stopping.",
-          "You held a clear stroke while swimming head-up, with your arms and legs moving the whole way."
+          "You held a clear stroke while swimming head-up, with your arms and legs moving the whole way.",
+          "You swam 25 m with your head up, keeping your eyes forward and your stroke smooth.",
+          "You kept your arms and legs working together without stopping for the full distance.",
+          "Your head-up swim stayed steady, with a rhythm you could hold from start to finish.",
+          "You looked straight ahead the whole way, showing control and stamina.",
+          "A calm, controlled head-up stroke showed you can keep watch while you swim.",
+          "You chose a pace you could sustain and finished the 25 m strongly."
         ],
         critique: [
           "You are encouraged to keep your head above the water with your eyes looking forward for the full 25 m of head-up front crawl or breaststroke.",
           "Your head-up swim is still developing, so you are reminded to keep your arms and legs moving and swim at a steady pace for the whole 25 m.",
-          "A helpful next step is to practise front crawl or breaststroke with your head up and hold a steady pace for the whole distance."
+          "A helpful next step is to practise front crawl or breaststroke with your head up and hold a steady pace for the whole distance.",
+          "You are encouraged to keep your chin just above the water and your eyes forward while you swim head-up.",
+          "You will keep improving by kicking steadily from your hips to keep your legs high.",
+          "You are reminded to keep your arms moving, even when your head is up, so your stroke stays strong.",
+          "Your head-up swim will improve by starting at a comfortable pace and holding it for the full 25 m.",
+          "A helpful next step is to practise short head-up lengths and build up the distance a little at a time.",
+          "You can work toward a smoother stroke by relaxing your neck and shoulders.",
+          "Pulling with steady, strong arms will help you stay on top of the water."
         ] },
       { label: "Head-first surface dive to recover a 2.3-3.2 kg object from 2 m depth",
         praise: [
           "You did a head-first surface dive and brought the 2.3-3.2 kg object up from 2 m depth with control.",
           "Your head-first surface dive took you down to 2 m, where you found the object and brought it back to the surface.",
           "You showed a confident head-first surface dive and a controlled trip back to the surface with the weighted object.",
-          "Diving head-first, reaching the bottom at 2 m and surfacing with the object was something you did well."
+          "Diving head-first, reaching the bottom at 2 m and surfacing with the object was something you did well.",
+          "You took a breath, dove head first and swam down to 2 m to reach the weighted object.",
+          "You gripped the object firmly and kicked back up to the surface with control.",
+          "Your surface dive was smooth, with your body folding at the hips and your legs lifting straight up.",
+          "You stayed calm underwater and found the object quickly.",
+          "You returned to the surface with the object and kept your head above the water.",
+          "Reaching 2 m and returning with the object showed strong breath control and confidence."
         ],
         critique: [
           "You are encouraged to keep practising your head-first surface dive so you can reach 2 m and bring up the 2.3-3.2 kg object.",
           "You will keep improving by practising the whole dive, from going under head-first to finding the object and returning to the surface with it.",
-          "A helpful next step is to work on reaching the object on the bottom and swimming back up with it."
+          "A helpful next step is to work on reaching the object on the bottom and swimming back up with it.",
+          "You are encouraged to practise the head-first dive, folding at the hips and lifting your legs straight up.",
+          "You will keep improving by taking a full breath before going under and kicking steadily down.",
+          "You are reminded to keep your eyes on the object as you go down.",
+          "Your dive will improve by pulling with your arms to get down to 2 m.",
+          "A helpful next step is to practise swimming back to the surface with a firm grip on the object.",
+          "You can work toward reaching 2 m by practising the dive in shallower water first.",
+          "Staying relaxed and blowing out slowly will help you stay under for longer."
         ] },
       { label: "Demonstrate the ability to inflate a PFD/lifejacket while in the water",
         praise: [
           "You inflated your lifejacket while in the water and stayed confident while you did it.",
           "Your lifejacket inflation in the water worked well, and it showed you know how to make the lifejacket help you.",
           "You stayed in the water and inflated your lifejacket with control, which is an important safety skill.",
-          "Inflating a lifejacket while in the water is a skill you showed with calm control."
+          "Inflating a lifejacket while in the water is a skill you showed with calm control.",
+          "You inflated your lifejacket in the water calmly and followed each step in order.",
+          "You stayed afloat while you worked the inflation system and kept your head above the water.",
+          "Your lifejacket filled quickly because you handled the inflation steps confidently.",
+          "You understood how to make your lifejacket work for you, and showed this skill with control.",
+          "Staying relaxed while inflating your lifejacket showed strong safety awareness.",
+          "You checked that your lifejacket was fully inflated and floated comfortably."
         ],
         critique: [
           "You are encouraged to practise inflating a lifejacket while in the water so the skill feels confident and controlled.",
           "You will keep improving by repeating each step of inflating your lifejacket in the water while staying calm.",
-          "A helpful next step is to keep practising the steps until you can inflate your lifejacket smoothly in the water."
+          "A helpful next step is to keep practising the steps until you can inflate your lifejacket smoothly in the water.",
+          "You are encouraged to practise each step of inflating your lifejacket while staying calm in the water.",
+          "You will keep improving by knowing exactly where the inflation tube or cord is on your lifejacket.",
+          "You are reminded to keep your head above the water and keep your legs moving while you inflate.",
+          "Your confidence will grow by repeating the inflation steps until each one feels automatic.",
+          "A helpful next step is to practise using the mouth tube slowly and steadily.",
+          "You can work toward a smooth inflation by staying relaxed and breathing steadily.",
+          "Treading water with a steady kick will help you free your hands for the inflation steps."
         ] },
       { label: "Swim 25 m using any stroke, then 25 m back crawl",
         praise: [
           "You swam 25 m of a clear stroke followed by 25 m of back crawl at a steady pace.",
           "Your change from your chosen stroke into back crawl was smooth, and both 25 m lengths looked controlled.",
           "You swam 50 m in total and kept your arms moving one after the other on back crawl.",
-          "Swimming 25 m of a stroke of your choice and then 25 m of back crawl without stopping was something you did well."
+          "Swimming 25 m of a stroke of your choice and then 25 m of back crawl without stopping was something you did well.",
+          "You swam 25 m of your chosen stroke and then 25 m of back crawl without stopping.",
+          "You changed smoothly from one stroke to the next and kept a steady pace.",
+          "Your back crawl stayed relaxed and kept moving forward after your first 25 m.",
+          "You kept your arms taking turns on back crawl and your hips near the surface.",
+          "A controlled change of stroke showed strong planning and stamina.",
+          "You finished both lengths with a strong, even rhythm."
         ],
         critique: [
           "You are encouraged to swim both 25 m lengths without stopping, with a clear stroke first and then back crawl at a steady pace.",
           "You are reminded to keep your arms moving one after the other and keep moving forward on the 25 m of back crawl.",
-          "A helpful next step is to practise the two lengths one after the other and hold a steady pace for the full distance."
+          "A helpful next step is to practise the two lengths one after the other and hold a steady pace for the full distance.",
+          "You are encouraged to swim both lengths without stopping and to save some energy for the back crawl.",
+          "You will keep improving by keeping your arms moving one after the other on back crawl.",
+          "You are reminded to keep your head still with your ears in the water on back crawl.",
+          "Your pacing will improve by starting at a comfortable speed on the first 25 m.",
+          "A helpful next step is to practise changing strokes at the wall without stopping.",
+          "You can work toward a stronger back crawl by pushing your hips up and pointing your toes.",
+          "A steady kick will help you keep moving forward on your back."
         ] },
       { label: "Swim each of: 50 m front crawl, 50 m back crawl, 50 m breaststroke",
         praise: [
           "You swam 50 m of front crawl, 50 m of back crawl and 50 m of breaststroke, each with a clear stroke and a steady pace.",
           "Your three 50 m swims showed clear arm and leg movements on every stroke.",
           "You swam each 50 m without stopping, breathing to the side on front crawl, moving your arms one after the other on back crawl and kicking both legs together on breaststroke.",
-          "Keeping a steady pace across all three strokes was something you did well over the 50 m swims."
+          "Keeping a steady pace across all three strokes was something you did well over the 50 m swims.",
+          "You swam 50 m of front crawl, back crawl and breaststroke, each with a steady, clear stroke.",
+          "You kept each stroke technically sound across all three distances.",
+          "You breathed to the side on front crawl and kept a smooth rhythm on every length.",
+          "You kicked both legs together on breaststroke and glided after each kick.",
+          "Your pace stayed even across all three strokes, showing strong stamina.",
+          "You finished each 50 m with energy still in reserve."
         ],
         critique: [
           "You are encouraged to swim each 50 m without stopping at a steady pace on front crawl, back crawl and breaststroke.",
           "You are reminded to breathe to the side and blow out underwater on front crawl, and to keep your arms moving one after the other on back crawl.",
-          "A helpful next step is to practise breaststroke with both arms moving together, a kick with both legs at once and a short glide, so you can swim the full 50 m."
+          "A helpful next step is to practise breaststroke with both arms moving together, a kick with both legs at once and a short glide, so you can swim the full 50 m.",
+          "You are encouraged to keep a steady pace on all three strokes and avoid stopping partway.",
+          "You will keep improving by blowing out underwater and breathing to the side on front crawl.",
+          "You are reminded to keep your arms moving one after the other on back crawl.",
+          "Your breaststroke will improve by bringing both arms forward together and kicking both legs at once.",
+          "A helpful next step is to practise a short glide after each breaststroke kick.",
+          "You can work toward better stamina by swimming a little further each session.",
+          "Resting briefly between strokes and then carrying on will help you build up gradually."
         ] },
       { label: "Complete a 350 m fitness workout",
         praise: [
           "You finished the 350 m fitness workout and kept a steady pace through the whole session.",
           "Your stamina showed as you swam the full 350 m of the workout with clear strokes.",
           "You kept moving from start to finish and swam the full 350 m fitness workout.",
-          "Staying focused and finishing the 350 m workout showed your fitness is growing."
+          "Staying focused and finishing the 350 m workout showed your fitness is growing.",
+          "You swam the full 350 m workout, keeping your stroke steady throughout.",
+          "You paced your effort across the workout and finished with strength.",
+          "Your stamina showed in the way you held your technique across the whole distance.",
+          "You kept moving from start to finish and showed real commitment.",
+          "A steady rhythm and regular breathing carried you through the full 350 m.",
+          "You chose strokes and speeds that you could sustain."
         ],
         critique: [
           "You are encouraged to work toward swimming the full 350 m workout without stopping at a steady pace.",
           "You will keep improving by practising longer swims with a clear stroke, so you can build up to the full 350 m.",
-          "A helpful next step is to find a steady pace right from the start of the session and keep it going."
+          "A helpful next step is to find a steady pace right from the start of the session and keep it going.",
+          "You are encouraged to settle into a steady pace from the start of the workout.",
+          "You will keep improving by breathing regularly and keeping your stroke smooth.",
+          "You are reminded to keep your technique steady when you feel tired.",
+          "Your endurance will grow with regular, longer swims each week.",
+          "A helpful next step is to take short rests when needed and then carry on.",
+          "You can work toward the full distance by adding a little more each session.",
+          "Using a relaxed kick will help you save energy over the whole workout."
         ] },
       { label: "Demonstrate basic survival (drownproofing) kick mechanics",
         praise: [
           "You showed the basic survival kick and kept your head above the water with steady leg movements.",
           "Your drownproofing kick was clear and helped keep you up in the water.",
           "Using the survival kick, you stayed in one place with your head above the water.",
-          "You showed control and kept your legs moving the whole time during the basic survival kick."
+          "You showed control and kept your legs moving the whole time during the basic survival kick.",
+          "You showed the survival kick and stayed upright with your head above the water.",
+          "Your legs moved in a steady, circular pattern that kept you in one spot.",
+          "You stayed relaxed and breathed calmly while using the survival kick.",
+          "You kept your knees apart and your feet flexed, which gave you strong support.",
+          "A steady rhythm in your kick showed that you understand how it holds you up.",
+          "You kept your body upright and your head high throughout."
         ],
         critique: [
           "You are encouraged to keep your head above the water while practising the basic survival (drownproofing) kick.",
           "You will keep improving by practising the leg movements of the survival kick until the movements feel smooth and controlled.",
-          "A helpful next step is to keep your legs moving steadily so the kick holds you up with your head above the water."
+          "A helpful next step is to keep your legs moving steadily so the kick holds you up with your head above the water.",
+          "You are encouraged to keep your legs moving without pausing so the kick keeps holding you up.",
+          "You will keep improving by keeping your knees apart and your feet flexed.",
+          "You are reminded to stay upright and keep your head above the water.",
+          "Your kick will improve by practising slow, wide circles with your legs.",
+          "A helpful next step is to use your arms for balance while your legs do the work.",
+          "You can work toward a stronger kick by practising for a little longer each time.",
+          "Relaxing your shoulders and breathing steadily will help you stay up with less effort."
         ] },
       { label: "First aid: assessing for and calling EMS appropriately",
         praise: [
           "You checked the area for dangers before going closer, and then checked whether the person responded.",
           "Your first aid response was clear, as you checked for dangers, checked whether the person responded and called emergency services.",
           "You called emergency services at the right time after checking the area, which showed an organized response.",
-          "Checking for dangers, checking whether the person responds and then calling for help in that order was something you did well."
+          "Checking for dangers, checking whether the person responds and then calling for help in that order was something you did well.",
+          "You checked the scene for dangers first, then checked whether the person responded.",
+          "You called emergency services clearly and gave the information the dispatcher needed.",
+          "You kept your response in order and stayed calm under pressure.",
+          "You spoke clearly and confidently when asking for help.",
+          "Following the steps in order showed that you understand how to start an emergency response.",
+          "You made sure the scene was safe before giving help, which is the right first step."
         ],
         critique: [
           "You are reminded to check the area for dangers before you go close to a person who needs help.",
           "You are encouraged to check whether the person responds and then call for help or emergency services clearly.",
-          "A helpful next step is to practise the order of a first aid response: check for dangers, check whether the person responds, check airway, breathing and circulation, and call for help."
+          "A helpful next step is to practise the order of a first aid response: check for dangers, check whether the person responds, check airway, breathing and circulation, and call for help.",
+          "You are reminded to look around for hazards before moving close to anyone who needs help.",
+          "You will keep improving by checking whether the person responds before doing anything else.",
+          "You are encouraged to call emergency services clearly and say exactly where help is needed.",
+          "Your response will improve by practising the steps in the same order each time.",
+          "A helpful next step is to go over what to say when you call for help.",
+          "You can work toward a calmer response by taking a breath and thinking through each step.",
+          "Practising with a partner will help you remember the steps without hesitating."
         ] },
       { label: "First aid: care for external bleeding",
         praise: [
           "You cared for a person with external bleeding and began by checking the area for dangers and checking whether the person responded.",
           "Your first aid for external bleeding was organized, and you remembered to call for help and emergency services.",
           "You showed confident care for a person with external bleeding, including keeping the person warm.",
-          "You stayed calm and in control when helping with external bleeding, and you checked for dangers before giving care."
+          "You stayed calm and in control when helping with external bleeding, and you checked for dangers before giving care.",
+          "You started by checking the area for dangers and then checked that the person responded.",
+          "You applied firm, steady pressure to the wound and kept it there.",
+          "You remembered to call for help and keep the person warm.",
+          "Your care for external bleeding was organized and calm.",
+          "You took the right steps in the right order, showing a clear understanding of first aid.",
+          "You stayed focused on the person and spoke calmly to reassure the person."
         ],
         critique: [
           "You are reminded to check the area for dangers and check whether the person responds before you give care for external bleeding.",
           "You are encouraged to call for help or emergency services as part of your care for external bleeding, and to keep the person warm.",
-          "A helpful next step is to practise every step of care for external bleeding, from checking airway, breathing and circulation to calling for help, until each step feels natural."
+          "A helpful next step is to practise every step of care for external bleeding, from checking airway, breathing and circulation to calling for help, until each step feels natural.",
+          "You are reminded to check for dangers and check whether the person responds before giving care.",
+          "You will keep improving by applying firm, direct pressure to the bleeding.",
+          "You are encouraged to call for emergency services and keep the person warm and calm.",
+          "Your care will improve by practising each step in order until it feels natural.",
+          "A helpful next step is to keep the pressure steady rather than checking the wound too often.",
+          "You can work toward a more confident response by reviewing the steps often.",
+          "Talking calmly to the person will help the person stay still and relaxed."
         ] },
       { label: "Recognizing the difference between a weak swimmer and a non-swimmer",
         praise: [
           "You told the difference between a weak swimmer and a non-swimmer and named each one clearly.",
           "Your ability to tell a weak swimmer from a non-swimmer was clear, which is a useful rescue skill.",
           "You correctly spotted whether a person was a weak swimmer or a non-swimmer, which is an important first step in any rescue.",
-          "Noticing the signs that tell a weak swimmer from a non-swimmer is something you did well."
+          "Noticing the signs that tell a weak swimmer from a non-swimmer is something you did well.",
+          "You told a weak swimmer from a non-swimmer by watching how the person moved in the water.",
+          "You noticed the signs quickly and named each one correctly.",
+          "Spotting the differences early showed that you understand how to start a rescue safely.",
+          "You watched the person carefully and chose the right way to help.",
+          "You described the signs of each type of swimmer clearly and confidently.",
+          "Your observations showed a strong grasp of how to tell who needs help."
         ],
         critique: [
           "You are encouraged to review the difference between a weak swimmer and a non-swimmer so you can spot each one quickly in the water.",
           "You will keep improving by practising how to tell whether a person is a weak swimmer or a non-swimmer before you decide how to help.",
-          "A helpful next step is to practise telling a weak swimmer from a non-swimmer while keeping your eyes on the person."
+          "A helpful next step is to practise telling a weak swimmer from a non-swimmer while keeping your eyes on the person.",
+          "You are encouraged to review the signs that tell a weak swimmer from a non-swimmer.",
+          "You will keep improving by watching how a person's arms, legs and head move in the water.",
+          "You are reminded to keep your eyes on the person while you decide how to help.",
+          "Your recognition will improve by practising with different examples.",
+          "A helpful next step is to describe aloud what you see before deciding how to act.",
+          "You can work toward quicker decisions by practising these observations often.",
+          "Talking through each sign with a partner will help you remember each one."
         ] },
       { label: "Throw a buoyant aid with line to a target within 30 seconds",
         praise: [
           "You threw the rescue aid with its line to the target within 30 seconds, which showed a quick and controlled response.",
           "Your throw landed on the target, and you finished within the 30 second limit.",
           "You responded quickly by throwing the floating aid with its line to the target in under 30 seconds.",
-          "Delivering the rescue aid to the target within 30 seconds with accuracy and confidence was something you did well."
+          "Delivering the rescue aid to the target within 30 seconds with accuracy and confidence was something you did well.",
+          "You threw the rescue aid to the target within 30 seconds, showing a quick and calm response.",
+          "Your throw landed on target and the line stayed clear of the water.",
+          "You prepared the line and aid quickly and threw with confidence.",
+          "You kept your eyes on the person throughout the throw.",
+          "Delivering the aid accurately and on time showed strong control.",
+          "You stayed calm and gave the person a clear target to reach."
         ],
         critique: [
           "You are encouraged to practise throwing the rescue aid with its line to the target so you can do it within 30 seconds.",
           "You will keep improving by practising your throw so the aid lands on the target, and by working quickly to finish within 30 seconds.",
-          "You are reminded to keep your eyes on the person and keep the person calm while you get ready and throw the rescue aid."
+          "You are reminded to keep your eyes on the person and keep the person calm while you get ready and throw the rescue aid.",
+          "You are encouraged to practise your throw so the aid lands on the target every time.",
+          "You will keep improving by preparing the line quickly and keeping it free of tangles.",
+          "You are reminded to keep your eyes on the person and speak calmly while you throw.",
+          "Your accuracy will improve by throwing with a smooth, underhand motion.",
+          "A helpful next step is to practise getting ready within a few seconds so the throw can come sooner.",
+          "You can work toward the 30-second goal by practising each step without rushing.",
+          "Holding the end of the line firmly will help you pull the person safely to the side."
         ] }
     ]
   },
@@ -144,144 +287,300 @@ Object.assign(LEVEL_DATA, {
           "You did forward and backward somersaults in the water as one smooth sequence, moving from one into the next.",
           "Your forward and backward somersaults linked up without stopping, which showed strong control in the water.",
           "You linked a forward somersault and a backward somersault into one flowing sequence with confidence.",
-          "Doing both somersaults one after the other without a break showed your water skills are growing."
+          "Doing both somersaults one after the other without a break showed your water skills are growing.",
+          "You linked a forward and backward somersault into one smooth sequence without stopping.",
+          "You kept your body in a tight tuck through both rotations.",
+          "You stayed calm underwater and flowed from one somersault into the next.",
+          "You found your balance quickly between rotations and kept your movements controlled.",
+          "Your somersaults were fluid and showed strong body awareness.",
+          "You surfaced smoothly after the second somersault and looked relaxed."
         ],
         critique: [
           "You are encouraged to link your forward and backward somersaults into one sequence without stopping in the middle.",
           "You will keep improving by practising each somersault on its own first, so you can move straight from the forward one into the backward one.",
-          "A helpful next step is to do the forward and backward somersaults one after the other in a smooth, controlled way."
+          "A helpful next step is to do the forward and backward somersaults one after the other in a smooth, controlled way.",
+          "You are encouraged to link both somersaults without a pause in the middle.",
+          "You will keep improving by keeping your chin tucked and your knees close to your chest.",
+          "You are reminded to blow out gently through your nose while you roll.",
+          "Your sequence will improve by practising each somersault on its own first.",
+          "A helpful next step is to start the second somersault right as the first one finishes.",
+          "You can work toward a smoother sequence by staying relaxed and moving slowly.",
+          "Keeping your body tight and small will help you rotate more quickly."
         ] },
       { label: "Stride entry with ready position and effective scull",
         praise: [
           "You did a stride entry into the water, finished in the ready position and moved your hands in small circles to stay up at the surface.",
           "Your stride entry was controlled, and the small circles you made with your hands kept you up in the ready position.",
           "You entered with a stride entry and moved straight into the ready position, using your hands well to stay up.",
-          "Combining a stride entry, the ready position and small hand circles to stay up was something you did well."
+          "Combining a stride entry, the ready position and small hand circles to stay up was something you did well.",
+          "You stepped into deep water with a stride entry and moved straight into the ready position.",
+          "Your hands made small, quick circles that kept you up at the surface.",
+          "You kept your head up and your eyes on the target throughout the entry.",
+          "You combined the entry, the ready position and the scull into one smooth movement.",
+          "Your balance in the air was steady, and your recovery to the surface was calm.",
+          "You stayed in control and held your position without drifting."
         ],
         critique: [
           "You are encouraged to finish your stride entry in the ready position with your eyes looking forward.",
           "You will keep improving by practising moving your hands in small circles after your stride entry so you can stay up at the surface.",
-          "You are reminded to put the whole sequence together, from stride entry to ready position to staying up with your hands, one step after the other."
+          "You are reminded to put the whole sequence together, from stride entry to ready position to staying up with your hands, one step after the other.",
+          "You are encouraged to keep your head up and your eyes forward during the entry.",
+          "You will keep improving by starting your hand circles as soon as you enter the water.",
+          "You are reminded to bring your legs together and kick as you surface.",
+          "Your entry will improve by stepping out with one leg forward and one back.",
+          "A helpful next step is to practise each part on its own before putting it all together.",
+          "You can work toward a more stable position by relaxing your shoulders.",
+          "Making small, quick circles with your hands will help you stay up without tiring."
         ] },
       { label: "Support a 2.3 kg object for at least 1 minute in deep water",
         praise: [
           "You held the 2.3 kg object in deep water for at least 1 minute while keeping your head above the water.",
           "Your hold on the 2.3 kg object lasted a full minute or more, which showed steady leg action and stamina.",
           "You held the 2.3 kg object at the surface in deep water for the whole minute with confident control.",
-          "Keeping the weighted object up in deep water for at least 1 minute was something you did well."
+          "Keeping the weighted object up in deep water for at least 1 minute was something you did well.",
+          "You held the weighted object in deep water for the full minute with your head above the water.",
+          "Your legs worked steadily and kept you up the entire time.",
+          "You stayed calm and kept your breathing even while holding the object.",
+          "Your grip on the object stayed firm from start to finish.",
+          "You showed strong leg strength and stamina in deep water.",
+          "You stayed in one place without drifting."
         ],
         critique: [
           "You are encouraged to keep your head above the water while holding the 2.3 kg object in deep water for at least 1 minute.",
           "You will keep improving by practising steady leg action while you hold the object, building up to the full minute in deep water.",
-          "A helpful next step is to stay in one place in deep water for the whole minute while you hold the object."
+          "A helpful next step is to stay in one place in deep water for the whole minute while you hold the object.",
+          "You are encouraged to keep a strong, steady kick going for the whole minute.",
+          "You will keep improving by keeping your head above the water and your body upright.",
+          "You are reminded to hold the object close to your body to save energy.",
+          "Your stamina will improve by practising longer holds each session.",
+          "A helpful next step is to use a wider, stronger kick, such as the eggbeater, to stay higher.",
+          "You can work toward the full minute by building up the time a little at a time.",
+          "Breathing slowly and calmly will help you stay up with less effort."
         ] },
       { label: "Swim a 200 m individual medley of lifesaving strokes",
         praise: [
           "You swam the 200 m individual medley of lifesaving strokes with a clear stroke and a steady pace throughout.",
           "Your 200 m medley had clear changes between lifesaving strokes, and you kept moving over the full distance.",
           "You swam the full 200 m without stopping and showed each lifesaving stroke in your medley with controlled arms and legs.",
-          "Keeping a steady pace as you moved between strokes over the 200 m medley was something you did well."
+          "Keeping a steady pace as you moved between strokes over the 200 m medley was something you did well.",
+          "You swam the 200 m individual medley without stopping, using clear, strong lifesaving strokes.",
+          "You changed from one stroke to the next smoothly and kept a steady pace.",
+          "Your technique stayed clear on every stroke across the full 200 m.",
+          "You paced your effort across the whole distance and finished strongly.",
+          "A steady rhythm and regular breathing carried you through each section.",
+          "Your stamina showed in how well you held your form to the finish."
         ],
         critique: [
           "You are encouraged to swim the full 200 m medley without stopping, using a clear lifesaving stroke for each section.",
           "You will keep improving by practising how to move from one lifesaving stroke to the next at a steady pace over the whole 200 m.",
-          "A helpful next step is to build your stamina for the 200 m medley and keep the arm and leg movements of each stroke clear."
+          "A helpful next step is to build your stamina for the 200 m medley and keep the arm and leg movements of each stroke clear.",
+          "You are encouraged to keep a steady pace through every stroke of the medley.",
+          "You will keep improving by practising each stroke change at the wall.",
+          "You are reminded to keep your technique clear when you feel tired.",
+          "Your endurance will grow with regular, longer swims each week.",
+          "A helpful next step is to focus on the strokes you find hardest.",
+          "You can work toward the full distance by adding a little more each session.",
+          "Using a relaxed kick will help you save energy over the full 200 m."
         ] },
       { label: "Swim each of: 75 m front crawl, 75 m back crawl, 75 m breaststroke",
         praise: [
           "You swam 75 m of front crawl, 75 m of back crawl and 75 m of breaststroke at a steady pace on each.",
           "Each of your three 75 m swims showed a clear stroke and kept you moving forward.",
           "You swam all three 75 m distances, breathing to the side on front crawl and bringing both arms forward together on breaststroke.",
-          "Swimming 75 m of each stroke without stopping showed your stamina and stroke control are growing."
+          "Swimming 75 m of each stroke without stopping showed your stamina and stroke control are growing.",
+          "You swam 75 m of front crawl, back crawl and breaststroke with a steady rhythm on each.",
+          "Your strokes stayed clear and strong across all three distances.",
+          "You breathed to the side on front crawl and glided after each breaststroke kick.",
+          "Your pace stayed even, showing growing stamina.",
+          "You kept your arms taking turns on back crawl and your hips near the surface.",
+          "You finished each 75 m with control."
         ],
         critique: [
           "You are encouraged to swim each 75 m without stopping at a steady pace on front crawl, back crawl and breaststroke.",
           "You are reminded to breathe to the side and blow out underwater on front crawl, and to keep your arms moving one after the other on back crawl, for the full 75 m.",
-          "A helpful next step is to practise breaststroke with both arms moving together, a kick with both legs at once and a short glide, so you can swim the full 75 m."
+          "A helpful next step is to practise breaststroke with both arms moving together, a kick with both legs at once and a short glide, so you can swim the full 75 m.",
+          "You are encouraged to keep a steady pace on all three strokes and avoid stopping partway.",
+          "You will keep improving by blowing out underwater and breathing to the side on front crawl.",
+          "You are reminded to keep your arms moving one after the other on back crawl.",
+          "Your breaststroke will improve by bringing both arms forward together and kicking both legs at once.",
+          "A helpful next step is to practise a short glide after each breaststroke kick.",
+          "You can work toward better stamina by swimming a little further each session.",
+          "Resting briefly between strokes and then carrying on will help you build up gradually."
         ] },
       { label: "Streamlined front crawl with proper underwater breathing pattern",
         praise: [
           "You swam front crawl stretched out long and straight, breathing to the side and blowing out underwater.",
           "Your front crawl was long and straight, and your breathing pattern with blowing out underwater was well set.",
           "Breathing to the side and blowing out underwater helped you keep your front crawl long, straight and controlled.",
-          "Combining a long, straight body position with a steady breathing pattern on front crawl was something you did well."
+          "Combining a long, straight body position with a steady breathing pattern on front crawl was something you did well.",
+          "You swam a streamlined front crawl with your body long and straight and your breathing steady.",
+          "You blew out underwater and turned your head to the side only as your arm came up.",
+          "Your face returned to the water with your arm, keeping your body in line.",
+          "You kept a smooth, relaxed rhythm throughout.",
+          "Your kick stayed small and steady from your hips.",
+          "A long, straight body position helped you glide with each stroke."
         ],
         critique: [
           "You are encouraged to breathe to the side during front crawl and blow out underwater between breaths.",
           "You will keep improving by practising a front crawl stretched out long and straight, even while you breathe to the side.",
-          "A helpful next step is to blow out underwater and turn to the side to breathe in a steady pattern on front crawl."
+          "A helpful next step is to blow out underwater and turn to the side to breathe in a steady pattern on front crawl.",
+          "You are encouraged to blow out underwater and turn your head only as your arm lifts.",
+          "You will keep improving by keeping your head in line with your body between breaths.",
+          "You are reminded to stretch your arm forward before you pull.",
+          "Your front crawl will improve by practising your breathing with a kickboard.",
+          "A helpful next step is to count your strokes between breaths to build a pattern.",
+          "You can work toward a smoother stroke by relaxing your shoulders.",
+          "Looking down at the bottom will help you keep your head and body in line."
         ] },
       { label: "Alternate-arm back crawl with rhythmic kick and continuous propulsion",
         praise: [
           "You swam back crawl with your arms moving one after the other and a steady kick that kept you going forward.",
           "Your back crawl showed your arms taking turns with a steady kick that carried you forward the whole way.",
           "You kept moving forward on back crawl, helped by your arms taking turns and your steady kick.",
-          "Keeping your back crawl smooth, with your arms and kick working together, was something you did well."
+          "Keeping your back crawl smooth, with your arms and kick working together, was something you did well.",
+          "You swam back crawl with your arms taking turns and a steady kick keeping you moving.",
+          "Your stroke rhythm stayed even, with a smooth recovery of each arm.",
+          "You kept your head still and your ears in the water throughout.",
+          "A strong kick supported your arms and kept your hips high.",
+          "You moved forward continuously without pausing between strokes.",
+          "Your back crawl looked relaxed and efficient."
         ],
         critique: [
           "You are encouraged to keep your arms moving one after the other on back crawl so you keep moving forward.",
           "You will keep improving by practising a steady kick on back crawl to support your arms.",
-          "You are reminded to keep your arms taking turns and your kick steady so you move forward the whole way on back crawl."
+          "You are reminded to keep your arms taking turns and your kick steady so you move forward the whole way on back crawl.",
+          "You are encouraged to keep your arms moving without pausing so you stay in motion.",
+          "You will keep improving by keeping a steady kick that supports your arms.",
+          "You are reminded to keep your head still with your ears in the water.",
+          "Your stroke will improve by reaching straight back with each arm.",
+          "A helpful next step is to point your toes and kick from your hips.",
+          "You can work toward a smoother rhythm by relaxing your shoulders.",
+          "Looking up at the ceiling will help you keep your body flat."
         ] },
       { label: "Breaststroke with continuous propulsion",
         praise: [
           "You swam breaststroke with both arms bringing forward together and a kick with both legs at once, which kept you moving forward.",
           "Your breaststroke had a kick with both legs together and a short glide, and you kept moving forward.",
           "Your breaststroke kept you moving forward steadily, with both arms working together in a controlled way.",
-          "Linking each breaststroke stroke smoothly and keeping your forward movement steady was something you did well."
+          "Linking each breaststroke stroke smoothly and keeping your forward movement steady was something you did well.",
+          "You swam breaststroke with a strong pull and kick that kept you moving forward.",
+          "Your arms and legs worked in order, with a short glide after each kick.",
+          "You kept your body flat and your timing smooth from stroke to stroke.",
+          "You brought both arms forward together and kicked both legs at the same time.",
+          "Your rhythm stayed steady, carrying you forward without stopping.",
+          "A clean, controlled stroke showed strong timing."
         ],
         critique: [
           "You are encouraged to bring both arms forward together in your breaststroke so you keep moving forward.",
           "You will keep improving by practising a kick with both legs at once, followed by a short glide, so each stroke carries you forward.",
-          "A helpful next step is to connect your arms and legs so your breaststroke keeps you moving forward."
+          "A helpful next step is to connect your arms and legs so your breaststroke keeps you moving forward.",
+          "You are encouraged to link each breaststroke stroke so you never stop moving.",
+          "You will keep improving by pulling, kicking and gliding in order.",
+          "You are reminded to bring both arms forward together and kick both legs at once.",
+          "Your stroke will improve by finishing each kick with your feet together.",
+          "A helpful next step is to glide briefly after each kick to keep your momentum.",
+          "You can work toward a smoother stroke by keeping your head in line with your body.",
+          "Blowing out underwater and lifting your head to breathe will help your timing."
         ] },
       { label: "First aid: care for a victim in shock",
         praise: [
           "You cared for a person in shock and began by checking the area for dangers and checking whether the person responded.",
           "Your care for a person in shock included calling emergency services and keeping the person warm.",
           "You showed organized first aid for shock, checking airway, breathing and circulation and calling for help.",
-          "Recognizing a person in shock and giving the right care while keeping the person calm was something you did well."
+          "Recognizing a person in shock and giving the right care while keeping the person calm was something you did well.",
+          "You started by checking the area for dangers and then checked that the person responded.",
+          "You called emergency services and kept the person warm and calm.",
+          "You checked airway, breathing and circulation in order.",
+          "You stayed calm and spoke reassuringly to the person who was in shock.",
+          "Your care for shock was organized and confident.",
+          "You recognized the signs of shock and acted quickly."
         ],
         critique: [
           "You are reminded to check the area for dangers and check whether the person responds before you care for a person in shock.",
           "You are encouraged to keep the person warm and calm while you wait for emergency services.",
-          "A helpful next step is to practise each step of care for shock, including checking airway, breathing and circulation and calling for help, until the order feels natural."
+          "A helpful next step is to practise each step of care for shock, including checking airway, breathing and circulation and calling for help, until the order feels natural.",
+          "You are reminded to check for dangers and check whether the person responds before giving care.",
+          "You will keep improving by keeping the person warm, comfortable and lying down.",
+          "You are encouraged to call for emergency services clearly and say what is wrong.",
+          "Your response will improve by practising each step in order until it feels natural.",
+          "A helpful next step is to keep talking calmly to the person until help arrives.",
+          "You can work toward a more confident response by reviewing the signs of shock.",
+          "Watching the person closely will help you notice any changes quickly."
         ] },
       { label: "First aid: simulate care for an obstructed airway",
         praise: [
           "You acted out care for a blocked airway, starting by checking the area and checking whether the person responded.",
           "Your response to a blocked airway was organized, and you called emergency services as part of your care.",
           "You showed controlled care for a blocked airway, checking airway, breathing and circulation along the way.",
-          "Following the right steps when acting out care for a blocked airway was something you did well."
+          "Following the right steps when acting out care for a blocked airway was something you did well.",
+          "You acted out care for a blocked airway, starting with a check of the area and the person.",
+          "You called emergency services and went through the steps in the right order.",
+          "You gave clear, firm movements and stayed calm throughout.",
+          "You checked airway, breathing and circulation as part of your response.",
+          "Your demonstration was organized and showed that you understand the steps.",
+          "You kept the person calm and reassured the person as you worked."
         ],
         critique: [
           "You are reminded to check for dangers and check whether the person responds first when acting out care for a blocked airway.",
           "You are encouraged to check airway, breathing and circulation and call for help or emergency services as part of your response to a blocked airway.",
-          "A helpful next step is to practise the order of care for a blocked airway so you can do each step one after the other."
+          "A helpful next step is to practise the order of care for a blocked airway so you can do each step one after the other.",
+          "You are reminded to check for dangers and check whether the person responds first.",
+          "You will keep improving by learning the order of the steps for a blocked airway.",
+          "You are encouraged to call for emergency services as part of your response.",
+          "Your technique will improve by practising each movement slowly and clearly.",
+          "A helpful next step is to practise with a partner and talk through each step.",
+          "You can work toward more confidence by repeating the sequence often.",
+          "Staying calm and speaking clearly will help the person stay calm too."
         ] },
       { label: "Recognizing and avoiding danger when approaching a weak or non-swimmer",
         praise: [
           "You spotted danger when going toward a weak or non-swimmer and took steps to avoid it.",
           "Your approach to a weak or non-swimmer showed careful awareness of the dangers.",
           "Before going closer, you checked the situation for dangers and worked out whether the person was a weak swimmer or a non-swimmer.",
-          "You kept your eyes on the person while approaching safely and avoiding danger to yourself, which you did well."
+          "You kept your eyes on the person while approaching safely and avoiding danger to yourself, which you did well.",
+          "You spotted danger as you approached a weak or non-swimmer and took steps to stay safe.",
+          "You checked the scene before going closer and worked out what the person needed.",
+          "You kept your eyes on the person and kept your distance from any grasp.",
+          "Your approach was careful and showed strong awareness.",
+          "You chose a safe way to reach the person and kept your own safety in mind.",
+          "You stayed calm and kept the person calm too."
         ],
         critique: [
           "You are reminded to check the area for dangers before you approach a weak or non-swimmer.",
           "You are encouraged to work out whether the person is a weak swimmer or a non-swimmer so you can avoid danger as you go closer.",
-          "A helpful next step is to practise swimming head-up with your eyes forward, keeping your eyes on the person and keeping the person calm."
+          "A helpful next step is to practise swimming head-up with your eyes forward, keeping your eyes on the person and keeping the person calm.",
+          "You are reminded to scan the scene for hazards before moving in.",
+          "You will keep improving by working out whether the person is a weak swimmer or a non-swimmer.",
+          "You are encouraged to keep your eyes on the person as you go closer.",
+          "Your approach will improve by keeping your head up and your eyes forward.",
+          "A helpful next step is to practise talking calmly to the person as you approach.",
+          "You can work toward a safer rescue by thinking through each step before acting.",
+          "Keeping a rescue aid between you and the person will help you stay safe."
         ] },
       { label: "Performing an assisted swim to a victim",
         praise: [
           "You swam to a person with a safe entry and an efficient head-up approach.",
           "Your swim to the person kept your eyes looking forward, and you kept your eyes on the person all the way.",
           "You reached the person with an efficient head-up approach and showed confident control during your swim.",
-          "Approaching the person in a controlled way, with a safe entry and a calm voice, was something you did well."
+          "Approaching the person in a controlled way, with a safe entry and a calm voice, was something you did well.",
+          "You entered safely and swam to the person using an efficient head-up approach.",
+          "You kept your eyes on the person all the way and stayed in control.",
+          "You reached the person calmly and kept your voice steady.",
+          "You made a safe entry and moved quickly toward the person.",
+          "Your approach was smooth and strong, with a steady stroke.",
+          "You stayed confident and focused throughout the swim."
         ],
         critique: [
           "You are encouraged to swim head-up with your eyes looking forward when you swim to a person who needs help.",
           "You will keep improving by practising a safe entry followed by an efficient swim to the person.",
-          "You are reminded to keep your eyes on the person and keep the person calm as you swim closer."
+          "You are reminded to keep your eyes on the person and keep the person calm as you swim closer.",
+          "You are encouraged to keep your head up and your eyes forward as you swim to the person.",
+          "You will keep improving by joining a safe entry directly to a smooth approach.",
+          "You are reminded to keep your eyes on the person and keep them calm.",
+          "Your approach will improve by using a strong, steady stroke.",
+          "A helpful next step is to speak calmly to the person as you get closer.",
+          "You can work toward a quicker approach by practising your head-up stroke.",
+          "Keeping your kick going will help you stay high in the water."
         ] }
     ]
   },
@@ -293,156 +592,325 @@ Object.assign(LEVEL_DATA, {
           "You did two different deep-water entries using rescue aids, and each one suited the situation.",
           "Your deep-water entries with a rescue aid were controlled, and you showed more than one type of entry.",
           "You confidently did at least two different entries into deep water while holding a rescue aid.",
-          "Showing a variety of entries and staying in control of the rescue aid as you entered deep water was something you did well."
+          "Showing a variety of entries and staying in control of the rescue aid as you entered deep water was something you did well.",
+          "You demonstrated two different entries into deep water while carrying a rescue aid, each suited to the conditions.",
+          "You stayed in control of the aid during every entry.",
+          "You chose entries that kept you safe and kept the person in sight.",
+          "Your entries were controlled, and you came up ready to swim.",
+          "You held the aid securely as you entered and surfaced smoothly.",
+          "A variety of entries showed that you can adapt to different situations."
         ],
         critique: [
           "You are encouraged to practise at least two different deep-water entries using a rescue aid.",
           "You will keep improving by practising each entry so it suits the situation and you stay in control of the rescue aid.",
-          "A helpful next step is to learn a second, different entry into deep water with a rescue aid."
+          "A helpful next step is to learn a second, different entry into deep water with a rescue aid.",
+          "You are encouraged to build a second entry into your skills so you have a choice with a rescue aid.",
+          "You will keep improving by keeping a firm grip on the aid during each entry.",
+          "You are reminded to keep your head up and your eyes on the target.",
+          "Your entries will improve by choosing the right one for the depth and conditions.",
+          "A helpful next step is to learn a second entry, such as a stride or a slide entry.",
+          "You can work toward smoother entries by practising each one several times.",
+          "Practising with the aid in different positions will help you stay in control."
         ] },
       { label: "Entry with aid and swim 25 m head-up front crawl or breaststroke",
         praise: [
           "You entered the water with an aid and swam 25 m of head-up front crawl or breaststroke with your eyes looking forward.",
           "Your entry with an aid was followed by an efficient head-up swim for the full 25 m.",
           "After entering with the aid, you kept your head above the water and swam 25 m at a steady pace.",
-          "Linking a safe entry to a 25 m head-up swim was something you did well."
+          "Linking a safe entry to a 25 m head-up swim was something you did well.",
+          "You entered with an aid and swam 25 m head-up with your eyes forward.",
+          "You linked your entry to your swim without pausing.",
+          "You kept your head above the water and held a steady pace.",
+          "You stayed in control of the aid as you swam.",
+          "A smooth entry and a strong head-up swim showed strong technique.",
+          "You swam the whole distance with confidence."
         ],
         critique: [
           "You are encouraged to keep your eyes looking forward while swimming head-up front crawl or breaststroke for the full 25 m after your entry.",
           "You will keep improving by practising a safe entry with the aid followed by a head-up swim at a steady pace.",
-          "A helpful next step is to join your entry with the aid to your 25 m head-up swim and swim without stopping."
+          "A helpful next step is to join your entry with the aid to your 25 m head-up swim and swim without stopping.",
+          "You are encouraged to keep your eyes forward as you swim after the entry.",
+          "You will keep improving by moving straight from the entry into your stroke.",
+          "You are reminded to keep a steady pace for the full 25 m.",
+          "Your swim will improve by keeping your head just above the water.",
+          "A helpful next step is to practise the entry and the swim as one continuous skill.",
+          "You can work toward a smoother swim by holding the aid close to your body.",
+          "A strong, steady kick will help you stay high in the water."
         ] },
       { label: "Defence methods against grasps from the front, side, and rear",
         praise: [
           "You showed ways to defend yourself against grasps from the front, side and rear.",
           "Your defence against grasps from each direction was controlled, covering the front, side and rear.",
           "You responded to grasps from the front, side and rear with confident defence methods.",
-          "Showing a defence method for each kind of grasp while staying in control was something you did well."
+          "Showing a defence method for each kind of grasp while staying in control was something you did well.",
+          "You showed a defence against a grasp from the front, the side and the rear.",
+          "You responded to each grasp calmly and with control.",
+          "Your movements were clear and showed that you understand how to break free.",
+          "You stayed calm and kept your head above the water during each defence.",
+          "You chose the right method for each type of grasp.",
+          "You moved confidently and kept your own safety first."
         ],
         critique: [
           "You are encouraged to practise a defence method for each kind of grasp, from the front, side and rear.",
           "You will keep improving by going over your defence methods so grasps from all three directions are shown clearly.",
-          "A helpful next step is to respond to each grasp calmly, using the method you have learned for that grasp."
+          "A helpful next step is to respond to each grasp calmly, using the method you have learned for that grasp.",
+          "You are encouraged to practise a defence for each type of grasp.",
+          "You will keep improving by reviewing the steps of each method.",
+          "You are reminded to stay calm and act quickly when someone grasps you.",
+          "Your defences will improve by practising each one slowly and with control.",
+          "A helpful next step is to practise with a partner so the movements feel natural.",
+          "You can work toward a stronger response by keeping your body balanced.",
+          "Remembering to protect your head and keep breathing will help you stay safe."
         ] },
       { label: "Head-first surface dive to recover a 4.5 kg object from 5-10 m depth",
         praise: [
           "You did a head-first surface dive and brought the 4.5 kg object up from 5-10 m depth.",
           "Your head-first surface dive took you to the bottom, where you found and picked up the 4.5 kg object.",
           "You showed a controlled head-first surface dive and a controlled return to the surface with the 4.5 kg object.",
-          "Diving down, finding the heavier object and bringing it back to the surface was something you did well."
+          "Diving down, finding the heavier object and bringing it back to the surface was something you did well.",
+          "You dove head first to the bottom and brought the 4.5 kg object back up.",
+          "You controlled your breath and stayed calm at depth.",
+          "You found the object quickly and held it firmly on the way up.",
+          "Your surface dive was smooth and your kick was strong.",
+          "Returning to the surface with the heavier object showed real strength and control.",
+          "You kept your head above the water once you reached the surface."
         ],
         critique: [
           "You are encouraged to keep practising your head-first surface dive so you can reach 5-10 m and bring up the 4.5 kg object.",
           "You will keep improving by practising the whole dive, including finding the object and swimming back to the surface with it.",
-          "A helpful next step is to work on reaching the object on the bottom and bringing it back up to the surface."
+          "A helpful next step is to work on reaching the object on the bottom and bringing it back up to the surface.",
+          "You are encouraged to practise the dive so you can reach the bottom with ease.",
+          "You will keep improving by taking a full breath and diving smoothly.",
+          "You are reminded to keep your eyes on the object as you go down.",
+          "Your dive will improve by pulling strongly with your arms to reach depth.",
+          "A helpful next step is to build strength for lifting the heavier object.",
+          "You can work toward the full depth by practising in shallower water first.",
+          "Equalizing the pressure in your ears will help you stay comfortable at depth."
         ] },
       { label: "Swim each of: 100 m front crawl, 100 m back crawl, 100 m breaststroke",
         praise: [
           "You swam 100 m of front crawl, 100 m of back crawl and 100 m of breaststroke, keeping a steady pace on each.",
           "Each of your three 100 m swims showed a clear stroke that kept you moving forward.",
           "You swam all three 100 m distances, breathing to the side on front crawl, moving your arms one after the other on back crawl and bringing both arms forward together on breaststroke.",
-          "Swimming 100 m of every stroke without stopping showed strong stamina and stroke control."
+          "Swimming 100 m of every stroke without stopping showed strong stamina and stroke control.",
+          "Across front crawl, back crawl and breaststroke, you held a steady pace for 100 m each.",
+          "Your strokes stayed clear and strong across all three distances.",
+          "You breathed to the side on front crawl and glided after each breaststroke kick.",
+          "Your pace stayed even, showing strong stamina.",
+          "You kept your arms taking turns on back crawl and your hips near the surface.",
+          "You finished each 100 m with control."
         ],
         critique: [
           "You are encouraged to swim each 100 m without stopping at a steady pace on front crawl, back crawl and breaststroke.",
           "You are reminded to breathe to the side and blow out underwater on front crawl, and to keep your arms moving one after the other on back crawl, for the full 100 m.",
-          "A helpful next step is to practise breaststroke with both arms moving together, a kick with both legs at once and a short glide, so you can swim the full 100 m."
+          "A helpful next step is to practise breaststroke with both arms moving together, a kick with both legs at once and a short glide, so you can swim the full 100 m.",
+          "You are encouraged to keep a steady pace on all three strokes and avoid stopping partway.",
+          "You will keep improving by blowing out underwater and breathing to the side on front crawl.",
+          "You are reminded to keep your arms moving one after the other on back crawl.",
+          "Your breaststroke will improve by bringing both arms forward together and kicking both legs at once.",
+          "A helpful next step is to practise a short glide after each breaststroke kick.",
+          "You can work toward better stamina by swimming a little further each session.",
+          "Resting briefly between strokes and then carrying on will help you build up gradually."
         ] },
       { label: "In shallow water, turning a victim face-up and supporting them at the surface",
         praise: [
           "In shallow water, you turned the person face-up and held the person up at the surface.",
           "You turned the person face-up and held the person at the surface with control, while keeping your eyes on the person and keeping the person calm.",
           "You showed confident control turning the person face-up in shallow water and holding the person at the surface.",
-          "Turning and holding the person in shallow water so the person was safe and secure at the surface was something you did well."
+          "Turning and holding the person in shallow water so the person was safe and secure at the surface was something you did well.",
+          "You turned the person face-up in shallow water and held the person at the surface.",
+          "You kept your eyes on the person and kept the person calm.",
+          "You supported the person's head and kept the person's face clear of the water.",
+          "Your movements were gentle and controlled, and the person stayed secure.",
+          "You checked the area first and then acted confidently.",
+          "You held the person steadily until help could be given."
         ],
         critique: [
           "You are encouraged to turn the person face-up in shallow water and hold the person at the surface.",
           "You will keep improving by checking the area first, and then turning the person face-up and holding the person at the surface.",
-          "You are reminded to keep the person calm and keep your eyes on the person while you hold the person at the surface."
+          "You are reminded to keep the person calm and keep your eyes on the person while you hold the person at the surface.",
+          "You are encouraged to turn the person face-up and keep the person's face clear of the water.",
+          "You will keep improving by checking the area for dangers before you begin.",
+          "You are reminded to keep your eyes on the person and keep them calm.",
+          "Your technique will improve by supporting the head and neck as you turn.",
+          "A helpful next step is to practise the turn slowly so each movement stays smooth.",
+          "You can work toward a steadier hold by keeping your body close to the person.",
+          "Speaking calmly will help the person feel safe while you support the person."
         ] },
       { label: "Swim 300 m in 9 minutes",
         praise: [
           "You swam 300 m within 9 minutes and kept a steady pace from start to finish.",
           "Your 300 m swim fit within the 9 minute time frame, which showed steady stamina.",
           "You kept moving the whole way and covered 300 m in 9 minutes.",
-          "Holding an even pace over 300 m and finishing within 9 minutes was something you did well."
+          "Holding an even pace over 300 m and finishing within 9 minutes was something you did well.",
+          "You swam 300 m in under 9 minutes with a steady, even pace.",
+          "You held your stroke technique all the way to the finish.",
+          "You paced your effort well and did not slow down at the end.",
+          "Your stamina showed in how smoothly you kept moving.",
+          "A steady rhythm and regular breathing carried you through the swim.",
+          "You finished with energy to spare."
         ],
         critique: [
           "You are encouraged to keep a steady pace over the full 300 m so you can finish within 9 minutes.",
           "You will keep improving by practising long swims with a clear stroke and no stopping.",
-          "A helpful next step is to hold an even pace for the whole 300 m instead of starting too fast."
+          "A helpful next step is to hold an even pace for the whole 300 m instead of starting too fast.",
+          "You are encouraged to keep an even pace so you finish within the time.",
+          "You will keep improving by starting at a comfortable speed rather than too fast.",
+          "You are reminded to breathe regularly and keep your stroke smooth.",
+          "Your pacing will improve by checking your time at the wall.",
+          "A helpful next step is to practise longer swims without stopping.",
+          "You can work toward a faster time by building your stamina gradually.",
+          "A relaxed kick will help you save energy for the final lengths."
         ] },
       { label: "Complete a 600 m fitness workout",
         praise: [
           "You finished the 600 m fitness workout and kept a steady pace over the whole session.",
           "Your stamina was clear as you swam the full 600 m of the workout with controlled strokes.",
           "You kept moving from start to finish and swam the full 600 m fitness workout.",
-          "Staying focused and finishing the 600 m workout showed strong fitness."
+          "Staying focused and finishing the 600 m workout showed strong fitness.",
+          "You completed the 600 m workout and kept a steady pace throughout.",
+          "You paced your effort across the workout and finished with strength.",
+          "Your stamina showed in the way you held your technique across the distance.",
+          "You kept moving from start to finish and showed real commitment.",
+          "A steady rhythm and regular breathing carried you through the full 600 m.",
+          "You chose strokes and speeds that you could sustain."
         ],
         critique: [
           "You are encouraged to work toward swimming the full 600 m workout without stopping at a steady pace.",
           "You will keep improving by practising longer swims with a clear stroke, so you can build up to the full 600 m.",
-          "A helpful next step is to settle into a steady pace early in the session and hold it for the full 600 m."
+          "A helpful next step is to settle into a steady pace early in the session and hold it for the full 600 m.",
+          "You are encouraged to settle into a steady pace from the start of the workout.",
+          "You will keep improving by breathing regularly and keeping your stroke smooth.",
+          "You are reminded to keep your technique steady when you feel tired.",
+          "Your endurance will grow with regular, longer swims each week.",
+          "A helpful next step is to take short rests when needed and then carry on.",
+          "You can work toward the full distance by adding a little more each session.",
+          "Using a relaxed kick will help you save energy over the whole workout."
         ] },
       { label: "Swim 300 m using a combination of strokes",
         praise: [
           "You swam 300 m using a mix of strokes and kept a clear stroke and a steady pace throughout.",
           "Your 300 m swim moved smoothly from one stroke to the next, and you kept going forward the whole distance.",
           "You swam 300 m without stopping and showed controlled arm and leg movements on each stroke you chose.",
-          "Finishing the full 300 m at a steady pace while mixing your strokes was something you did well."
+          "Finishing the full 300 m at a steady pace while mixing your strokes was something you did well.",
+          "You swam 300 m using a mix of strokes and kept your technique clear throughout.",
+          "You changed from one stroke to the next smoothly and kept a steady pace.",
+          "Your strokes stayed strong and controlled across the full distance.",
+          "You paced your effort across the whole swim and finished strongly.",
+          "A steady rhythm and regular breathing carried you through each section.",
+          "Your stamina showed in how well you held your form to the finish."
         ],
         critique: [
           "You are encouraged to swim the full 300 m without stopping, using a clear stroke for each section.",
           "You will keep improving by practising how to move from one stroke to the next at a steady pace over the whole 300 m.",
-          "A helpful next step is to build your stamina for the 300 m swim and keep the arm and leg movements of each stroke clear."
+          "A helpful next step is to build your stamina for the 300 m swim and keep the arm and leg movements of each stroke clear.",
+          "You are encouraged to keep a steady pace through every stroke.",
+          "You will keep improving by practising each stroke change at the wall.",
+          "You are reminded to keep your technique clear when you feel tired.",
+          "Your endurance will grow with regular, longer swims each week.",
+          "A helpful next step is to focus on the strokes you find hardest.",
+          "You can work toward the full distance by adding a little more each session.",
+          "Using a relaxed kick will help you save energy over the full 300 m."
         ] },
       { label: "First aid: recognition and care for a bone or joint injury",
         praise: [
           "You spotted a bone or joint injury and gave care, starting by checking the area for dangers.",
           "Your care for a bone or joint injury was organized, as you checked whether the person responded and called emergency services.",
           "You showed confident care for a bone or joint injury, checking airway, breathing and circulation and keeping the person warm.",
-          "Noticing the signs of a bone or joint injury and giving the right care was something you did well."
+          "Noticing the signs of a bone or joint injury and giving the right care was something you did well.",
+          "You recognized the signs of a bone or joint injury and began care by checking for dangers.",
+          "You kept the injured area still and supported it carefully.",
+          "You called for emergency services and kept the person warm and calm.",
+          "You checked airway, breathing and circulation as part of your response.",
+          "Your care was organized and gentle, and the person stayed comfortable.",
+          "You noticed the signs quickly and took the right steps."
         ],
         critique: [
           "You are reminded to check the area for dangers and check whether the person responds before you care for a bone or joint injury.",
           "You are encouraged to look for the signs of a bone or joint injury and to call for help or emergency services.",
-          "A helpful next step is to practise keeping the person warm and calm while you wait for emergency services."
+          "A helpful next step is to practise keeping the person warm and calm while you wait for emergency services.",
+          "You are reminded to check for dangers and check whether the person responds before giving care.",
+          "You will keep improving by learning the signs of a bone or joint injury.",
+          "You are encouraged to keep the injured area still and supported.",
+          "Your response will improve by practising each step in order.",
+          "A helpful next step is to rehearse talking to the person and keeping them comfortable until help arrives.",
+          "You can work toward a more confident response by reviewing the steps often.",
+          "Speaking calmly to the person will help the person stay still and relaxed."
         ] },
       { label: "First aid: recognition and care for asthma or severe allergic reaction",
         praise: [
           "You spotted asthma or a severe allergic reaction and gave care, starting by checking the area for dangers.",
           "Your response to asthma or a severe allergic reaction was organized, as you checked whether the person responded, checked airway, breathing and circulation and called emergency services.",
           "You showed confident care for asthma or a severe allergic reaction and kept the person calm.",
-          "Seeing that urgent help was needed and calling emergency services for asthma or a severe allergic reaction was something you did well."
+          "Seeing that urgent help was needed and calling emergency services for asthma or a severe allergic reaction was something you did well.",
+          "You recognized asthma or a severe allergic reaction and began care by checking for dangers.",
+          "You checked that the person responded and called emergency services quickly.",
+          "You kept the person calm and helped the person into a comfortable position.",
+          "You checked airway, breathing and circulation as part of your response.",
+          "Your care was organized and your voice stayed steady and reassuring.",
+          "You saw that urgent help was needed and acted without delay."
         ],
         critique: [
           "You are reminded to check the area for dangers and check whether the person responds before you care for asthma or a severe allergic reaction.",
           "You are encouraged to check airway, breathing and circulation and call for help or emergency services as part of your care for asthma or a severe allergic reaction.",
-          "A helpful next step is to practise spotting the signs of asthma and severe allergic reactions, and to keep the person calm and warm while you wait for emergency services."
+          "A helpful next step is to practise spotting the signs of asthma and severe allergic reactions, and to keep the person calm and warm while you wait for emergency services.",
+          "You are reminded to check for dangers and check whether the person responds before giving care.",
+          "You will keep improving by learning the signs of asthma and severe allergic reactions.",
+          "You are encouraged to call for emergency services as soon as you see serious signs.",
+          "Your response will improve by practising each step in order.",
+          "A helpful next step is to practise helping the person use any medication of their own.",
+          "You can work toward a more confident response by reviewing the signs often.",
+          "Staying calm and speaking clearly will help the person stay calm too."
         ] },
       { label: "Locating and recovering an object from the pool bottom from 3 different positions",
         praise: [
           "You found an object on the pool bottom and brought it up from three different positions.",
           "Starting from three different positions, you found the object on the pool bottom and brought it to the surface each time.",
           "Your searches were controlled from all three starting positions, and you recovered the object every time.",
-          "Adjusting to each starting position when searching for the object on the pool bottom was something you did well."
+          "Adjusting to each starting position when searching for the object on the pool bottom was something you did well.",
+          "You found the object on the pool bottom from three different starting positions.",
+          "You adjusted your search to each starting position and recovered the object every time.",
+          "You stayed calm underwater and searched in an organized way.",
+          "You controlled your breath and surfaced smoothly with the object.",
+          "Your searches were efficient, and you found the object quickly.",
+          "You showed strong underwater awareness and control."
         ],
         critique: [
           "You are encouraged to practise finding and bringing up the object from each of the three different positions.",
           "You will keep improving by practising one starting position at a time until you can recover the object from all three.",
-          "A helpful next step is to keep working on your underwater search so you can find the object and bring it up from every starting position."
+          "A helpful next step is to keep working on your underwater search so you can find the object and bring it up from every starting position.",
+          "You are encouraged to practise a search from each of the three starting positions.",
+          "You will keep improving by searching the bottom in an organized pattern.",
+          "You are reminded to take a full breath before going down.",
+          "Your searching will improve by keeping your eyes open and scanning the bottom.",
+          "A helpful next step is to practise one starting position at a time until each feels easy.",
+          "You can work toward quicker recoveries by planning your route before you dive.",
+          "Staying relaxed underwater will help you save breath and search for longer."
         ] },
       { label: "Performing a rescue of a weak or non-swimmer using a tow",
         praise: [
           "You rescued a weak or non-swimmer using a tow, with a safe entry and an efficient head-up approach.",
           "Your tow held the person securely and brought the person to the nearest safe spot.",
           "You kept your eyes on the person and kept the person calm throughout the tow, which made your rescue confident and controlled.",
-          "Checking for dangers, working out whether the person was a weak swimmer or a non-swimmer and then finishing the tow was something you did well."
+          "Checking for dangers, working out whether the person was a weak swimmer or a non-swimmer and then finishing the tow was something you did well.",
+          "You carried out a tow rescue of a weak or non-swimmer, beginning with a safe entry and a strong head-up swim.",
+          "You kept your eyes on the person and kept the person calm for the whole tow.",
+          "Your tow kept the person secure all the way to the nearest safe spot.",
+          "You checked for dangers first and chose the right approach for the situation.",
+          "You stayed in control and kept your own safety in mind.",
+          "Your rescue was organized and confident from start to finish."
         ],
         critique: [
           "You are encouraged to use a safe entry and an efficient head-up approach, with your eyes looking forward, when you rescue a weak or non-swimmer.",
           "You are reminded to keep your eyes on the person and keep the person calm for the whole tow.",
-          "A helpful next step is to practise the whole rescue, from checking the area for dangers to bringing the person to the nearest safe spot."
+          "A helpful next step is to practise the whole rescue, from checking the area for dangers to bringing the person to the nearest safe spot.",
+          "You are encouraged to use a safe entry and a head-up approach with your eyes forward.",
+          "You will keep improving by keeping a secure hold on the person during the tow.",
+          "You are reminded to keep your eyes on the person and keep them calm.",
+          "Your rescue will improve by checking the area for dangers before you begin.",
+          "A helpful next step is to practise the whole rescue from start to finish.",
+          "You can work toward a steadier tow by keeping your kick strong and your body flat.",
+          "Speaking calmly will help the person stay still and relaxed during the tow."
         ] }
     ]
   }
