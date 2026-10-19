@@ -501,6 +501,7 @@ button { cursor: pointer; }
 
 .field-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
 .field-row.single { grid-template-columns: minmax(0, 1fr); }
+.field-row.name-row { grid-template-columns: minmax(0, 1fr) auto; }
 
 .field-group { display: grid; gap: 8px; align-content: start; min-width: 0; }
 
@@ -553,6 +554,28 @@ select {
   white-space: nowrap;
   cursor: pointer;
 }
+
+.segmented {
+  display: flex;
+  min-height: 44px;
+  border: 1px solid var(--field-border);
+  border-radius: var(--r-control);
+  background: var(--surface);
+  overflow: hidden;
+}
+.seg-btn {
+  padding: 0 13px;
+  border: 0;
+  background: transparent;
+  color: var(--ink-2);
+  font-size: 0.9375rem;
+  font-weight: 500;
+  transition: background-color 0.15s, color 0.15s;
+}
+.seg-btn + .seg-btn { border-left: 1px solid var(--field-border); }
+.seg-btn:hover { background: var(--accent-soft); color: var(--accent-text); }
+.seg-btn:focus-visible { outline: 2px solid var(--focus); outline-offset: -2px; }
+.seg-btn[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
 
 .part-note { min-height: 38px; font-size: 0.9375rem; background: var(--surface-sunken); }
 

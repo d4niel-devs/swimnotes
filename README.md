@@ -17,7 +17,7 @@ Live site: https://daniel-mend0nca.github.io/swimnotes/
 - Optional note fields under Strength 1, Strength 2, and Area for growth are appended to the end of that part of the comment.
 - Voice follows the level: Parent & Tot (parent and child), Preschool / Swim For Life 1-8 (child by name), Swim For Life 9-11 and Youth & Adult (addressed as "you").
 - Student names are always capitalized, and comments use the first name only.
-- Each student has an optional **Gender** choice (shown for levels whose comments name the swimmer). Leave it as *Not specified* for neutral wording ("their"), or choose *Female* or *Male* to use "her" or "his".
+- Each student has an optional **Gender** toggle (shown for levels whose comments name the swimmer). Leave it off for neutral wording ("their"), or press **Male** or **Female** to use "his" or "her". Press the same button again to clear it.
 
 ## Generated comments and PDF
 

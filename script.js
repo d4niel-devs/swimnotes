@@ -271,7 +271,7 @@ function updateStudentSelects(classId) {
     if (genderGroup) {
       const applies = pronounsApply(level);
       genderGroup.hidden = !applies;
-      if (!applies) card.querySelector('[name="gender"]').value = '';
+      if (!applies) card.querySelectorAll('.seg-btn').forEach(btn => btn.setAttribute('aria-pressed', 'false'));
     }
     card.querySelectorAll('.skill-select').forEach(sel => {
       const current = sel.value;
@@ -312,21 +312,30 @@ function noteFields(id) {
   return '';
 }
 
-// Optional gender choice: when set, the comment says "her" or "his" instead of "their".
+// Optional gender toggle: when Male or Female is pressed, the comment says "his" or "her"
+// instead of "their". Pressing the same button again clears the choice.
 function genderField(id) {
   if (!APP.pronouns) return '';
   return `
         <div class="field-group gender-group" id="gender-group-${id}">
-          <div class="field-head">
-            <label class="field-label" for="gender-${id}">Gender</label>
-            <span class="field-badge badge-optional">Optional</span>
+          <div class="field-head"><span class="field-label" id="gender-label-${id}">Gender</span></div>
+          <div class="segmented" role="group" aria-labelledby="gender-label-${id}" title="Optional. Leave both off for neutral wording (their).">
+            <button type="button" class="seg-btn" data-action="gender" data-id="${id}" data-value="male" aria-pressed="false">Male</button>
+            <button type="button" class="seg-btn" data-action="gender" data-id="${id}" data-value="female" aria-pressed="false">Female</button>
           </div>
-          <select id="gender-${id}" name="gender" autocomplete="off">
-            <option value="" selected>Not specified (their)</option>
-            <option value="female">Female (her)</option>
-            <option value="male">Male (his)</option>
-          </select>
         </div>`;
+}
+
+function setGender(id, value) {
+  document.querySelectorAll(`#gender-group-${id} .seg-btn`).forEach(btn => {
+    const on = btn.dataset.value === value && btn.getAttribute('aria-pressed') !== 'true';
+    btn.setAttribute('aria-pressed', String(on));
+  });
+}
+
+function genderOf(id) {
+  const on = document.querySelector(`#gender-group-${id} .seg-btn[aria-pressed="true"]`);
+  return on ? on.dataset.value : '';
 }
 
 function pronounsApply(level) {
@@ -366,7 +375,7 @@ function addStudent(scrollToCard = true) {
     </div>
     <div class="student-card-body">
 
-      <div class="field-row">
+      <div class="field-row name-row">
         <div class="field-group">
           <div class="field-head"><label class="field-label" for="name-${id}">Student name</label></div>
           <input type="text" id="name-${id}" name="studentName" placeholder="e.g. Daniel" autocomplete="off" spellcheck="false" />
@@ -499,7 +508,7 @@ function readCard(id) {
   const value = key => ($(`${key}-${id}`) ? $(`${key}-${id}`).value : '');
   return {
     name: formatName(value('name')),
-    gender: value('gender'),
+    gender: genderOf(id),
     s1: value('s1'),
     s2: value('s2'),
     w1: value('w1'),
@@ -807,6 +816,7 @@ studentsContainer.addEventListener('click', event => {
   if (control.dataset.action === 'remove-student') removeStudent(id);
   else if (control.dataset.action === 'generate') generateComment(id);
   else if (control.dataset.action === 'copy') copyComment(id);
+  else if (control.dataset.action === 'gender') setGender(id, control.dataset.value);
 });
 
 studentsContainer.addEventListener('input', event => {
