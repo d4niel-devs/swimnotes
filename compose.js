@@ -56,6 +56,25 @@ function canTakeLead(template, voice) {
 
 const LEAD_PROBABILITY = 0.7;
 
+// Wording that makes a linking phrase repeat itself, e.g. "To keep improving, Sam will keep improving by...".
+// A phrase is skipped for any sentence that already contains one of its words.
+const LEAD_ECHOES = {
+  'To keep improving,': ['improv'],
+  'As a next step,': ['next step'],
+  'Looking ahead,': ['ahead', 'looking'],
+  'To build on this,': ['build'],
+  'Going forward,': ['forward', 'going'],
+  'In addition,': ['in addition', 'also'],
+  'On top of that,': ['on top of that'],
+  'As well,': ['as well'],
+  'Also,': ['also']
+};
+
+function echoesLead(lead, template) {
+  const text = template.toLowerCase();
+  return (LEAD_ECHOES[lead] || []).some(word => text.includes(word));
+}
+
 function pickVariant(pool, avoid) {
   const fresh = pool.filter(p => !avoid.has(p));
   const source = fresh.length ? fresh : pool;
@@ -81,8 +100,9 @@ function buildComment({ level, name: rawName, gender, s1, s2, w1, notes = {}, av
   };
   const render = (template, note, leadPool) => {
     let sentence = capitalizeFirst(fillTokens(template, voice, name, gender));
-    if (leadPool && canTakeLead(template, voice) && Math.random() < LEAD_PROBABILITY) {
-      const lead = take(leadPool);
+    const leads = leadPool ? leadPool.filter(lead => !echoesLead(lead, template)) : [];
+    if (leads.length && canTakeLead(template, voice) && Math.random() < LEAD_PROBABILITY) {
+      const lead = take(leads);
       sentence = `${lead} ${voice === 'you' ? lowercaseFirst(sentence) : sentence}`;
     }
     const extra = cleanNote(note);
