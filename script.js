@@ -1,9 +1,12 @@
 // SwimNotes user interface: classes, student cards, generated comments, copy and PDF.
 // It talks to the comment engine only through the functions that generate.js provides:
-//   APP                      { notes: 'parts' | 'single', pdf: boolean }
+//   APP                      { notes: 'parts' | 'single', pdf: boolean, pronouns?: boolean,
+//                              usesPronouns?: level => boolean }
 //                            notes: 'parts' = a short note under each skill,
 //                                   'single' = one free-text note per student;
 //                            pdf: show the PDF download buttons
+//                            pronouns: show the optional Gender choice on each student card
+//                              (usesPronouns hides it for levels whose comments say "you")
 //   getSkillLabels(level)    skill names for the dropdowns
 //   getLevelDescription(l)   short level summary
 //   formatName(raw)          tidy a typed name ("liam chen" -> "Liam Chen")
@@ -264,6 +267,12 @@ function updateStudentSelects(classId) {
   cards.forEach(card => {
     const level = classById(Number(card.dataset.classId)).level;
     const labels = level ? getSkillLabels(level) : [];
+    const genderGroup = card.querySelector('.gender-group');
+    if (genderGroup) {
+      const applies = pronounsApply(level);
+      genderGroup.hidden = !applies;
+      if (!applies) card.querySelector('[name="gender"]').value = '';
+    }
     card.querySelectorAll('.skill-select').forEach(sel => {
       const current = sel.value;
       const placeholder = sel.querySelector('option[disabled]').textContent;
@@ -303,6 +312,27 @@ function noteFields(id) {
   return '';
 }
 
+// Optional gender choice: when set, the comment says "her" or "his" instead of "their".
+function genderField(id) {
+  if (!APP.pronouns) return '';
+  return `
+        <div class="field-group gender-group" id="gender-group-${id}">
+          <div class="field-head">
+            <label class="field-label" for="gender-${id}">Gender</label>
+            <span class="field-badge badge-optional">Optional</span>
+          </div>
+          <select id="gender-${id}" name="gender" autocomplete="off">
+            <option value="" selected>Not specified (their)</option>
+            <option value="female">Female (her)</option>
+            <option value="male">Male (his)</option>
+          </select>
+        </div>`;
+}
+
+function pronounsApply(level) {
+  return !!APP.pronouns && (!APP.usesPronouns || APP.usesPronouns(level));
+}
+
 function partNote(id, key, fieldName, labelText, placeholder) {
   if (APP.notes !== 'parts') return '';
   return `
@@ -330,17 +360,17 @@ function addStudent(scrollToCard = true) {
     <div class="student-card-header">
       <div>
         <p class="student-number">Student ${cls.studentNumber}</p>
-        <p class="student-name-display empty" id="name-display-${id}">Enter name below</p>
+        <p class="student-name-display" id="name-display-${id}" hidden></p>
       </div>
       <button type="button" class="remove-btn" data-action="remove-student" data-id="${id}" title="Remove student" aria-label="Remove student ${cls.studentNumber}">${icon('x')}</button>
     </div>
     <div class="student-card-body">
 
-      <div class="field-row single">
+      <div class="field-row">
         <div class="field-group">
           <div class="field-head"><label class="field-label" for="name-${id}">Student name</label></div>
           <input type="text" id="name-${id}" name="studentName" placeholder="e.g. Daniel" autocomplete="off" spellcheck="false" />
-        </div>
+        </div>${genderField(id)}
       </div>
 
       <div class="field-row">
@@ -449,10 +479,10 @@ function updateNameDisplay(id) {
   const display = $(`name-display-${id}`);
   if (name) {
     display.textContent = name;
-    display.classList.remove('empty');
+    display.hidden = false;
   } else {
-    display.textContent = 'Enter name below';
-    display.classList.add('empty');
+    display.textContent = '';
+    display.hidden = true;
   }
 }
 
@@ -469,6 +499,7 @@ function readCard(id) {
   const value = key => ($(`${key}-${id}`) ? $(`${key}-${id}`).value : '');
   return {
     name: formatName(value('name')),
+    gender: value('gender'),
     s1: value('s1'),
     s2: value('s2'),
     w1: value('w1'),

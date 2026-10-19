@@ -13,11 +13,16 @@ function findSkill(level, label) {
   return data ? data.skills.find(s => s.label === label) : undefined;
 }
 
-function fillTokens(template, voice, name) {
+// Possessive wording: "their" unless the student's gender is given ('female' -> her, 'male' -> his).
+function possessive(gender) {
+  return gender === 'female' ? 'her' : gender === 'male' ? 'his' : 'their';
+}
+
+function fillTokens(template, voice, name, gender) {
   const you = voice === 'you';
   return template
     .replace(/\{S\}/g, you ? 'you' : name)
-    .replace(/\{their\}/g, you ? 'your' : 'their')
+    .replace(/\{their\}/g, you ? 'your' : possessive(gender))
     .replace(/\{is\}/g, you ? 'are' : 'is')
     .replace(/\{has\}/g, you ? 'have' : 'has')
     .replace(/\{name\}/g, name);
@@ -59,7 +64,7 @@ function pickVariant(pool, avoid) {
 
 // Sandwich order: intro, praise (s1), critique (w1), praise (s2), closing.
 // `avoid` is a Set of previously used templates so regenerating / batching varies the wording.
-function buildComment({ level, name: rawName, s1, s2, w1, notes = {}, avoid = new Set() }) {
+function buildComment({ level, name: rawName, gender, s1, s2, w1, notes = {}, avoid = new Set() }) {
   const name = formatName(rawName).split(' ')[0];
   const voice = getVoice(level);
   const phrases = PHRASES[voice];
@@ -75,7 +80,7 @@ function buildComment({ level, name: rawName, s1, s2, w1, notes = {}, avoid = ne
     return template;
   };
   const render = (template, note, leadPool) => {
-    let sentence = capitalizeFirst(fillTokens(template, voice, name));
+    let sentence = capitalizeFirst(fillTokens(template, voice, name, gender));
     if (leadPool && canTakeLead(template, voice) && Math.random() < LEAD_PROBABILITY) {
       const lead = take(leadPool);
       sentence = `${lead} ${voice === 'you' ? lowercaseFirst(sentence) : sentence}`;
