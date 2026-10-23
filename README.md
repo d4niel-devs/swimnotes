@@ -5,7 +5,7 @@ strengths and one area for growth (the "sandwich method"), and the app assembles
 comment by mixing and matching pre-written praise and critique sentences for each
 skill. Everything runs in the browser: no accounts, no server, no API keys, and no data leaves the device.
 
-Live site: https://daniel-mend0nca.github.io/swimnotes/
+Live site: https://d4niel-devs.github.io/swimnotes/
 
 ## How comments are built
 
