@@ -45,7 +45,7 @@ const PHRASES = {
       "It was a joy to see you and {name} learning and playing in the water together this session!",
       "You and {name} brought wonderful energy to the pool this session!",
       "{name} is a very enthusiastic swimmer, and it was a pleasure to teach you both!",
-      "Thank you for your support in class this session, it was a pleasure teaching you and {name}!",
+      "You and {name} made a lovely team in the pool this session!",
       "You and {name} have had a successful session in the pool together!"
     ],
     closings: [
@@ -55,7 +55,7 @@ const PHRASES = {
       "Keep having fun in the water together, you and {name}!",
       "Excellent effort this session, {name}!",
       "Keep up the splashing and smiling, {name}!",
-      "Fantastic work in the pool, {name}, and thank you for your support!",
+      "Fantastic work in the pool, {name}, and well done to you both!",
       "Keep making waves, you and {name}!"
     ]
   },
